@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>75 LAB — Aceleradora de Trade Marketing</title>
+<meta name="description" content="A 75 LAB transforma intenções comerciais em soluções reais para o ponto de venda. Ideia boa é a que acontece.">
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png"><link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+<div class="loader" id="loader">
+  <div class="loader-logo"><img class="loader-img" src="img/logo-wordmark-lime.png" alt="75 LAB"></div>
+  <div class="loader-bar"><i id="lbar"></i></div>
+  <div class="loader-pct"><span id="lpct">0</span>% — ideia boa é a que acontece</div>
+</div>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="ctxt" id="ctxt"></span></div>
+
+<nav class="sidedex" id="sidedex" aria-hidden="true">
+  <a href="#top" data-sec="top"><span>Início</span><i></i></a>
+  <a href="#porque" data-sec="porque"><span>Por que</span><i></i></a>
+  <a href="#metodo" data-sec="metodo"><span>Método</span><i></i></a>
+  <a href="#impacto" data-sec="impacto"><span>Impacto</span><i></i></a>
+  <a href="#cases" data-sec="cases"><span>Cases</span><i></i></a>
+  <a href="#midia" data-sec="midia"><span>Mídia</span><i></i></a>
+  <a href="#contato" data-sec="contato"><span>Contato</span><i></i></a>
+</nav>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="index.html" class="brand" aria-label="75 LAB"><img class="brand-img brand-on-dark" src="img/logo-wordmark-lime.png" alt="75 LAB"><img class="brand-img brand-on-light" src="img/logo-wordmark-black.png" alt="75 LAB"></a>
+    <nav class="nav-links" id="navlinks">
+      <a class="lk" href="solucoes.html">Soluções</a>
+      <a class="lk" href="cases.html">Cases</a>
+      <a class="lk" href="sobre.html">Sobre</a>
+      <a class="lk" href="midia.html">Mídia</a>
+      <a class="btn nav-cta" href="contato.html">Contato <span class="arr">→</span></a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <span class="glow g1"></span><span class="glow g2"></span>
+  <div class="hero-float" aria-hidden="true">
+    <svg width="90" height="90" style="top:18%;left:6%" viewBox="0 0 90 90"><circle cx="45" cy="45" r="40" fill="none" stroke="#01A290" stroke-width="2" stroke-dasharray="6 8" class="spin"/></svg>
+    <svg width="60" height="60" style="top:64%;left:10%" viewBox="0 0 60 60"><rect x="12" y="12" width="36" height="36" fill="none" stroke="#C0EE4E" stroke-width="2" class="bob"/></svg>
+    <svg width="70" height="70" style="top:74%;right:14%" viewBox="0 0 70 70"><circle cx="35" cy="35" r="26" fill="none" stroke="#06C6AE" stroke-width="2" class="pulseo"/></svg>
+    <svg width="48" height="48" style="top:24%;right:34%" viewBox="0 0 48 48"><path d="M24 8 L40 40 L8 40 Z" fill="none" stroke="#C0EE4E" stroke-width="2" class="spinr"/></svg>
+  </div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow" data-n="">Aceleradora de Trade Marketing</span>
+        <h1>
+          <span class="line"><span>Ideia boa</span></span>
+          <span class="line"><span>é a que</span></span>
+          <span class="line"><span class="ac">acontece.<svg viewBox="0 0 300 20" preserveAspectRatio="none"><path d="M3 14 Q80 4 150 12 T297 8" fill="none" stroke="#01A290" stroke-width="6" stroke-linecap="round" class="drawloop"/></svg></span></span>
+        </h1>
+        <div class="desire">A distância entre a sua intenção e a gôndola tem um nome.</div>
+        <p class="lede">A 75 LAB pluga o hub de soluções que a sua marca precisa — de eventos, stands e promoção a retail media e PDV — para acelerar a intenção comercial em toda a cadeia.</p>
+        <div class="hero-ctas">
+          <a class="btn btn--onink" href="#contato" data-magnetic>Acelerar minha marca <span class="arr">→</span></a>
+          <a class="btn btn--ghost-onink" href="#cases">Ver provas reais</a>
+        </div>
+        <div class="hero-mini">
+          <div class="m"><div class="mn">+15</div><div class="ml">anos no trade</div></div>
+          <div class="m"><div class="mn">15.000+</div><div class="ml">PDVs positivados</div></div>
+          <div class="m"><div class="mn">95%</div><div class="ml">projetos aprovados</div></div>
+        </div>
+      </div>
+      <a class="badge-wrap" href="#porque" aria-label="Role para descobrir">
+        <svg class="badge" viewBox="0 0 200 200" aria-hidden="true"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#circ">TRANSFORMAMOS INTENÇÃO EM REALIDADE · IDEIA BOA É A QUE ACONTECE · </textPath></text></svg>
+        <svg class="ring2" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="62" fill="none" stroke="#01A290" stroke-width="2" stroke-dasharray="4 10"/></svg>
+        <span class="core">↓</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="ticker" data-marquee data-speed="0.16" aria-hidden="true">
+  <div class="ticker-track">
+    <span>ideia boa é a que acontece</span><span>do evento à gôndola, a solução certa</span><span>para cada desafio, a equipe certa</span><span>estratégia · design · produção</span><span>plugamos a solução que o cliente precisa</span>
+    <span>ideia boa é a que acontece</span><span>do evento à gôndola, a solução certa</span><span>para cada desafio, a equipe certa</span><span>estratégia · design · produção</span><span>plugamos a solução que o cliente precisa</span>
+  </div>
+</div>
+
+<!-- (01) POR QUE -->
+<section class="section manifesto" id="porque">
+  <div class="wrap">
+    <div class="sec-head fx"><span class="eyebrow" data-n="(01)">Por que existimos</span></div>
+    <h2 class="big-state fx">Não somos uma <span class="strike">agência tradicional</span>. Somos uma <span class="hl">aceleradora</span> de trade marketing.</h2>
+    <div class="vs-wrap fx" data-fx="scale">
+      <div class="vs-head"><div class="a">Modelo tradicional</div><div class="b">Modelo 75 LAB</div></div>
+      <div class="vs-svg">
+        <svg viewBox="0 0 1000 300" class="diagram" aria-label="Comparação entre o modelo tradicional e o modelo 75 LAB">
+          <g font-family="Space Mono" font-size="11" font-weight="700" fill="#050505" letter-spacing="1">
+            <path d="M40 70 L180 70 L180 110 L320 110 L320 60 L470 60" fill="none" stroke="#01A290" stroke-width="2.5" class="flow"/>
+            <circle cx="40" cy="70" r="5" fill="#050505"/>
+            <text x="40" y="48" text-anchor="middle">BRIEFING</text>
+            <text x="180" y="135" text-anchor="middle" fill="#01A290">RETRABALHO</text>
+            <text x="320" y="40" text-anchor="middle" fill="#01A290">ATRASO</text>
+            <text x="500" y="64">VERBA EVAPORA</text>
+            <g stroke="#050505" stroke-width="2"><line x1="172" y1="62" x2="188" y2="78"/><line x1="188" y1="62" x2="172" y2="78"/><line x1="312" y1="102" x2="328" y2="118"/><line x1="328" y1="102" x2="312" y2="118"/></g>
+          </g>
+          <line x1="40" y1="165" x2="960" y2="165" stroke="#050505" stroke-width="1" opacity=".25"/>
+          <g font-family="Space Mono" font-size="11" font-weight="700" fill="#050505" letter-spacing="1">
+            <path d="M40 235 L860 235" fill="none" stroke="#C0EE4E" stroke-width="6"/>
+            <path d="M845 222 L885 235 L845 248 Z" fill="#050505" class="arrowflow" style="transform-origin:865px 235px"/>
+            <circle cx="40" cy="235" r="8" fill="#050505"/><circle cx="280" cy="235" r="8" fill="#050505"/><circle cx="520" cy="235" r="8" fill="#050505"/><circle cx="720" cy="235" r="8" fill="#050505"/>
+            <text x="40" y="215" text-anchor="middle">INTENÇÃO</text><text x="280" y="215" text-anchor="middle">IMERSÃO</text><text x="520" y="215" text-anchor="middle">SOLUÇÃO</text><text x="720" y="215" text-anchor="middle">EXECUÇÃO</text>
+            <text x="905" y="240" font-size="13" fill="#01A290">RESULTADO</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ENTREGAS (ícones animados) -->
+<section class="section entregas">
+  <div class="wrap">
+    <div class="sec-head fx"><span class="eyebrow" data-n="">Hub de soluções</span><h2 class="fx" data-fx="left">Plugamos a solução que a sua marca precisa.</h2></div>
+    <p class="fx" style="max-width:64ch;font-size:clamp(16px,1.5vw,20px);color:rgba(242,241,233,.74);margin-top:-22px;margin-bottom:44px">Trade marketing vai muito além do PDV. A gente conecta um hub de soluções e pluga exatamente o que a sua intenção comercial pede — do evento à gôndola, da promoção ao retail media.</p>
+    <div class="ent-grid fxstag">
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><g class="spin"><path d="M32 8 v9 M32 47 v9 M8 32 h9 M47 32 h9 M16 16 l6 6 M42 42 l6 6 M48 16 l-6 6 M22 42 l-6 6" stroke="#C0EE4E" stroke-width="3"/></g><circle cx="32" cy="32" r="9" fill="none" stroke="#01A290" stroke-width="3" class="pulseo"/></svg><h3>Eventos</h3><p>Experiências de marca que aproximam canal e shopper.</p></div>
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><g class="bob"><path d="M16 28 h32 v22 h-32 z" fill="none" stroke="#C0EE4E" stroke-width="3"/><path d="M14 28 l5 -10 h26 l5 10" fill="none" stroke="#01A290" stroke-width="3"/><line x1="32" y1="36" x2="32" y2="50" stroke="#01A290" stroke-width="2"/></g></svg><h3>Stand</h3><p>Presença marcante em feiras, convenções e ativações.</p></div>
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><g class="bob"><rect x="16" y="22" width="32" height="26" fill="none" stroke="#C0EE4E" stroke-width="3"/><line x1="16" y1="32" x2="48" y2="32" stroke="#01A290" stroke-width="2"/><path d="M26 22 L32 14 L38 22" fill="none" stroke="#C0EE4E" stroke-width="3"/></g></svg><h3>Material de PDV</h3><p>Material certo, no prazo, sem retrabalho.</p></div>
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><g class="bob"><path d="M22 16 h20 v7 a10 10 0 0 1 -20 0 z" fill="none" stroke="#C0EE4E" stroke-width="3"/><path d="M22 18 h-6 a6 6 0 0 0 6 8 M42 18 h6 a6 6 0 0 1 -6 8" fill="none" stroke="#01A290" stroke-width="3"/><line x1="32" y1="33" x2="32" y2="42" stroke="#C0EE4E" stroke-width="3"/><path d="M24 48 h16" stroke="#C0EE4E" stroke-width="3"/></g><circle cx="32" cy="19" r="2.5" fill="#C0EE4E" class="twinkle"/></svg><h3>Programa de incentivo</h3><p>Engajamento de equipes, canal e força de vendas.</p></div>
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><g class="bob"><path d="M18 18 h15 l15 15 -15 15 -15 -15 z" fill="none" stroke="#C0EE4E" stroke-width="3"/><circle cx="26" cy="26" r="3" fill="#01A290"/></g><path d="M30 41 l9 -9" stroke="#C0EE4E" stroke-width="3" stroke-linecap="round"/><circle cx="30" cy="33" r="1.6" fill="#C0EE4E"/><circle cx="39" cy="41" r="1.6" fill="#C0EE4E"/></svg><h3>Promoção</h3><p>Mecânicas que geram giro e conversão.</p></div>
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><rect x="14" y="16" width="36" height="26" rx="3" fill="none" stroke="#C0EE4E" stroke-width="3" class="pulseo"/><path d="M28 24 l11 5 -11 5 z" fill="#01A290"/><line x1="26" y1="48" x2="38" y2="48" stroke="#C0EE4E" stroke-width="3"/><line x1="32" y1="42" x2="32" y2="48" stroke="#C0EE4E" stroke-width="3"/></svg><h3>Retail media</h3><p>A marca nos canais de mídia do varejo.</p></div>
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><g class="bob"><circle cx="32" cy="24" r="9" fill="none" stroke="#C0EE4E" stroke-width="3"/><path d="M18 50 a14 14 0 0 1 28 0" fill="none" stroke="#C0EE4E" stroke-width="3"/><path d="M23 24 a9 9 0 0 1 18 0" fill="none" stroke="#01A290" stroke-width="3"/><path d="M23 24 v5 M41 24 v5" stroke="#01A290" stroke-width="3"/></g></svg><h3>Promotoria</h3><p>Time de campo executando na ponta.</p></div>
+      <div class="ent"><svg class="ic" viewBox="0 0 64 64"><g class="spin"><circle cx="32" cy="32" r="21" fill="none" stroke="#01A290" stroke-width="3" stroke-dasharray="6 9"/></g><g class="pulse"><line x1="32" y1="20" x2="32" y2="44" stroke="#C0EE4E" stroke-width="4" stroke-linecap="round"/><line x1="20" y1="32" x2="44" y2="32" stroke="#C0EE4E" stroke-width="4" stroke-linecap="round"/></g></svg><h3>+ e muito mais</h3><p>Plugamos o especialista certo para cada desafio.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HUB -->
+<section class="section hub">
+  <div class="wrap">
+    <div class="hub-grid">
+      <div class="fx" data-fx="left">
+        <span class="eyebrow plain" data-n="">Hub de especialistas</span>
+        <h2>O cliente não compra uma entrega. Acessa uma rede.</h2>
+        <p>Conectamos o parceiro certo, com a especialidade certa, para construir a melhor resposta a cada desafio.</p>
+        <ul class="blist"><li>Se já está no ecossistema, conectamos</li><li>Se ainda não, buscamos e trazemos</li><li>Governança ponta a ponta, sem markup oculto</li></ul>
+      </div>
+      <div class="fx" data-fx="right">
+        <svg viewBox="0 0 460 380" class="diagram" role="img" aria-label="Rede de parceiros conectados à 75 LAB">
+          <g id="edges" stroke="#050505" stroke-width="2" opacity=".22"></g>
+          <g id="nodes"></g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- (02) MÉTODO -->
+<section class="section metodo" id="metodo">
+  <div class="wrap">
+    <div class="sec-head fx"><span class="eyebrow" data-n="(02)">O Método 75 — passe o mouse</span><h2 class="fx" data-fx="left">Seis passos até<br>o ponto de venda.</h2></div>
+    <div class="mpanels fx" data-fx="scale" id="mpanels">
+      <div class="mpanel open" data-i="0"><div class="mp-collapsed"><span class="mp-num">01</span><span class="mp-vtitle">Imersão</span></div><div class="mp-content"><svg class="ic" viewBox="0 0 120 120"><rect x="20" y="60" width="80" height="40" fill="none" stroke="#C0EE4E" stroke-width="3"/><line x1="20" y1="78" x2="100" y2="78" stroke="#F2F1E9" stroke-width="2"/><g class="pulseo"><circle cx="55" cy="40" r="18" fill="none" stroke="#06C6AE" stroke-width="3"/></g><line x1="68" y1="53" x2="84" y2="69" stroke="#06C6AE" stroke-width="3"/></svg><h3>Imersão no desafio</h3><p>Entramos no contexto da marca, do canal, do produto e do shopper.</p><ul class="blist"><li>Entender a intenção comercial real</li><li>Mapear gargalos e custos absorvidos</li></ul></div></div>
+      <div class="mpanel" data-i="1"><div class="mp-collapsed"><span class="mp-num">02</span><span class="mp-vtitle">Laboratório</span></div><div class="mp-content"><svg class="ic" viewBox="0 0 120 120"><path d="M50 25 V55 L30 95 Q28 102 36 102 H84 Q92 102 90 95 L70 55 V25" fill="none" stroke="#C0EE4E" stroke-width="3"/><line x1="44" y1="25" x2="76" y2="25" stroke="#F2F1E9" stroke-width="3"/><circle cx="56" cy="82" r="4" fill="#C0EE4E" class="bob"/><circle cx="68" cy="74" r="3" fill="#06C6AE" class="bob" style="animation-delay:.4s"/></svg><h3>Laboratório de soluções</h3><p>Desenhamos caminhos, testamos ideias e conectamos referências.</p><ul class="blist"><li>Soluções com intenção, não peças bonitas</li><li>Validação antes de produzir</li></ul></div></div>
+      <div class="mpanel" data-i="2"><div class="mp-collapsed"><span class="mp-num">03</span><span class="mp-vtitle">Especialistas</span></div><div class="mp-content"><svg class="ic" viewBox="0 0 120 120"><circle cx="60" cy="60" r="12" fill="#C0EE4E" class="pulse"/><g stroke="#F2F1E9" stroke-width="2.5"><line x1="60" y1="60" x2="28" y2="30"/><line x1="60" y1="60" x2="92" y2="30"/><line x1="60" y1="60" x2="24" y2="86"/><line x1="60" y1="60" x2="96" y2="86"/></g><g fill="none" stroke="#06C6AE" stroke-width="3" class="twinkle"><circle cx="28" cy="30" r="8"/><circle cx="92" cy="30" r="8"/><circle cx="24" cy="86" r="8"/><circle cx="96" cy="86" r="8"/></g></svg><h3>Conexão de especialistas</h3><p>Montamos o time certo para cada projeto.</p><ul class="blist"><li>A especialidade adequada à necessidade</li><li>Parceiros acionados na hora certa</li></ul></div></div>
+      <div class="mpanel" data-i="3"><div class="mp-collapsed"><span class="mp-num">04</span><span class="mp-vtitle">Estratégia + Design</span></div><div class="mp-content"><svg class="ic" viewBox="0 0 120 120"><rect x="26" y="26" width="68" height="68" fill="none" stroke="#C0EE4E" stroke-width="3"/><line x1="26" y1="50" x2="94" y2="50" stroke="#06C6AE" stroke-width="2"/><line x1="50" y1="50" x2="50" y2="94" stroke="#06C6AE" stroke-width="2"/><path d="M60 64 L84 64 M60 76 L78 76" stroke="#C0EE4E" stroke-width="3" class="flow"/></svg><h3>Estratégia e design</h3><p>Pensamento estratégico e criação visual com função comercial.</p><ul class="blist"><li>Estética a serviço da conversão</li><li>Forma e sentido de negócio</li></ul></div></div>
+      <div class="mpanel" data-i="4"><div class="mp-collapsed"><span class="mp-num">05</span><span class="mp-vtitle">Produção</span></div><div class="mp-content"><svg class="ic" viewBox="0 0 120 120"><g class="spin"><path d="M60 24 v8 M60 88 v8 M24 60 h8 M88 60 h8 M34 34 l6 6 M80 80 l6 6 M86 34 l-6 6 M40 80 l-6 6" stroke="#F2F1E9" stroke-width="3"/></g><circle cx="60" cy="60" r="14" fill="none" stroke="#C0EE4E" stroke-width="3"/><circle cx="60" cy="60" r="5" fill="#C0EE4E"/></svg><h3>Produção inteligente</h3><p>Material e logística tratados como estratégia.</p><ul class="blist"><li>Qualidade e controle do início ao fim</li><li>A ideia não fica no plano</li></ul></div></div>
+      <div class="mpanel" data-i="5"><div class="mp-collapsed"><span class="mp-num">06</span><span class="mp-vtitle">Execução no PDV</span></div><div class="mp-content"><svg class="ic" viewBox="0 0 120 120"><rect x="22" y="40" width="76" height="56" fill="none" stroke="#C0EE4E" stroke-width="3"/><line x1="22" y1="58" x2="98" y2="58" stroke="#F2F1E9" stroke-width="2"/><line x1="22" y1="76" x2="98" y2="76" stroke="#F2F1E9" stroke-width="2"/><rect x="34" y="44" width="12" height="10" fill="#C0EE4E" class="twinkle"/><rect x="74" y="62" width="12" height="10" fill="#06C6AE" class="twinkle" style="animation-delay:.6s"/><path d="M52 30 L60 22 L68 30" fill="none" stroke="#C0EE4E" stroke-width="3" class="bob"/></svg><h3>Execução no PDV</h3><p>A solução certa, materializada no ponto de venda.</p><ul class="blist"><li>Venda, penetração e presença</li><li>Impacto medido no shopper</li></ul></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- (03) IMPACTO -->
+<section class="section impacto" id="impacto">
+  <div class="wrap">
+    <div class="sec-head fx"><span class="eyebrow" data-n="(03)">Impacto</span><h2 class="fx" data-fx="left">Prova acima<br>de promessa.</h2></div>
+    <div class="imp-grid fxstag">
+      <div class="imp"><div class="viz"><svg viewBox="0 0 120 120" width="120"><circle cx="60" cy="60" r="48" fill="none" stroke="rgba(242,241,233,.16)" stroke-width="10"/><circle cx="60" cy="60" r="48" fill="none" stroke="#C0EE4E" stroke-width="10" stroke-linecap="round" class="ring95"/></svg></div><div class="n"><span class="count" data-target="95">0</span>%</div><div class="l">Projetos aprovados</div><div class="d">índice de aprovação</div></div>
+      <div class="imp"><div class="viz"><svg viewBox="0 0 120 120" width="120"><g stroke-width="6" stroke-linecap="round"><line class="eq" x1="24" y1="92" x2="24" y2="40" stroke="#01A290"/><line class="eq" x1="44" y1="92" x2="44" y2="30" stroke="#C0EE4E" style="animation-delay:.25s"/><line class="eq" x1="64" y1="92" x2="64" y2="50" stroke="#01A290" style="animation-delay:.5s"/><line class="eq" x1="84" y1="92" x2="84" y2="22" stroke="#C0EE4E" style="animation-delay:.15s"/></g></svg></div><div class="n">−<span class="count" data-target="25">0</span>%</div><div class="l">Custo de produção</div><div class="d">com o fornecedor certo</div></div>
+      <div class="imp"><div class="viz"><svg viewBox="0 0 120 120" width="120" id="dotgrid"></svg></div><div class="n"><span class="count" data-target="15000" data-suffix="+">0</span></div><div class="l">PDVs positivados</div><div class="d">pontos de venda positivados</div></div>
+      <div class="imp"><div class="viz"><svg viewBox="0 0 120 120" width="120"><polyline points="20,95 45,70 70,82 100,38" fill="none" stroke="#C0EE4E" stroke-width="4" class="drawloop" pathLength="1"/><path d="M88 38 H100 V50" fill="none" stroke="#C0EE4E" stroke-width="4"/><g fill="#06C6AE" class="twinkle"><circle cx="20" cy="95" r="4"/><circle cx="45" cy="70" r="4"/><circle cx="70" cy="82" r="4"/><circle cx="100" cy="38" r="4"/></g></svg></div><div class="n">+<span class="count" data-target="15">0</span></div><div class="l">Anos no trade</div><div class="d">dos dois lados do balcão</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- (04) CASES — destaques reais; portfólio completo em cases.html -->
+<section class="section section--ink cases" id="cases" style="overflow:visible">
+  <div class="wrap">
+    <span class="eyebrow fx" data-n="(04)" style="color:var(--lime)">Cases</span>
+    <div class="cases-head fx" data-fx="scale"><h2>A prova está na gôndola.</h2><div class="csub">Projetos reais para marcas líderes. Aqui vão alguns destaques — o portfólio completo tem 86 cases.</div></div>
+    <div class="casegrid" style="margin-top:34px">
+      <a class="ccard" data-cat="pdv" href="cases.html"><img class="ph" loading="lazy" src="img/g08-1.jpg" alt="ALPARGATAS"><span class="ov"></span><span class="tag">PDV</span><span class="go">↗</span><span class="meta"><span class="cli">ALPARGATAS</span><span class="proj">COPA DO MUNDO</span></span></a>
+      <a class="ccard" data-cat="pdv" href="cases.html"><img class="ph" loading="lazy" src="img/g14-1.jpg" alt="WHIRLPOOL"><span class="ov"></span><span class="tag">PDV</span><span class="go">↗</span><span class="meta"><span class="cli">WHIRLPOOL</span><span class="proj">LAVADORA BWD16</span></span></a>
+      <a class="ccard" data-cat="ativacao" href="cases.html"><img class="ph" loading="lazy" src="img/g48-1.jpg" alt="O BOTICÁRIO"><span class="ov"></span><span class="tag">Ativação</span><span class="go">↗</span><span class="meta"><span class="cli">O BOTICÁRIO</span><span class="proj">DISPLAY MODULAR</span></span></a>
+      <a class="ccard" data-cat="ativacao" href="cases.html"><img class="ph" loading="lazy" src="img/g50-1.jpg" alt="SEARA"><span class="ov"></span><span class="tag">Ativação</span><span class="go">↗</span><span class="meta"><span class="cli">SEARA</span><span class="proj">PONTA DE GÔNDOLA</span></span></a>
+      <a class="ccard" data-cat="evento" href="cases.html"><img class="ph" loading="lazy" src="img/g60-1.jpg" alt="DPSP"><span class="ov"></span><span class="tag">Evento</span><span class="go">↗</span><span class="meta"><span class="cli">DPSP</span><span class="proj">ENDOMARKETING</span></span></a>
+      <a class="ccard" data-cat="stand" href="cases.html"><img class="ph" loading="lazy" src="img/g01-1.jpg" alt="ALLTAK"><span class="ov"></span><span class="tag">Stand</span><span class="go">↗</span><span class="meta"><span class="cli">ALLTAK</span><span class="proj">FUTURE PRINT</span></span></a>
+    </div>
+    <div class="fx" style="margin-top:34px"><a class="btn btn--onink" href="cases.html" data-magnetic>Ver todos os 86 cases <span class="arr">→</span></a></div>
+  </div>
+</section>
+
+<!-- CLIENTES -->
+<section class="section section--ink clients">
+  <div class="wrap">
+    <p class="lbl fx">Marcas e redes que já aceleraram com a gente</p>
+    <div class="logos fxstag">
+      <div class="logo-cell">O Boticário</div><div class="logo-cell">Quem disse Berenice</div><div class="logo-cell">Oui</div><div class="logo-cell">Boticário SPA</div><div class="logo-cell">Eudora</div><div class="logo-cell">Petz</div><div class="logo-cell">Alltak</div><div class="logo-cell">Keldog</div><div class="logo-cell">Kelcat</div><div class="logo-cell">Pipicat</div><div class="logo-cell">Pinc</div><div class="logo-cell">Polenguinho</div><div class="logo-cell">Polenghi</div><div class="logo-cell">DPSP</div><div class="logo-cell">Evino</div><div class="logo-cell">Grand Cru</div><div class="logo-cell">Brastemp</div><div class="logo-cell">Consul</div><div class="logo-cell">Loungerie</div><div class="logo-cell">Ciranda Cultural</div><div class="logo-cell">Ypê</div><div class="logo-cell">Bem Brasil</div><div class="logo-cell">Atlas</div><div class="logo-cell">Dako</div><div class="logo-cell">Ouro Fino</div><div class="logo-cell">Pirelli</div><div class="logo-cell">Abras</div><div class="logo-cell">3 Corações</div><div class="logo-cell">Cabral e Sousa</div><div class="logo-cell">Grupo Pereira</div><div class="logo-cell">Nobratta</div><div class="logo-cell">LG</div><div class="logo-cell">Pro Inset</div><div class="logo-cell">Campo Lindo</div><div class="logo-cell">ILE de France</div><div class="logo-cell">Cuétara</div><div class="logo-cell">FTW</div><div class="logo-cell">Hidramais</div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTO -->
+<section class="section depo">
+  <span class="qmark" aria-hidden="true">“</span>
+  <div class="wrap">
+    <span class="eyebrow plain fx" style="margin-bottom:30px;display:flex">Depoimento</span>
+    <blockquote class="fx" data-fx="left">Resolveram no <span class="hl">ponto de venda</span> o que a gente tentava há meses.</blockquote>
+    <div class="who fx"><span class="av">N</span> Nome Sobrenome <span>— Cargo, Empresa cliente</span></div>
+  </div>
+</section>
+
+<!-- (05) NA MÍDIA -->
+<!-- EDITÁVEL: troque "Veículo" pelos nomes/logos reais e o href de cada matéria. -->
+<!-- (04b) VÍDEOS — EDIT: troque data-embed pelo link de incorporação (YouTube: https://www.youtube.com/embed/ID ; Vimeo: https://player.vimeo.com/video/ID). Capa: troque a url em background-image. -->
+<section class="section section--ink videos" id="videos" style="overflow:visible">
+  <div class="wrap">
+    <div class="sec-head fx"><span class="eyebrow" data-n="(04b)" style="color:var(--lime)">Vídeos</span><h2 class="fx" data-fx="left" style="font-size:clamp(40px,6vw,92px)">A 75 LAB<br>em movimento.</h2></div>
+    <div class="vfeature fx" data-embed="" role="button" tabindex="0" aria-label="Reproduzir vídeo"><span class="vthumb" style="background-image:url('img/g01-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo em destaque</span></div>
+    <div class="vrow fxstag">
+      <div class="vcard fx" data-embed="" role="button" tabindex="0"><span class="vthumb" style="background-image:url('img/g05-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo 01</span></div>
+      <div class="vcard fx" data-embed="" role="button" tabindex="0"><span class="vthumb" style="background-image:url('img/g13-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo 02</span></div>
+      <div class="vcard fx" data-embed="" role="button" tabindex="0"><span class="vthumb" style="background-image:url('img/g18-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo 03</span></div>
+    </div>
+    <p class="fx" style="font-family:var(--mono);font-size:12px;color:rgba(242,241,233,.5);margin-top:16px">Me envie os links dos vídeos (YouTube, Vimeo ou Instagram) que eu encaixo aqui.</p>
+  </div>
+</section>
+
+<section class="section section--paper midia" id="midia">
+  <div class="wrap">
+    <div class="sec-head fx"><span class="eyebrow" data-n="(05)">Canais</span><h2 class="fx" data-fx="left">Acompanhe<br>a 75 LAB.</h2></div>
+    <p class="fx" style="max-width:60ch;color:rgba(5,5,5,.66);font-size:clamp(15px,1.4vw,18px);margin-bottom:8px">Conteúdo proprietário no LinkedIn e no Instagram. Imprensa: em breve.</p>
+    <div class="press-grid fxstag" style="margin-top:24px">
+      <a class="press" href="https://www.instagram.com/setecincolab/" target="_blank" rel="noopener"><div class="meta"><span>Instagram</span><span>@setecincolab</span></div><h3>Bastidores, projetos e design estratégico no nosso Instagram.</h3><span class="read">Seguir →</span></a>
+      <a class="press" href="https://www.linkedin.com/in/ag%C3%AAncia-sete-cinco-lab-832587324/" target="_blank" rel="noopener"><div class="meta"><span>LinkedIn</span><span>Agência 75 LAB</span></div><h3>Visão de trade, cases e conteúdo para indústria e varejo.</h3><span class="read">Conectar →</span></a>
+      <a class="press" href="https://www.75lab.com.br/" target="_blank" rel="noopener"><div class="meta"><span>Site</span><span>75lab.com.br</span></div><h3>Conteúdos e novidades da aceleradora de trade marketing.</h3><span class="read">Acessar →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- (06) NAS REDES -->
+<!-- EDITÁVEL: troque texto/imagem por posts reais e aponte o href; para embed real, cole o iframe oficial dentro do .post. -->
+<!-- (redes removida: canais já cobrem Instagram/LinkedIn) -->
+
+<!-- SLOGAN -->
+<section class="slogan">
+  <span class="blob"></span><span class="blob b2"></span>
+  <div class="wrap">
+    <span class="eyebrow plain fx">A tese</span>
+    <h2 class="fx" data-fx="scale">ideia boa é a que <em>acontece</em></h2>
+    <p class="sub fx">A assinatura é simples. A exigência por trás dela é alta: fazer acontecer.</p>
+  </div>
+</section>
+
+<!-- (07) SOBRE -->
+<!-- (sobre/fundadores agora em sobre.html) -->
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="wrap">
+    <span class="eyebrow plain fx">Tem uma intenção comercial?</span>
+    <h2 class="fx" data-fx="scale">vamos fazer <em>acontecer</em></h2>
+    <a class="btn btn--lg fx" href="#contato" data-magnetic>Acelerar minha marca <span class="arr">→</span></a>
+  </div>
+</section>
+
+<!-- (08) CONTATO -->
+<section class="section section--ink contato" id="contato">
+  <div class="wrap">
+    <div class="contato-grid">
+      <div class="fx" data-fx="left">
+        <span class="eyebrow" data-n="(08)" style="color:var(--lime);margin-bottom:22px;display:flex">Contato</span>
+        <h2>Conta a<br><em>intenção</em>.</h2>
+        <p class="sub">Qual é o desafio da sua marca no canal? A gente traduz e materializa a solução certa para o PDV.</p>
+        <div class="contact-info">
+          <a href="mailto:contato@setecincolab.com.br"><span class="k">E-mail</span><span class="v">contato@setecincolab.com.br</span></a>
+          <a href="#"><span class="k">LinkedIn</span><span class="v">Agência 75 LAB</span></a>
+          <a href="#"><span class="k">Instagram</span><span class="v">@setecincolab</span></a>
+          <div><span class="k">Base</span><span class="v">São Paulo · BR</span></div>
+        </div>
+      </div>
+      <div class="fx" data-fx="right">
+        <div class="form">
+          <div class="field"><label for="nome">Nome</label><input id="nome" type="text" placeholder="Seu nome"></div>
+          <div class="field"><label for="empresa">Empresa</label><input id="empresa" type="text" placeholder="Marca / rede de varejo"></div>
+          <div class="field"><label for="email">E-mail</label><input id="email" type="email" placeholder="voce@empresa.com"></div>
+          <div class="field"><label for="msg">Qual a intenção comercial?</label><textarea id="msg" placeholder="Ex.: lançar produto, aumentar penetração, melhorar exposição no PDV..."></textarea></div>
+          <button class="btn btn--onink" id="send" type="button" data-magnetic>Enviar briefing <span class="arr">→</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand"><img class="foot-logo" src="img/logo-lockup-lime.png" alt="75 LAB — ideia boa é a que acontece"></div>
+      <div class="foot-links"><a href="solucoes.html">Soluções</a><a href="cases.html">Cases</a><a href="sobre.html">Sobre</a><a href="midia.html">Mídia</a><a href="contato.html">Contato</a></div>
+      <div class="foot-social"><a href="https://www.instagram.com/setecincolab/" target="_blank" rel="noopener">Instagram</a><a href="https://www.linkedin.com/in/ag%C3%AAncia-sete-cinco-lab-832587324/" target="_blank" rel="noopener">LinkedIn</a></div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="yr"></span> 75 LAB — Aceleradora de Trade Marketing.</span><span>Transformamos intenção em realidade no ponto de venda.</span></div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lenis/1.1.13/lenis.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
