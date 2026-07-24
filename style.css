@@ -32,6 +32,9 @@
   @keyframes float1{0%,100%{transform:translate(0,0)}50%{transform:translate(6vw,4vw)}}
   @keyframes float2{0%,100%{transform:translate(0,0)}50%{transform:translate(-5vw,-6vw)}}
   @keyframes spinslow{to{transform:rotate(360deg)}}
+  @keyframes hubwander{0%{transform:translate(0,0)}14%{transform:translate(15px,-9px)}28%{transform:translate(-11px,-15px)}42%{transform:translate(-16px,7px)}57%{transform:translate(9px,15px)}71%{transform:translate(17px,4px)}85%{transform:translate(-8px,-6px)}100%{transform:translate(0,0)}}
+  .hubwander{transform-box:fill-box;transform-origin:center;animation:hubwander 10s ease-in-out infinite}
+  @media(prefers-reduced-motion:reduce){.hubwander{animation:none}}
   .spin,.spinr,.pulse,.eq,.bob,.orbit{transform-box:fill-box}
   .spin,.spinr,.pulse,.orbit{transform-origin:center}
   .bob{transform-origin:center}
@@ -145,7 +148,7 @@
   .badge-wrap{position:relative;justify-self:end;width:min(32vw,300px);aspect-ratio:1;display:flex;align-items:center;justify-content:center}
   .badge-wrap .badge{position:absolute;inset:0;width:100%;height:100%;animation:spin 20s linear infinite}
   .badge-wrap:hover .badge{animation-duration:6s}
-  .badge-wrap .badge text{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:2.6px;fill:var(--paper);text-transform:uppercase}
+  .badge-wrap .badge text{font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:1.4px;fill:var(--paper);text-transform:uppercase}
   .badge-wrap .ring2{position:absolute;inset:14%;animation:spinr 16s linear infinite}
   .badge-wrap .core{position:absolute;width:62px;height:62px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center;font-size:26px;color:var(--ink);transition:transform .25s}
   .badge-wrap:hover .core{transform:scale(1.12)}
