@@ -94,6 +94,12 @@
   .nav-links a.lk::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:0;background:var(--teal);transition:width .22s}
   .nav-links a.lk:hover::after{width:100%}
   .nav-cta{padding:11px 18px;font-size:12px}
+  /* ===== seletor de idioma (bandeiras) ===== */
+  .langtoggle{display:inline-flex;align-items:center;gap:2px;margin-left:4px;padding:3px;border:1px solid var(--line-d,rgba(5,5,5,.14));border-radius:999px}
+  .langtoggle button{display:inline-flex;align-items:center;justify-content:center;width:30px;height:26px;padding:0;border:none;background:none;cursor:pointer;border-radius:999px;line-height:1;opacity:.42;filter:grayscale(1);transition:opacity .2s,filter .2s,background .2s}
+  .langtoggle button .flag{font-size:16px;line-height:1}
+  .langtoggle button:hover{opacity:.8;filter:grayscale(0)}
+  .langtoggle button.on{opacity:1;filter:grayscale(0);background:var(--lime,#C0EE4E)}
   .burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px}
   .burger span{width:26px;height:2.5px;background:var(--ink);display:block;transition:.25s}
 
@@ -417,6 +423,7 @@
     .nav-links a.lk{color:var(--paper);width:100%;padding:14px 0;border-bottom:1px solid var(--line-d)}
     .nav-links a.lk::after{display:none}
     .nav-cta{width:100%;justify-content:center;margin-top:14px}
+    .nav-links .langtoggle{margin:18px 0 4px;align-self:flex-start}
     .burger{display:flex}
     header.solid .burger span{background:var(--ink)}
     .vs-head,.hub-grid,.sobre-grid,.contato-grid{grid-template-columns:1fr}
