@@ -257,12 +257,17 @@
 <section class="section section--ink videos" id="videos" style="overflow:visible">
   <div class="wrap">
     <div class="sec-head fx"><span class="eyebrow" data-n="(04b)" style="color:var(--lime)">Vídeos</span><h2 class="fx" data-fx="left" style="font-size:clamp(40px,6vw,92px)">A 75 LAB<br>em movimento.</h2></div>
-    <div class="vfeature fx" data-embed="" role="button" tabindex="0" aria-label="Reproduzir vídeo"><span class="vthumb" style="background-image:url('img/g01-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo em destaque</span></div>
-    <div class="vrow fxstag">
-      <div class="vcard fx" data-embed="" role="button" tabindex="0"><span class="vthumb" style="background-image:url('img/g05-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo 01</span></div>
-      <div class="vcard fx" data-embed="" role="button" tabindex="0"><span class="vthumb" style="background-image:url('img/g13-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo 02</span></div>
-      <div class="vcard fx" data-embed="" role="button" tabindex="0"><span class="vthumb" style="background-image:url('img/g18-1.jpg')"></span><span class="vplay"><i>▶</i></span><span class="vlabel">Vídeo 03</span></div>
+    <!-- Feed de reels/videos do Instagram (@setecincolab) via Behold -->
+    <div class="ig-feed fx" style="margin-top:34px">
+      <behold-widget feed-id="8iFW50Hvsd4IV8D9UG5Z"></behold-widget>
     </div>
+    <script>
+      (() => {
+        if(window.__bhldScript)return;window.__bhldScript=true;
+        const d=document,s=d.createElement("script");s.type="module";
+        s.src="https://w.behold.so/widget.js";setTimeout(()=>{d.head.append(s);},0);
+      })();
+    </script>
   </div>
 </section>
 
