@@ -8,7 +8,7 @@
 (function () {
   'use strict';
 
-  var DICT = {
+  var DICT_EN = {
     /* ---- navegação / rodapé / comum ---- */
     "Soluções": "Solutions",
     "Sobre": "About",
@@ -349,10 +349,15 @@
     "Falar com a gente": "Talk to us"
   };
 
-  /* mescla traduções dos 84 cases, se presentes (I18N_CASES vem de i18n-cases.js / inline) */
-  if (typeof window !== 'undefined' && window.I18N_CASES) {
-    for (var ck in window.I18N_CASES) { if (!(ck in DICT)) DICT[ck] = window.I18N_CASES[ck]; }
+  /* dicionário ES das páginas vem de i18n-pages-es.js (window.I18N_PAGES_ES) */
+  var DICT_ES = {};
+  if (typeof window !== 'undefined') {
+    if (window.I18N_PAGES_ES) { for (var pk in window.I18N_PAGES_ES) DICT_ES[pk] = window.I18N_PAGES_ES[pk]; }
+    /* mescla traduções dos 84 cases (EN de i18n-cases.js, ES de i18n-cases-es.js) */
+    if (window.I18N_CASES)    { for (var ck in window.I18N_CASES)    { if (!(ck in DICT_EN)) DICT_EN[ck] = window.I18N_CASES[ck]; } }
+    if (window.I18N_CASES_ES) { for (var cs in window.I18N_CASES_ES) { if (!(cs in DICT_ES)) DICT_ES[cs] = window.I18N_CASES_ES[cs]; } }
   }
+  var DICT = DICT_EN; /* dicionário ativo — repontado por setLang */
 
   var ATTRS = ['placeholder', 'aria-label', 'title'];
   var SKIP = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1 };
@@ -416,15 +421,16 @@
   function toPT(root) { each(root, restoreText, restoreAttr); }
 
   function setLang(l) {
-    lang = (l === 'en') ? 'en' : 'pt';
+    lang = (l === 'en' || l === 'es') ? l : 'pt';
     try { localStorage.setItem('lang75', lang); } catch (e) {}
-    document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'pt-BR');
-    if (lang === 'en') {
+    document.documentElement.setAttribute('lang', lang === 'pt' ? 'pt-BR' : lang);
+    /* sempre volta ao PT primeiro (permite trocar EN<->ES direto) */
+    toPT(document.body);
+    if (origTitle != null) { document.title = origTitle; origTitle = null; }
+    if (lang !== 'pt') {
+      DICT = (lang === 'es') ? DICT_ES : DICT_EN;
       toEN(document.body);
-      var t = DICT[document.title]; if (t) { if (origTitle == null) origTitle = document.title; document.title = t; }
-    } else {
-      toPT(document.body);
-      if (origTitle != null) { document.title = origTitle; origTitle = null; }
+      var t = DICT[document.title]; if (t) { origTitle = document.title; document.title = t; }
     }
     updateToggle();
   }
@@ -439,7 +445,8 @@
       wrap.setAttribute('aria-label', 'Idioma / Language');
       wrap.innerHTML =
         '<button type="button" data-lang="pt" title="Português" aria-label="Português"><span class="flag">🇧🇷</span></button>' +
-        '<button type="button" data-lang="en" title="English" aria-label="English"><span class="flag">🇺🇸</span></button>';
+        '<button type="button" data-lang="en" title="English" aria-label="English"><span class="flag">🇺🇸</span></button>' +
+        '<button type="button" data-lang="es" title="Español" aria-label="Español"><span class="flag">🇪🇸</span></button>';
       nav.appendChild(wrap);
       wrap.addEventListener('click', function (e) {
         var b = e.target.closest('button[data-lang]');
