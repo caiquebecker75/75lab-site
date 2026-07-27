@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'AW-16822532279');
 </script>
+<!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+  // Dispara a conversao e so entao navega para a URL (usar em cliques que levam a outra pagina).
+  function gtagSendEvent(url) {
+    var callback = function () {
+      if (typeof url === 'string') { window.location = url; }
+    };
+    gtag('event', 'ads_conversion_Contact_Us_1', {
+      'event_callback': callback,
+      'event_timeout': 2000
+    });
+    return false;
+  }
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cases — 75 LAB</title>
