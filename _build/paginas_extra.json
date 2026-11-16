@@ -903,5 +903,17 @@
    ]
   ],
   "ld": []
+ },
+ "raio-x-pdv.html": {
+  "titulo": "Raio-X do PDV 2027: pesquisa com quem toca trade · 75 LAB",
+  "descricao": "Pesquisa da 75 LAB com profissionais de trade marketing sobre material de PDV: quanto chega montado na loja, como se confirma a instalação e o que mais gera retrabalho.",
+  "prioridade": "0.6",
+  "migalhas": [
+   [
+    "Raio-X do PDV 2027",
+    "/raio-x-pdv.html"
+   ]
+  ],
+  "ld": []
  }
 }

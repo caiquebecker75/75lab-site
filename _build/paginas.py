@@ -201,6 +201,15 @@ def main():
     for g in guias:
         extra[g['slug'] + '.html'] = pagina(guia_de_json(g), 'guia')
     extra['guias.html'] = indice_guias(guias)
+    # páginas livres: _build/conteudo/livres/*.html, 1ª linha = <!--{json com slug, titulo, descricao, prioridade, migalhas}-->
+    topo, rodape = molde()
+    for arq in sorted(glob.glob(os.path.join(B, 'conteudo', 'livres', '*.html'))):
+        t = open(arq, encoding='utf-8').read()
+        meta = json.loads(t[t.index('<!--') + 4:t.index('-->')])
+        corpo = t[t.index('-->') + 3:]
+        open(os.path.join(RAIZ, meta['slug'] + '.html'), 'w', encoding='utf-8').write(topo + '\n' + corpo + '\n' + rodape)
+        extra[meta['slug'] + '.html'] = {'titulo': meta['titulo'], 'descricao': meta['descricao'],
+                                         'prioridade': meta.get('prioridade', '0.6'), 'migalhas': meta.get('migalhas', []), 'ld': []}
     # trava de qualidade: nada de travessão nas páginas geradas
     for arq in extra:
         t = open(os.path.join(RAIZ, arq), encoding='utf-8').read()
