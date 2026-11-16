@@ -31,6 +31,13 @@
 
     /* ---- HERO (home) ---- */
     "Aceleradora de Trade Marketing": "Trade Marketing Accelerator",
+    "Guias": "Guides",
+    "Agência de PDV comprovado": "Proven point-of-sale agency",
+    "A 75 LAB cria, projeta e produz displays, ilhas, enxovais e estandes, e prova nas duas pontas: você vê o display na sua gôndola em realidade aumentada antes de produzir, e sabe onde ele está montado depois que sai da fábrica.": "75 LAB creates, engineers and produces displays, islands, in-store kits and booths, with proof at both ends: you see the display on your shelf in augmented reality before production, and you know where it is installed after it leaves the factory.",
+    "Conteúdo proprietário no LinkedIn e no Instagram, e artigos dos sócios na imprensa do setor.": "Owned content on LinkedIn and Instagram, and articles by the founders in the trade press.",
+    "O que os sócios da 75 LAB escreveram e o que falaram da gente.": "What 75 LAB's founders wrote, and what the press said about us.",
+    "Imprensa": "Press",
+    "Ler →": "Read →",
     "Ideia boa": "A good idea",
     "é a que": "is one that",
     "acontece.": "happens.",

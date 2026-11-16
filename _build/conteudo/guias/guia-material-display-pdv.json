@@ -1,0 +1,190 @@
+{
+  "slug": "guia-material-display-pdv",
+  "titulo": "Papelão, MDF, metal, acrílico ou arame: como escolher o material do display de PDV",
+  "titulo_seo": "Material do display de PDV: como escolher · 75 LAB",
+  "descricao": "Papelão, MDF, metal, acrílico ou arame: como escolher o material do display de PDV por tempo de exposição, peso do produto, canal, custo por loja e montagem.",
+  "resumo": "O material do display de PDV se escolhe por três perguntas: quanto tempo a peça fica na loja, quanto peso ela carrega e quantas lojas vão receber. Papelão atende ação temporária, leve e de grande tiragem; MDF, metal e acrílico atendem peças permanentes ou de carga maior; arame resolve produto pesado com boa visibilidade e transporte compacto. A decisão certa sai da conta de carga e do custo por loja, não só do preço unitário.",
+  "secoes": [
+    {
+      "h2": "Os critérios que decidem o material",
+      "blocos": [
+        {
+          "p": "Antes de pensar em acabamento, responda a sete perguntas. Elas eliminam metade das opções e evitam o display bonito que verga na segunda semana."
+        },
+        {
+          "lista": [
+            "Tempo de exposição: ação de semanas (temporário) ou peça que fica meses e recebe troca de comunicação (permanente).",
+            "Peso do produto: peso real do produto cheio, vezes as frentes, vezes a profundidade, por nível. Use a ficha do produto.",
+            "Canal: autosserviço, farma, conveniência e atacarejo têm espaço, piso, umidade e manuseio diferentes.",
+            "Custo por loja: tudo o que a peça custa instalada, dividido pelas lojas que realmente vão expor.",
+            "Transporte e montagem: vai montada ou desmontada, quem monta e com qual ferramenta.",
+            "Sustentabilidade: reciclagem, reaproveitamento da estrutura e descarte ao fim da ação.",
+            "Acabamento: impressão, adesivo, pintura, transparência. O padrão da marca precisa caber no material."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Tabela comparativa por material",
+      "blocos": [
+        {
+          "p": "A tabela é ponto de partida: a conta de carga e o orçamento da fábrica confirmam ou derrubam a escolha."
+        },
+        {
+          "tabela": {
+            "cab": [
+              "Material",
+              "Uso típico",
+              "Carga",
+              "Durabilidade",
+              "Transporte e montagem",
+              "Pontos de atenção"
+            ],
+            "linhas": [
+              [
+                "Papelão ondulado",
+                "Display de chão e de balcão em ação curta, grande tiragem",
+                "Baixa a média, depende da onda e do reforço interno",
+                "Temporário",
+                "Vai plano, monta por dobra e encaixe, sem ferramenta",
+                "Perde resistência com umidade e com o piso molhado da limpeza"
+              ],
+              [
+                "MDF e MDP",
+                "Ilha, ponta de gôndola, balcão, móvel permanente",
+                "Média a alta, com conta de flecha e fluência",
+                "Permanente",
+                "Pesado; monta com encaixe, cavilha ou minifix",
+                "Flui sob carga contínua; parafuso no topo da chapa exige cuidado"
+              ],
+              [
+                "Chapa de aço dobrada e tubo",
+                "Expositor de carga alta, estrutura de ilha, gancheira",
+                "Alta",
+                "Permanente, reutilizável",
+                "Peça soldada ocupa volume; versão parafusada desmonta",
+                "Pintura epóxi-pó soma espessura e interfere em encaixe"
+              ],
+              [
+                "Acrílico, PETG e PS",
+                "Porta-preço, testeira, vitrine, balcão de farma e cosméticos",
+                "Baixa a média",
+                "Permanente se protegido de impacto",
+                "Leve; montagem com encaixe, cola ou rebite",
+                "Acrílico extrudado trinca em furo perto da borda; plástico fino não segura rosca"
+              ],
+              [
+                "Arame de aço",
+                "Cesto, gancheira, expositor de produto pesado ou a granel",
+                "Alta com pouco material",
+                "Permanente",
+                "Compacto, pode ir desmontado ou dobrável",
+                "Solda em cada cruzamento que leva carga; comunicação depende de placa acoplada"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "h2": "Papelão: rápido, barato por unidade e temporário",
+      "blocos": [
+        {
+          "p": "Papelão ondulado é a escolha natural para campanha curta em muitas lojas. Vai plano na caixa, monta sem ferramenta, recebe impressão em toda a superfície e é reciclável."
+        },
+        {
+          "p": "O limite é a carga e a umidade. Prateleira de papelão pede reforço interno (dobra dupla, travessa ou tubo de papelão) quando o produto é pesado, e a base sofre com o pano molhado da limpeza do piso. Para peça de meses ou produto pesado, papelão costuma sair caro em reposição."
+        }
+      ]
+    },
+    {
+      "h2": "MDF e MDP: versáteis, mas fluem sob carga",
+      "blocos": [
+        {
+          "p": "MDF aceita usinagem em CNC router, pintura e adesivo, e é a base de muita ilha e ponta de gôndola. O cuidado técnico é a fluência: sob carga contínua por semanas, a prateleira de MDF continua cedendo. A regra de projeto que usamos multiplica a flecha por um fator de fluência (o Eurocode 5 indica kdef de cerca de 2,25 para MDF em ambiente seco), o que pode reprovar uma prateleira que parecia firme."
+        },
+        {
+          "p": "Na fabricação, a fresa usual de 6 mm deixa raio mínimo de 3 mm em canto interno, e o canto vivo pede alívio em osso. O rasgo de encaixe deve ser a espessura real da chapa mais 0,3 a 0,5 mm, porque um MDF de 18 mm chega de 18,0 a 18,6 mm. Em ligação com carga, cavilha, minifix ou rasgo com dado seguram melhor que parafuso no topo da chapa."
+        }
+      ]
+    },
+    {
+      "h2": "Metal: carga alta e vida longa",
+      "blocos": [
+        {
+          "p": "Chapa de aço dobrada e tubo são a resposta para produto pesado e para estrutura reaproveitada em várias campanhas. O aço tem módulo de elasticidade perto de 200 GPa, contra cerca de 2,5 GPa do MDF, por isso uma prateleira metálica fina com borda dobrada vence vãos que o MDF não vence."
+        },
+        {
+          "p": "Os pontos de projeto: raio interno de dobra pelo menos igual à espessura, furo afastado da dobra, planificado com a tabela de dobra da serralheria e pintura epóxi-pó de 60 a 80 micrômetros por face, descontada em todo encaixe. O custo inicial é maior, mas dividido por várias ativações costuma fechar melhor que refazer em MDF."
+        }
+      ]
+    },
+    {
+      "h2": "Acrílico e outros plásticos: transparência e acabamento",
+      "blocos": [
+        {
+          "p": "Acrílico, PETG, PS e PVC expandido entram onde o acabamento pesa: porta-preço, testeira, vitrine de cosmético, balcão de farma. Cortam em laser ou CNC e podem ser dobrados a quente, com raio interno de 2 a 3 vezes a espessura."
+        },
+        {
+          "p": "Não são materiais estruturais para carga alta. O acrílico extrudado trinca em furo perto da borda (mantenha pelo menos 2 vezes a espessura), e PS de até 3 mm ou PVC expandido não seguram rosca: use rebite com arruela, encaixe ou fita dupla-face estrutural. Termoformagem só compensa quando o molde se paga na tiragem; abaixo de cerca de 300 unidades, compare com recorte plano."
+        }
+      ]
+    },
+    {
+      "h2": "Arame: muita carga com pouco material",
+      "blocos": [
+        {
+          "p": "Expositor de arame trefilado (aço SAE 1010) carrega produto pesado com pouco material, deixa o produto visível e pode ir desmontado ou dobrável. É comum em cesto, gancheira e produto a granel."
+        },
+        {
+          "p": "A qualidade está na solda: ponto em cada cruzamento que leva carga e curvas cotadas pelo eixo do arame. A comunicação da marca vai em placa acoplada de PS, PETG ou chapa."
+        }
+      ]
+    },
+    {
+      "h2": "Custo por loja, transporte e sustentabilidade",
+      "blocos": [
+        {
+          "p": "Comparar só o preço unitário engana. O que importa é o custo instalado por loja durante a exposição: material comprado em chapa inteira, processos, montagem, embalagem, frete e reposição de peça danificada. Uma estrutura metálica reutilizável com troca de comunicação pode sair mais barata por ativação que três displays de papelão seguidos."
+        },
+        {
+          "p": "Transporte e montagem também mudam a conta: peça plana ocupa menos caminhão, e peça que monta sem ferramenta reduz erro do promotor. Na sustentabilidade, pergunte se o material é reciclável, se a estrutura volta para outra campanha e quem cuida do descarte. Na 75 LAB, o material entra no projeto já com a conta de carga e o custo por loja, e a peça é testada em realidade aumentada no ambiente antes de ir para a fábrica."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual o melhor material para display de PDV temporário?",
+      "a": "Para ação curta em muitas lojas, o papelão ondulado costuma ser a melhor escolha: vai plano, monta sem ferramenta, recebe impressão total e é reciclável. Ele só deixa de servir quando o produto é pesado ou o ambiente tem umidade, casos em que vale reforço interno ou outro material."
+    },
+    {
+      "q": "MDF aguenta produto pesado em prateleira de display?",
+      "a": "Aguenta se a prateleira for calculada com a fluência do material, que continua cedendo sob carga contínua. A regra usual de projeto leva a flecha final para cerca de 3,25 vezes a inicial (Eurocode 5, ambiente seco). Se não passar, a solução é borda dobrada, travessa, vão menor ou chapa mais grossa."
+    },
+    {
+      "q": "Quando vale a pena fazer display de metal?",
+      "a": "Quando o produto é pesado, quando a peça fica meses na loja ou quando a estrutura vai ser reaproveitada em várias campanhas com troca de comunicação. O custo inicial é maior, mas dividido pelas ativações pode sair mais barato que refazer peças em MDF ou papelão."
+    },
+    {
+      "q": "Acrílico serve para estrutura de display?",
+      "a": "Acrílico é ótimo para acabamento, transparência e peças leves como porta-preço, testeira e vitrine, mas não é material estrutural para carga alta. Ele trinca em furo perto da borda, e chapa plástica fina não segura parafuso, então a ligação precisa ser rebite com arruela, encaixe ou fita dupla-face estrutural."
+    },
+    {
+      "q": "Como comparar o custo de materiais diferentes de display?",
+      "a": "Compare o custo instalado por loja durante o tempo de exposição, não o preço unitário. Some material, processos, montagem, embalagem, frete e reposição, e divida pelas lojas e pelas campanhas em que a estrutura vai ser usada."
+    }
+  ],
+  "palavras_chave": [
+    "material de display de PDV",
+    "display de papelão",
+    "display de MDF",
+    "display de metal",
+    "display de acrílico",
+    "expositor de arame",
+    "display temporário x permanente",
+    "custo por loja de display",
+    "trade marketing",
+    "material de ponto de venda"
+  ]
+}

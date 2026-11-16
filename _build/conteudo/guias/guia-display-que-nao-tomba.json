@@ -1,0 +1,195 @@
+{
+  "slug": "guia-display-que-nao-tomba",
+  "titulo": "Display que não tomba e prateleira que não enverga: o que conferir no projeto",
+  "titulo_seo": "Display que não tomba e prateleira firme · 75 LAB",
+  "descricao": "Como conferir no projeto se o display de PDV fica de pé e a prateleira aguenta o produto: carga real, flecha, fluência do MDF, tombamento, fixações e testes.",
+  "resumo": "Um display não tomba quando o centro de gravidade, com a peça cheia e vazia, continua dentro da base mesmo com a peça inclinada; a prateleira não enverga quando a flecha calculada, já somada a fluência do material, fica abaixo do limite de projeto. As duas coisas se conferem com conta, antes de produzir: carga real do produto, flecha, fluência do MDF, tombamento no pior caso de reposição e ligações dimensionadas.",
+  "secoes": [
+    {
+      "h2": "Comece pela carga real do produto",
+      "blocos": [
+        {
+          "p": "Toda verificação começa por um número: quanto pesa cada nível cheio. A conta é o peso real do produto, vezes o número de frentes, vezes quantas unidades cabem na profundidade, tirado da ficha técnica do produto."
+        },
+        {
+          "p": "Some 20% de folga sobre esse valor, regra de projeto que usamos para cobrir o repositor que empilha a mais e a embalagem promocional mais pesada. Sem esse número escrito, dizer que aguenta é opinião."
+        }
+      ]
+    },
+    {
+      "h2": "Flecha de prateleira: quanto ela pode baixar",
+      "blocos": [
+        {
+          "p": "Flecha é o quanto o meio da prateleira desce sob carga. Para prateleira apoiada nas duas pontas com carga distribuída, a fórmula clássica da resistência dos materiais é f = 5 q L⁴ / (384 E I), em que q é a carga por metro, L é o vão, E é o módulo de elasticidade do material e I = b t³ / 12 (b é a profundidade e t a espessura)."
+        },
+        {
+          "p": "O limite que adotamos como critério de projeto é L/200 para prateleira escondida e L/300 para prateleira à vista, porque o shopper enxerga a barriga e lê aquilo como produto mal feito. Em um vão de 600 mm, isso significa no máximo 3 mm ou 2 mm de flecha."
+        },
+        {
+          "p": "O módulo E deve ser confirmado na ficha do fornecedor. Valores de referência para pré-projeto:"
+        },
+        {
+          "tabela": {
+            "cab": [
+              "Material",
+              "Módulo E de referência"
+            ],
+            "linhas": [
+              [
+                "Aço",
+                "200 GPa"
+              ],
+              [
+                "Alumínio",
+                "70 GPa"
+              ],
+              [
+                "Compensado",
+                "6 a 8 GPa"
+              ],
+              [
+                "MDF",
+                "2,5 a 3,5 GPa (usar 2,5 no cálculo)"
+              ],
+              [
+                "Acrílico",
+                "cerca de 3 GPa"
+              ],
+              [
+                "MDP",
+                "cerca de 2 GPa"
+              ],
+              [
+                "PS alto impacto e PETG",
+                "cerca de 2 GPa"
+              ],
+              [
+                "PVC expandido",
+                "cerca de 0,8 GPa"
+              ],
+              [
+                "ACM",
+                "painel sanduíche: usar a rigidez da ficha técnica"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Como a espessura entra ao cubo e o vão na quarta potência, encurtar o vão é a forma mais eficiente de reduzir a flecha."
+        }
+      ]
+    },
+    {
+      "h2": "Fluência do MDF: a prateleira que cede com o tempo",
+      "blocos": [
+        {
+          "p": "MDF e MDP fluem: sob carga contínua, continuam deformando ao longo de semanas. Prateleira de PDV passa a campanha inteira carregada, então a flecha inicial não basta. A regra que usamos multiplica a flecha por (1 + kdef), e o Eurocode 5 indica kdef de cerca de 2,25 para MDF em ambiente seco. Na prática, a flecha final fica perto de 3,25 vezes a calculada."
+        },
+        {
+          "p": "Exemplo ilustrativo: prateleira de MDF 18 mm, vão de 600 mm, profundidade de 400 mm, 20 kg distribuídos (já com a folga). Com E de 2,5 GPa, a flecha inicial dá cerca de 1,1 mm e passa no limite L/300 de 2 mm. Com a fluência, vai para cerca de 3,7 mm e reprova até no limite L/200 de 3 mm. É a prateleira que sai firme da fábrica e aparece embarrigada na loja um mês depois."
+        }
+      ]
+    },
+    {
+      "h2": "Quando a prateleira não passa",
+      "blocos": [
+        {
+          "p": "As soluções, em ordem de custo crescente, são:"
+        },
+        {
+          "lista": [
+            "Dobrar a borda (retorno), que aumenta muito a rigidez sem trocar de material.",
+            "Colocar travessa ou nervura embaixo da prateleira.",
+            "Diminuir o vão, com um apoio intermediário ou uma divisão a mais.",
+            "Subir a espessura ou trocar para um material de módulo maior, como chapa de aço."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Tombamento: centro de gravidade, base e pior caso",
+      "blocos": [
+        {
+          "p": "Um display tomba quando a vertical que passa pelo centro de gravidade sai da base. O critério interno que usamos: com a peça inclinada 10 graus em qualquer direção, a projeção do centro de gravidade ainda cai dentro da base. Na prática, a distância horizontal do centro de gravidade até cada borda da base precisa ser de pelo menos 0,18 vezes a altura dele (tangente de 10 graus). Com o centro de gravidade a 1 m do chão, isso dá 176 mm."
+        },
+        {
+          "p": "A conta é feita em três situações: peça vazia, peça cheia e pior caso de reposição, com o nível de cima cheio e os de baixo vazios. Esse último é o que mais derruba display, porque sobe o centro de gravidade justamente quando a base perdeu o peso que a segurava."
+        },
+        {
+          "p": "O empurrão do shopper e o esbarrão do carrinho são forças horizontais no alto da peça. Quanto mais alto o contato e mais leve a peça vazia, menor a força que vira o display. Peça alta e estreita pede margem maior e, muitas vezes, fixação."
+        },
+        {
+          "lista": [
+            "Alargar a base ou criar sapatas que aumentam a distância até a borda.",
+            "Colocar lastro na parte de baixo para descer o centro de gravidade.",
+            "Prever fixação na gôndola ou no piso, e escrever no executivo como e com o quê."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Fixações e ligações que seguram a carga",
+      "blocos": [
+        {
+          "p": "A prateleira pode estar certa e a peça falhar na ligação. As regras de projeto mais importantes:"
+        },
+        {
+          "lista": [
+            "Parafuso em MDF: rosca soberba ou chipboard no topo da chapa só com furo-guia e pelo menos 9 mm de material em volta. Em ligação que leva carga, prefira cavilha, minifix ou rasgo com dado.",
+            "Plástico fino (PS de até 3 mm, PVC expandido) não segura rosca. Use rebite com arruela, encaixe ou fita dupla-face estrutural, e especifique qual.",
+            "Arame soldado: ponto de solda em cada cruzamento que leva carga.",
+            "Encaixe usinado: rasgo com a espessura real medida da chapa mais 0,3 a 0,5 mm. Folga demais vira peça bamba; folga de menos racha na montagem."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Testes antes de produzir",
+      "blocos": [
+        {
+          "p": "A conta vem primeiro, e o teste confirma. Modele a peça em 3D com os materiais reais para medir o centro de gravidade cheio e vazio e conferir que não há interferência entre peças, e registre por escrito os números de flecha, fluência e tombamento."
+        },
+        {
+          "p": "Depois vem o protótipo carregado com produto real por alguns dias, para observar a fluência, e o teste de empurrão no alto da peça vazia e no pior caso de reposição. Na 75 LAB, a peça também é posicionada em realidade aumentada no ambiente de loja antes da produção, para conferir escala, altura de pega e circulação."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como saber se um display de PDV vai tombar?",
+      "a": "Calcule o centro de gravidade da peça vazia, cheia e com só o nível de cima cheio. Pelo critério de projeto que usamos, inclinando a peça 10 graus em qualquer direção, a projeção do centro de gravidade precisa continuar dentro da base. Se não continuar, alargue a base, coloque lastro ou preveja fixação."
+    },
+    {
+      "q": "Qual a flecha máxima aceitável em prateleira de display?",
+      "a": "Como regra de projeto, usamos L/200 para prateleira escondida e L/300 para prateleira à vista, em que L é o vão. Em um vão de 600 mm, isso dá 3 mm e 2 mm. A flecha deve ser calculada já com a fluência do material quando a prateleira é de MDF ou MDP."
+    },
+    {
+      "q": "Por que a prateleira de MDF enverga depois de algumas semanas?",
+      "a": "Porque o MDF flui: sob carga contínua ele continua deformando com o tempo. O Eurocode 5 indica um fator kdef de cerca de 2,25 para MDF em ambiente seco, o que leva a flecha final para perto de 3,25 vezes a inicial. Uma prateleira que passa no cálculo simples pode reprovar quando a fluência entra na conta."
+    },
+    {
+      "q": "Como evitar que a prateleira do display envergue?",
+      "a": "Em ordem de custo: dobre a borda da prateleira, coloque travessa ou nervura, diminua o vão com um apoio intermediário ou suba a espessura e troque o material. O vão pesa mais na conta, porque entra na quarta potência."
+    },
+    {
+      "q": "Quanto de folga de carga usar no projeto de display?",
+      "a": "Usamos como regra de projeto 20% a mais sobre o peso real do produto cheio, calculado pelas frentes e pela profundidade de cada nível. A folga cobre o repositor que empilha a mais e variações de embalagem ao longo da campanha."
+    },
+    {
+      "q": "Parafuso em MDF segura prateleira carregada?",
+      "a": "Só com cuidado: rosca no topo da chapa exige furo-guia e pelo menos 9 mm de material em volta. Para prateleira carregada, cavilha, minifix ou rasgo com dado são mais seguros."
+    }
+  ],
+  "palavras_chave": [
+    "display que não tomba",
+    "tombamento de display",
+    "flecha de prateleira",
+    "prateleira de MDF envergando",
+    "fluência do MDF",
+    "centro de gravidade display",
+    "projeto estrutural de PDV",
+    "cálculo de prateleira",
+    "segurança de display no ponto de venda"
+  ]
+}

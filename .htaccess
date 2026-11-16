@@ -1,0 +1,48 @@
+# 75 LAB · regras do servidor (Hostinger / LiteSpeed lê este arquivo)
+Options -MultiViews
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Pasta de ferramentas internas não é servida
+RewriteRule ^_build(/|$) - [F,L]
+
+# 1) Um endereço só: www vai para a raiz
+RewriteCond %{HTTP_HOST} ^www\.75lab\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://75lab.com.br/$1 [R=301,L]
+
+# 2) /index.html vai para /
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# 3) Endereços do site antigo (Wix) que o Google ainda guarda
+RewriteRule ^insights/?$ /midia.html [R=301,L,NC]
+RewriteRule ^blog/?$ /guias.html [R=301,L,NC]
+RewriteRule ^solu[^/]*es/?$ /solucoes.html [R=301,L,NC]
+RewriteRule ^(quem-somos|about)/?$ /sobre.html [R=301,L,NC]
+RewriteRule ^(portfolio|projetos|trabalhos)/?$ /cases.html [R=301,L,NC]
+RewriteRule ^(fale-conosco|contact)/?$ /contato.html [R=301,L,NC]
+
+# 4) Endereço sem .html vai para a página .html quando ela existe (/cases -> /cases.html)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ /$1.html [R=301,L]
+</IfModule>
+
+# Cache de arquivos estáticos
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "access plus 30 days"
+ExpiresByType image/png "access plus 30 days"
+ExpiresByType image/webp "access plus 30 days"
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+</IfModule>
+
+<IfModule mod_mime.c>
+AddType text/plain .txt
+AddCharset utf-8 .txt .html .xml
+</IfModule>

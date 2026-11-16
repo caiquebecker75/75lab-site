@@ -1,0 +1,37 @@
+# 75 LAB
+
+> Agência de PDV e trade marketing em São Paulo. Cria, projeta e produz displays, ilhas, pontas de gôndola, enxovais de PDV e estandes para a indústria, com teste em realidade aumentada antes de produzir e rastreamento do material por QR depois de instalado. Posicionamento: PDV comprovado. Assinatura: ideia boa é a que acontece.
+
+Fatos:
+- Razão social: 75 LAB ESTRATÉGIA, DESIGN E PRODUÇÃO LTDA, CNPJ 55.470.982/0001-77, fundada em 2024.
+- Sócios: Caique Becker (cofundador e Head de Trade, veio do varejo) e Daniel Coimbra (cofundador e CEO, veio da indústria).
+- Endereço: CENU, Torre Norte, Av. das Nações Unidas, 12.901, Brooklin, São Paulo, SP, 04578-910.
+- Contato: contato@75lab.com.br, WhatsApp +55 11 98676-5634.
+- Redes: https://www.instagram.com/setecincolab/ e https://www.linkedin.com/company/75lab
+- Modelo comercial: projetos com escopo, prazo e preço fechados (não trabalha com fee mensal).
+
+## Serviços
+- [Display de PDV para indústria: projeto e produção](https://75lab.com.br/display-de-pdv.html): Displays de chão, de balcão, clip strips e modulares para a indústria, com engenharia, aprovação em realidade aumentada antes de produzir e rastreio por QR depois de instalado.
+- [Ilha promocional e ponta de gôndola para indústria](https://75lab.com.br/ilha-e-ponta-de-gondola.html): Projeto e produção de ilhas promocionais, pontas de gôndola e enxovais de gôndola, aprovados em realidade aumentada no corredor antes de produzir.
+- [Enxoval e material de PDV para lançamento](https://75lab.com.br/enxoval-de-pdv.html): Enxoval completo de material de PDV para lançamento e campanha: testeira, wobbler, régua, totem, backdrop e mais, com página de montagem e QR em cada peça.
+- [Estande para feira com tour em realidade aumentada](https://75lab.com.br/estandes.html): Estandes para feiras e eventos B2B com aprovação em realidade aumentada e modo imersivo: a equipe caminha pelo estande antes de construir.
+- [Realidade aumentada para PDV: veja o display na loja](https://75lab.com.br/realidade-aumentada-pdv.html): Veja o display, a ilha ou o estande em tamanho real na loja pelo celular antes de produzir. AR no navegador, sem aplicativo, para aprovar e vender o projeto.
+- [Rastreamento de material de PDV com QR e painel](https://75lab.com.br/rastreamento-material-pdv.html): Saiba onde cada display e peça de PDV foi montado: QR na peça, registro com foto e localização, painel com mapa e link ao vivo para o cliente.
+- [Conteúdo rico para página de produto no e-commerce](https://75lab.com.br/conteudo-rico-ecommerce.html): ClickLab: conteúdo rico em HTML para a descrição do produto no marketplace e na loja virtual, com 3D, realidade aumentada, vídeo e simulação da loja.
+
+## Cases
+- [Case Savencia: displays Frescatino e Polenguinho em AR](https://75lab.com.br/case-savencia-frescatino.html): Clip strip, display PP, gravitacional e glorifier da Savencia em realidade aumentada, com página de montagem e QR de rastreio em cada peça.
+- [Case NGV: um display para quatro marcas, em AR](https://75lab.com.br/case-ngv-display-universal.html): Display Universal adaptado para Vitalitabs, De Llares, Bella Fio e Savedent, ilha de quatro faces e estande Conexão Farma, tudo em realidade aumentada.
+- [Case SEMP: enxoval do Split HW em realidade aumentada](https://75lab.com.br/case-semp-split-hw.html): O enxoval de PDV do ar-condicionado SEMP Split HW, com 15 peças, em realidade aumentada, página de montagem e conteúdo rico para marketplace.
+- [Case Alltak: estande Revest Fácil em AR e modo imersivo](https://75lab.com.br/case-alltak-revest-facil.html): Estande Revest Fácil da Alltak, de 12 × 7 metros, em realidade aumentada e modo imersivo, com duas versões comparadas antes da construção.
+- [Portfólio com 84 cases](https://75lab.com.br/cases.html)
+
+## Guias
+- [Checklist do executivo de PDV para produção](https://75lab.com.br/guia-checklist-executivo-pdv.html): O que um executivo técnico de PDV precisa ter antes de ir para a fábrica: vistas, cotas, materiais, faca, planificado, lista de materiais, montagem e embalagem.
+- [Display que não tomba e prateleira firme](https://75lab.com.br/guia-display-que-nao-tomba.html): Como conferir no projeto se o display de PDV fica de pé e a prateleira aguenta o produto: carga real, flecha, fluência do MDF, tombamento, fixações e testes.
+- [Material do display de PDV: como escolher](https://75lab.com.br/guia-material-display-pdv.html): Papelão, MDF, metal, acrílico ou arame: como escolher o material do display de PDV por tempo de exposição, peso do produto, canal, custo por loja e montagem.
+
+## Institucional
+- [Sobre](https://75lab.com.br/sobre.html)
+- [Na imprensa](https://75lab.com.br/midia.html)
+- [Contato](https://75lab.com.br/contato.html)

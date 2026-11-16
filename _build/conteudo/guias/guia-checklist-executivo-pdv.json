@@ -1,0 +1,223 @@
+{
+  "slug": "guia-checklist-executivo-pdv",
+  "titulo": "Checklist do executivo de PDV antes de mandar para produção",
+  "titulo_seo": "Checklist do executivo de PDV para produção · 75 LAB",
+  "descricao": "O que um executivo técnico de PDV precisa ter antes de ir para a fábrica: vistas, cotas, materiais, faca, planificado, lista de materiais, montagem e embalagem.",
+  "resumo": "Um executivo de PDV está pronto para produção quando a fábrica consegue produzir sem ligar para quem projetou. Para isso ele precisa ter vistas cotadas, materiais e espessuras reais, acabamentos, planificados e facas 1:1, plano de corte, lista de materiais, instrução de montagem, embalagem, etiqueta e a verificação estrutural escrita. Falta de qualquer um desses itens vira dúvida na fábrica, e dúvida na fábrica vira atraso ou retrabalho.",
+  "secoes": [
+    {
+      "h2": "Para que serve o executivo",
+      "blocos": [
+        {
+          "p": "O executivo é o documento técnico que transforma o conceito aprovado em peça fabricável. Ele é diferente do render: o render vende a ideia; o executivo diz exatamente o que cortar, dobrar, soldar, pintar, imprimir, montar e embalar."
+        },
+        {
+          "p": "A boa prática é que todo número saia de uma fonte única, a lista de componentes da peça, e que desenhos, facas, plano de corte e custo sejam gerados dela. Quando cada folha é desenhada à mão por fora, uma medida alterada em um lugar fica velha em outro."
+        }
+      ]
+    },
+    {
+      "h2": "Folha, normas e carimbo",
+      "blocos": [
+        {
+          "p": "Seguir as normas brasileiras de desenho técnico faz a fábrica ler o documento sem interpretação. As principais:"
+        },
+        {
+          "tabela": {
+            "cab": [
+              "Assunto",
+              "Norma"
+            ],
+            "linhas": [
+              [
+                "Formatos de folha (A0 a A4)",
+                "NBR 10068"
+              ],
+              [
+                "Leiaute da folha e legenda (carimbo)",
+                "NBR 10582"
+              ],
+              [
+                "Tipos e espessuras de linha",
+                "NBR 8403"
+              ],
+              [
+                "Vistas ortográficas, 1º diedro",
+                "NBR 10067"
+              ],
+              [
+                "Cotagem",
+                "NBR 10126"
+              ],
+              [
+                "Escalas",
+                "NBR 8196"
+              ],
+              [
+                "Hachuras em corte",
+                "NBR 12298"
+              ],
+              [
+                "Dobramento de cópia",
+                "NBR 13142"
+              ],
+              [
+                "Tolerância geral, quando a fábrica não der a sua",
+                "ISO 2768-m"
+              ],
+              [
+                "Símbolo de solda",
+                "ISO 2553 (ou AWS A2.4, se a serralheria usar)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "O carimbo de cada folha traz cliente, projeto, conteúdo da folha, código da peça, escala, diedro, data, revisão, número da folha e nome do arquivo. Toda revisão nova registra o que mudou, e a versão anterior fica guardada."
+        }
+      ]
+    },
+    {
+      "h2": "Vistas, cotas e detalhes",
+      "blocos": [
+        {
+          "lista": [
+            "Capa com imagem da peça, medidas externas (largura x profundidade x altura), tiragem e revisão.",
+            "Vistas gerais cotadas em 1º diedro.",
+            "Vista explodida com balões numerados e lista de peças: código, descrição, quantidade e material.",
+            "Cortes e detalhes de todo encaixe e de toda ligação.",
+            "Conjuntos soldados com cotas no eixo do tubo ou do arame e símbolo de solda."
+          ]
+        },
+        {
+          "p": "Cota que a fábrica precisa calcular é cota que falta. Se o serralheiro tiver de somar duas medidas para achar uma terceira, ela deveria estar no desenho."
+        }
+      ]
+    },
+    {
+      "h2": "Materiais, espessuras e acabamentos",
+      "blocos": [
+        {
+          "p": "Cada peça precisa de material, espessura e acabamento escritos sem ambiguidade. Três cuidados evitam a maior parte dos problemas:"
+        },
+        {
+          "lista": [
+            "Espessura real, não nominal. Um MDF de 18 mm chega de 18,0 a 18,6 mm. O rasgo de encaixe usinado deve ser a espessura real medida mais 0,3 a 0,5 mm, e vale pedir a medida do lote antes de cortar tudo.",
+            "Camada de pintura. Epóxi-pó soma de 60 a 80 micrômetros por face, e isso precisa ser descontado em todo encaixe de peça pintada.",
+            "Artes finais 1:1 em CMYK, com sangria de 5 mm e a faca em cor especial separada, em sobreimpressão."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Planificado, faca e plano de corte",
+      "blocos": [
+        {
+          "p": "Cada peça cortada precisa de planificado 1:1 em DXF, com camadas separadas para corte, vinco ou dobra, furo e gravação. A camada de dobra indica também o ângulo. As regras do processo entram no desenho, não ficam para a fábrica descobrir:"
+        },
+        {
+          "lista": [
+            "CNC router: com fresa de 6 mm, canto interno tem raio de pelo menos 3 mm; encaixe de canto vivo leva alívio em osso. Folga de 6 mm entre peças e margem de 10 mm na chapa.",
+            "Laser: considerar kerf de 0,1 a 0,3 mm e folga de 3 mm entre peças. Em acrílico extrudado, furo a pelo menos 2 vezes a espessura da borda.",
+            "Chapa dobrada: raio interno pelo menos igual à espessura; furo afastado da dobra em pelo menos 2,5 vezes a espessura mais o raio; planificado com o fator K ou a tabela de dobra da serralheria. Sem tabela, K de 0,4 provisório, marcado como confirmar.",
+            "Dobra a quente de acrílico, PS ou PETG: raio interno de 2 a 3 vezes a espessura.",
+            "Tubo e arame: corte linear em barra de 6.000 mm, com 3 mm de perda por corte."
+          ]
+        },
+        {
+          "p": "O plano de corte mostra quantas chapas comerciais são necessárias e o aproveitamento de cada uma. Abaixo de 65% de aproveitamento, vale tentar outro formato de chapa ou agrupar peças de mesma espessura."
+        }
+      ]
+    },
+    {
+      "h2": "Lista de materiais, montagem, embalagem e etiqueta",
+      "blocos": [
+        {
+          "p": "A lista de materiais traz cada item com código, quantidade, material, medida, processo e custo. O custo de material considera a chapa inteira comprada, não só a área útil das peças, mais corte, dobra, solda, pintura, impressão, montagem e embalagem."
+        },
+        {
+          "p": "A instrução de montagem descreve sequência, ferramentas e ferragens, para que a peça seja montada igual em todas as lojas. A embalagem diz como cada peça é protegida e quantas vão por volume. A etiqueta identifica código da peça, revisão, conteúdo do volume, quantidade e lado de abrir, para a loja conferir o kit sem abrir caixa por caixa."
+        }
+      ]
+    },
+    {
+      "h2": "Verificação estrutural por escrito",
+      "blocos": [
+        {
+          "p": "Toda peça que recebe produto precisa da conta registrada no documento: carga real por nível com 20% de folga, flecha de prateleira com a fluência do MDF quando for o caso, tombamento com a peça vazia, cheia e no pior caso de reposição, e o dimensionamento das ligações. Aguenta não é especificação. Na 75 LAB, essa verificação vai junto do executivo, e a peça também é conferida em realidade aumentada no ambiente antes de liberar a produção."
+        }
+      ]
+    },
+    {
+      "h2": "Erros comuns que geram retrabalho",
+      "blocos": [
+        {
+          "lista": [
+            "Encaixe desenhado com a espessura nominal da chapa, que fica justo demais ou não entra.",
+            "Peça pintada sem desconto da camada de tinta no encaixe.",
+            "Canto interno vivo em peça de CNC, impossível de fresar sem alívio.",
+            "Furo colado na dobra da chapa, que deforma ao dobrar.",
+            "Parafuso especificado em PS fino ou PVC expandido, que não segura rosca.",
+            "Planificado de chapa sem a tabela de dobra da fábrica, que muda as medidas finais.",
+            "Arte sem sangria ou com faca na mesma camada da imagem.",
+            "Prateleira de MDF calculada sem fluência, que enverga na loja.",
+            "Revisão nova sem registro do que mudou, com a fábrica produzindo pela versão antiga.",
+            "Volume sem etiqueta, que chega à loja incompleto ou é montado fora de ordem."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Checklist final antes de liberar",
+      "blocos": [
+        {
+          "lista": [
+            "Capa com imagem, medidas externas, tiragem, custo e revisão.",
+            "Vistas gerais cotadas e explodida com lista de peças.",
+            "Cortes e detalhes de encaixes, ligações e soldas.",
+            "Planificado 1:1 de cada peça com camadas separadas.",
+            "Plano de corte por chapa com aproveitamento e corte linear de tubo e arame.",
+            "Artes finais 1:1 em CMYK com sangria e faca separada.",
+            "Verificação estrutural escrita com números.",
+            "Modelo 3D sem interferência entre peças.",
+            "Arquivos DXF abertos e conferidos em PDF.",
+            "Lista de materiais com custo, instrução de montagem, embalagem, etiqueta e pendências a confirmar com a fábrica."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é executivo de PDV?",
+      "a": "É o conjunto de documentos técnicos que permite à fábrica produzir uma peça de ponto de venda sem precisar consultar quem projetou. Inclui vistas cotadas, detalhes, planificados e facas, plano de corte, lista de materiais, montagem, embalagem e verificação estrutural."
+    },
+    {
+      "q": "Qual a diferença entre render e executivo?",
+      "a": "O render mostra como a peça vai ficar e serve para aprovação. O executivo diz como fabricar: medidas, materiais, espessuras, processos, encaixes, ferragens e acabamentos. Uma peça aprovada só no render deixa decisões técnicas para a fábrica adivinhar."
+    },
+    {
+      "q": "Quais normas usar no desenho técnico de PDV?",
+      "a": "As principais são as normas ABNT de desenho técnico: NBR 10068 para formato de folha, NBR 10582 para leiaute e legenda, NBR 8403 para linhas, NBR 10067 para vistas, NBR 10126 para cotagem e NBR 8196 para escalas. Para tolerância geral, quando a fábrica não tem a sua, usa-se a ISO 2768-m."
+    },
+    {
+      "q": "Por que o encaixe do display não entrou na montagem?",
+      "a": "Na maior parte dos casos o encaixe foi desenhado com a espessura nominal da chapa, ou a camada de pintura não foi descontada. A regra é usar a espessura real medida do lote mais 0,3 a 0,5 mm de folga, e descontar de 60 a 80 micrômetros por face em peças com pintura epóxi-pó."
+    },
+    {
+      "q": "O que precisa ir na etiqueta da embalagem de display?",
+      "a": "Código da peça, revisão, conteúdo do volume, quantidade e indicação de lado de abrir. Com isso a loja confere se o kit chegou completo sem abrir todas as caixas e monta na ordem certa."
+    }
+  ],
+  "palavras_chave": [
+    "executivo de PDV",
+    "checklist de produção de display",
+    "desenho técnico de display",
+    "faca de display",
+    "planificado de chapa",
+    "lista de materiais de PDV",
+    "normas ABNT de desenho técnico",
+    "retrabalho em produção de PDV",
+    "trade marketing"
+  ]
+}
