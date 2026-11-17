@@ -18,3 +18,6 @@ Depois de publicar página nova ou mudar página existente, rode `python3 _build
 
 ## Google Analytics 4
 Tag G-JL0KM1HHNM (propriedade "75 LAB", conta Agência Becker Marketing) no `<head>` de todas as páginas, junto com a do Google Ads. O gerador copia o cabeçalho do sobre.html, então página nova já sai com a tag.
+
+## Ordem obrigatória
+Sempre `python3 _build/paginas.py` ANTES de `python3 _build/seo.py`. O paginas.py copia o cabeçalho do sobre.html (com o bloco SEO dele); o seo.py é que reescreve o bloco certo de cada página.
