@@ -1,0 +1,144 @@
+{
+ "slug": "guia-briefing-display-pdv",
+ "titulo": "Como fazer o briefing de um display de PDV: as 6 respostas antes do 3D",
+ "titulo_seo": "Briefing de display de PDV: 6 respostas · 75 LAB",
+ "descricao": "Como escrever o briefing de um display de PDV: produto e carga, lugar na loja, medida da rede, montagem, reposição, campanha e logística.",
+ "resumo": "Um bom briefing de display de PDV responde seis perguntas antes do primeiro 3D: o que vai na peça e quanto pesa, em que lugar da loja ela fica, qual a medida máxima que a rede aceita, quem monta e quem abastece, o que troca ao longo da campanha e quantas lojas recebem. Com essas respostas escritas, o fornecedor projeta a peça certa na primeira rodada e a conversa sai do gosto para a operação.",
+ "secoes": [
+  {
+   "h2": "Por que o briefing decide o display",
+   "blocos": [
+    {
+     "p": "O display de PDV é desenhado a partir do que o briefing diz. Quando falta informação, o projeto preenche o buraco com suposição: uma prateleira que não aguenta o produto, uma peça mais alta do que a rede aceita, uma arte que não dá para trocar. Cada suposição errada vira uma rodada de ajuste, e cada rodada empurra a data da loja."
+    },
+    {
+     "p": "O briefing não precisa ser longo. Precisa responder seis perguntas que mudam a forma da peça. Abaixo, cada uma com o que escrever e o que ela muda no projeto. Para ver como esses itens aparecem numa peça real, vale olhar os projetos de [display de PDV](display-de-pdv.html)."
+    }
+   ]
+  },
+  {
+   "h2": "1. O que vai na peça e quanto pesa",
+   "blocos": [
+    {
+     "p": "Liste os produtos (SKU), as dimensões da embalagem, o peso unitário e quantas frentes cada marca ou sabor deve ter. Se a peça leva mais de uma marca, diga a divisão: metade e metade, por nível ou por coluna."
+    },
+    {
+     "p": "Isso define o vão e a profundidade das prateleiras, a inclinação, a borda que segura a embalagem e onde entra a etiqueta de preço. Também define a carga por nível, que é a base da conta estrutural explicada no guia [display que não tomba](guia-display-que-nao-tomba.html)."
+    }
+   ]
+  },
+  {
+   "h2": "2. Em que lugar da loja ela fica",
+   "blocos": [
+    {
+     "p": "Ponta de gôndola, ilha, corredor, checkout ou balcão: cada lugar pede uma peça diferente. A ilha é vista por todos os lados e precisa de comunicação nas quatro faces; a ponta é vista de frente e convive com a gôndola da rede; o checkout tem pouca profundidade e muita gente passando."
+    },
+    {
+     "p": "Diga também quem é o shopper naquele ponto: quem está de passagem decide em segundos, então a marca precisa ser lida de longe; quem está no corredor da categoria compara, então a organização das frentes pesa mais. O guia de [ponta de gôndola](guia-ponta-de-gondola.html) detalha esse caso."
+    }
+   ]
+  },
+  {
+   "h2": "3. Qual a medida máxima que a rede aceita",
+   "blocos": [
+    {
+     "p": "Altura, largura e profundidade máximas vêm da loja, não da vontade da marca. Se a rede tem regra de altura para não bloquear a visão do salão, ou se o corredor precisa deixar passar dois carrinhos, isso entra no briefing com o número."
+    },
+    {
+     "p": "Quando a peça vai para lojas de tamanhos diferentes, diga a menor e a maior. É o que leva a soluções modulares, em que a mesma estrutura cresce ou encolhe conforme o espaço."
+    }
+   ]
+  },
+  {
+   "h2": "4. Quem monta, quem abastece e quem confere",
+   "blocos": [
+    {
+     "p": "Escreva se a peça chega montada ou em partes, quem monta (promotor, montador terceirizado, equipe da loja) e se pode haver ferramenta. Peça que o promotor monta sozinho, sem ferramenta, tem encaixes diferentes de uma peça montada por equipe técnica."
+    },
+    {
+     "p": "Diga quem repõe e de quanto em quanto tempo. Produto de giro alto pede mais capacidade por nível ou reposição fácil pela frente. Se a peça muda de lugar na loja, rodízio na base resolve. E defina como a montagem será conferida loja a loja: foto, data e local, ou um sistema de [rastreamento de material de PDV](rastreamento-material-pdv.html)."
+    }
+   ]
+  },
+  {
+   "h2": "5. O que troca e quando",
+   "blocos": [
+    {
+     "p": "Separe o que é estrutura do que é comunicação. Se a campanha muda a cada mês ou a peça atende mais de uma marca, a arte precisa ser peça solta: testeira, lateral ou faixa que se troca sem desmontar o display."
+    },
+    {
+     "p": "Informe a duração prevista da peça na loja. Uma peça de algumas semanas pode usar material mais leve; uma que fica o ano inteiro precisa de estrutura que aguente o uso e de comunicação que se renova."
+    }
+   ]
+  },
+  {
+   "h2": "6. Quantas lojas e como chega",
+   "blocos": [
+    {
+     "p": "A quantidade muda o processo de fabricação e o custo por unidade. Diga quantas lojas, em quais regiões e se a entrega vai para um centro de distribuição ou direto para cada loja."
+    },
+    {
+     "p": "A forma de transporte define a embalagem e se a peça precisa desmontar para caber no carro do promotor. Esse item costuma ser esquecido e é um dos que mais geram ajuste depois que o projeto está aprovado."
+    }
+   ]
+  },
+  {
+   "h2": "Exemplo: as respostas que viram a peça",
+   "blocos": [
+    {
+     "p": "No display modular que a 75 LAB desenhou para Lacta e Bis, para a distribuidora Cabral e Sousa, dá para ver as respostas do briefing na própria peça: cada nível dividido entre as duas marcas, etiqueta de preço em cada frente, prateleira inclinada com borda, testeira com as duas marcas, lateral reservada para a campanha e rodízios na base. O projeto está na página de [cases](cases.html)."
+    }
+   ]
+  },
+  {
+   "h2": "Modelo rápido de briefing",
+   "blocos": [
+    {
+     "p": "Antes de mandar o briefing, confira se ele tem estes itens escritos:"
+    },
+    {
+     "lista": [
+      "Produtos, medidas e peso da embalagem, frentes por marca.",
+      "Lugar na loja e perfil do shopper naquele ponto.",
+      "Altura, largura e profundidade máximas aceitas pela rede.",
+      "Quem monta, se pode usar ferramenta, quem repõe e com que frequência.",
+      "O que é fixo, o que troca e por quanto tempo a peça fica na loja.",
+      "Quantidade de lojas, regiões, entrega e transporte."
+     ]
+    },
+    {
+     "p": "Com isso, a primeira rodada de 3D já mostra a peça no tamanho e na operação certos. Quando der, vale validar a peça na loja em [realidade aumentada](realidade-aumentada-pdv.html) antes de produzir."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "O que é briefing de display de PDV?",
+   "a": "É o documento que a marca entrega ao fornecedor antes do projeto, com o que a peça precisa fazer: produto, lugar na loja, medidas aceitas pela rede, montagem, reposição, campanha e logística."
+  },
+  {
+   "q": "O que não pode faltar no briefing de um display?",
+   "a": "Peso e medida do produto, lugar da loja, medida máxima da rede, quem monta e quem repõe, o que troca ao longo da campanha e quantas lojas recebem a peça."
+  },
+  {
+   "q": "Por que informar o peso do produto no briefing?",
+   "a": "Porque a carga por nível define material, espessura e vão da prateleira. Sem esse número, não dá para garantir que a prateleira não enverga nem que a peça fica estável cheia."
+  },
+  {
+   "q": "Como o briefing evita retrabalho no display?",
+   "a": "Cada pergunta sem resposta vira suposição no projeto, e suposição errada vira rodada de ajuste. Com as seis respostas escritas, o primeiro 3D já sai no tamanho, na carga e na operação certos."
+  }
+ ],
+ "palavras_chave": [
+  "briefing de display",
+  "briefing de PDV",
+  "como fazer briefing de display",
+  "display de PDV",
+  "projeto de display",
+  "material de ponto de venda",
+  "trade marketing",
+  "display modular"
+ ],
+ "data": "2026-11-17"
+}

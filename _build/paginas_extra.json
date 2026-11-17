@@ -1036,6 +1036,82 @@
    ]
   ]
  },
+ "guia-briefing-display-pdv.html": {
+  "titulo": "Briefing de display de PDV: 6 respostas · 75 LAB",
+  "descricao": "Como escrever o briefing de um display de PDV: produto e carga, lugar na loja, medida da rede, montagem, reposição, campanha e logística.",
+  "prioridade": "0.7",
+  "lang": "pt",
+  "imagem": null,
+  "tipo": "article",
+  "ld": [
+   {
+    "@type": "Article",
+    "@id": "https://75lab.com.br/guia-briefing-display-pdv.html#artigo",
+    "headline": "Como fazer o briefing de um display de PDV: as 6 respostas antes do 3D",
+    "description": "Como escrever o briefing de um display de PDV: produto e carga, lugar na loja, medida da rede, montagem, reposição, campanha e logística.",
+    "author": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "mainEntityOfPage": "https://75lab.com.br/guia-briefing-display-pdv.html",
+    "image": "https://75lab.com.br/img/og-75lab.jpg",
+    "keywords": "briefing de display, briefing de PDV, como fazer briefing de display, display de PDV, projeto de display, material de ponto de venda, trade marketing, display modular"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/guia-briefing-display-pdv.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "O que é briefing de display de PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É o documento que a marca entrega ao fornecedor antes do projeto, com o que a peça precisa fazer: produto, lugar na loja, medidas aceitas pela rede, montagem, reposição, campanha e logística."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O que não pode faltar no briefing de um display?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Peso e medida do produto, lugar da loja, medida máxima da rede, quem monta e quem repõe, o que troca ao longo da campanha e quantas lojas recebem a peça."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Por que informar o peso do produto no briefing?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Porque a carga por nível define material, espessura e vão da prateleira. Sem esse número, não dá para garantir que a prateleira não enverga nem que a peça fica estável cheia."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como o briefing evita retrabalho no display?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Cada pergunta sem resposta vira suposição no projeto, e suposição errada vira rodada de ajuste. Com as seis respostas escritas, o primeiro 3D já sai no tamanho, na carga e na operação certos."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Como fazer o briefing de um display de PDV",
+    "/guia-briefing-display-pdv.html"
+   ]
+  ]
+ },
  "guia-checklist-executivo-pdv.html": {
   "titulo": "Checklist do executivo de PDV para produção · 75 LAB",
   "descricao": "O que um executivo técnico de PDV precisa ter antes de ir para a fábrica: vistas, cotas, materiais, faca, planificado, lista de materiais, montagem e embalagem.",
