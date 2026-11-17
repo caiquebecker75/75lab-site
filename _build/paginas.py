@@ -202,14 +202,15 @@ def guia_de_json(g):
             'h1': g['titulo'], 'lead': g['descricao'], 'resumo': g['resumo'], 'secoes': secoes,
             'faq': g.get('faq', []), 'palavras_chave': g.get('palavras_chave', []),
             'migalhas': [('Guias', '/guias.html'), (g['titulo'].split(':')[0], None)],
-            'relacionados': [('Display de PDV', 'display-de-pdv.html'), ('Realidade aumentada para PDV', 'realidade-aumentada-pdv.html'),
+            'relacionados': [('Calculadora de display de PDV', 'calculadora-display-pdv.html'), ('Display de PDV', 'display-de-pdv.html'), ('Realidade aumentada para PDV', 'realidade-aumentada-pdv.html'),
                              ('Todos os guias', 'guias.html')],
             'prioridade': '0.7', 'data': g.get('data', HOJE)}
 
 
 def indice_guias(guias):
     topo, rodape = molde()
-    cards = ''.join(
+    cards = ('<a class="lcard" href="calculadora-display-pdv.html"><span class="k">Ferramenta grátis</span><h3>Calculadora de display de PDV</h3>'
+             '<p>Qual material usar, se a prateleira aguenta o produto com a fluência do MDF e a carga do clip strip por gancho.</p><span class="go">Usar a calculadora →</span></a>') + ''.join(
         f'<a class="lcard" href="{g["slug"]}.html"><span class="k">Guia</span><h3>{html.escape(g["titulo"])}</h3>'
         f'<p>{html.escape(g["resumo"][:180].rsplit(" ", 1)[0])}...</p><span class="go">Ler guia →</span></a>' for g in guias)
     meio = f'''
@@ -254,7 +255,7 @@ def main():
         corpo = t[t.index('-->') + 3:]
         open(os.path.join(RAIZ, meta['slug'] + '.html'), 'w', encoding='utf-8').write(topo + '\n' + corpo + '\n' + rodape)
         extra[meta['slug'] + '.html'] = {'titulo': meta['titulo'], 'descricao': meta['descricao'],
-                                         'prioridade': meta.get('prioridade', '0.6'), 'migalhas': meta.get('migalhas', []), 'ld': []}
+                                         'prioridade': meta.get('prioridade', '0.6'), 'migalhas': meta.get('migalhas', []), 'ld': meta.get('ld', [])}
     # trava de qualidade: nada de travessão nas páginas geradas
     for arq in extra:
         t = open(os.path.join(RAIZ, arq), encoding='utf-8').read()

@@ -2442,6 +2442,40 @@
   ],
   "ld": []
  },
+ "calculadora-display-pdv.html": {
+  "titulo": "Calculadora de display de PDV: material, carga e flecha · 75 LAB",
+  "descricao": "Calculadora grátis para display de PDV: qual material usar, se a prateleira aguenta o produto (carga, flecha e fluência do MDF) e a carga do clip strip por gancho.",
+  "prioridade": "0.8",
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Calculadora de display",
+    "/calculadora-display-pdv.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "WebApplication",
+    "name": "Calculadora de display de PDV",
+    "url": "https://75lab.com.br/calculadora-display-pdv.html",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Qualquer navegador",
+    "inLanguage": "pt-BR",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "BRL"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    }
+   }
+  ]
+ },
  "imprensa.html": {
   "titulo": "Kit de imprensa da 75 LAB: fatos, logos e contato",
   "descricao": "Texto institucional, fatos oficiais, sócios, logos para download e contato de imprensa da 75 LAB, agência de PDV e trade marketing de São Paulo.",

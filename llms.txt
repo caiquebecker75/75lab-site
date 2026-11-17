@@ -34,6 +34,9 @@ Fatos:
 - [Case Alltak: estande Revest Fácil em AR e modo imersivo](https://75lab.com.br/case-alltak-revest-facil.html): Estande Revest Fácil da Alltak, de 12 × 7 metros, em realidade aumentada e modo imersivo, com duas versões comparadas antes da construção.
 - [Portfólio com 84 cases](https://75lab.com.br/cases.html)
 
+## Ferramentas
+- [Calculadora de display de PDV](https://75lab.com.br/calculadora-display-pdv.html): ferramenta grátis para escolher o material do display, conferir carga e flecha da prateleira (com fluência do MDF) e a carga do clip strip por gancho.
+
 ## Guias
 - [Checklist do executivo de PDV para produção](https://75lab.com.br/guia-checklist-executivo-pdv.html): O que um executivo técnico de PDV precisa ter antes de ir para a fábrica: vistas, cotas, materiais, faca, planificado, lista de materiais, montagem e embalagem.
 - [Clip strip no PDV: quando usar e como especificar](https://75lab.com.br/guia-clip-strip.html): Quando usar clip strip no PDV, onde pendurar, como calcular a carga por gancho, escolher material e comprimento da tira e evitar que rasgue ou caia na loja.

@@ -1,0 +1,163 @@
+<!--{"slug":"calculadora-display-pdv","titulo":"Calculadora de display de PDV: material, carga e flecha · 75 LAB","descricao":"Calculadora grátis para display de PDV: qual material usar, se a prateleira aguenta o produto (carga, flecha e fluência do MDF) e a carga do clip strip por gancho.","prioridade":"0.8","migalhas":[["Guias","/guias.html"],["Calculadora de display","/calculadora-display-pdv.html"]],"ld":[{"@type":"WebApplication","name":"Calculadora de display de PDV","url":"https://75lab.com.br/calculadora-display-pdv.html","applicationCategory":"BusinessApplication","operatingSystem":"Qualquer navegador","inLanguage":"pt-BR","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"},"publisher":{"@id":"https://75lab.com.br/#org"}}]}-->
+<section class="phero"><span class="glow g1"></span><span class="glow g2"></span>
+  <div class="wrap inner">
+    <div class="crumbs fx"><a href="index.html">Início</a> / <a href="guias.html">Guias</a> / Calculadora de display</div>
+    <span class="eyebrow fx" data-n="">Ferramenta grátis</span>
+    <h1 class="fx" data-fx="left">Calculadora de <em>display</em> de PDV.</h1>
+    <p class="fx">Três contas que todo display precisa antes de ir para a fábrica: qual material usar, se a prateleira aguenta o produto e quanto carrega cada gancho do clip strip. Sem cadastro.</p>
+  </div>
+</section>
+<style>
+  .calc-res{background:var(--ink);color:var(--paper);padding:22px 22px 18px;margin:6px 0 34px}
+  .calc-res .k{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--lime)}
+  .calc-res strong.big{display:block;font-family:var(--display);font-weight:900;font-size:clamp(26px,3vw,34px);line-height:1.05;margin:8px 0 10px;text-transform:uppercase}
+  .calc-res p,.calc-res li{font-size:15px;color:rgba(242,241,233,.86);margin:0 0 8px}
+  .calc-res ul{margin:0;padding-left:18px}
+  .calc-res .ok{color:var(--lime)} .calc-res .nao{color:#ff8a7a}
+  .calc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}
+  @media (max-width:640px){.calc-grid{grid-template-columns:1fr}}
+  .calc-nota{font-size:14px;color:rgba(5,5,5,.7)}
+</style>
+<section class="section--paper artigo">
+  <div class="wrap art-grid">
+    <div class="art-main">
+      <p class="resumo">Esta calculadora usa as mesmas regras de projeto dos nossos guias: carga real do produto com 20% de folga, flecha de prateleira pela fórmula clássica da resistência dos materiais, limite de L/300 para prateleira à vista e L/200 para prateleira escondida, e fluência do MDF e do MDP multiplicando a flecha por 3,25. É uma conta de pré-projeto: o executivo e a ficha do fornecedor confirmam.</p>
+
+      <h2 id="material">1. Qual material usar no display</h2>
+      <form class="pesq" id="fMat" novalidate>
+        <fieldset><legend>Quanto tempo a peça fica na loja?</legend>
+          <div class="ops"><label><input type="radio" name="tempo" value="temp" checked>Semanas (ação temporária)</label><label><input type="radio" name="tempo" value="perm">Meses, com troca de comunicação</label></div>
+        </fieldset>
+        <fieldset><legend>Quanto pesa o produto?</legend>
+          <div class="ops"><label><input type="radio" name="peso" value="leve" checked>Leve (snack, cosmético, item pequeno)</label><label><input type="radio" name="peso" value="medio">Médio</label><label><input type="radio" name="peso" value="pesado">Pesado (bebida, pet food, eletro)</label></div>
+        </fieldset>
+        <fieldset><legend>Quantas lojas vão receber?</legend>
+          <div class="ops"><label><input type="radio" name="lojas" value="poucas">Poucas (piloto)</label><label><input type="radio" name="lojas" value="dezenas" checked>Dezenas</label><label><input type="radio" name="lojas" value="centenas">Centenas ou mais</label></div>
+        </fieldset>
+        <fieldset><legend>Qual o canal?</legend>
+          <div class="ops"><label><input type="radio" name="canal" value="auto" checked>Supermercado e atacarejo</label><label><input type="radio" name="canal" value="farma">Farma e cosméticos</label><label><input type="radio" name="canal" value="conv">Conveniência e balcão</label></div>
+        </fieldset>
+      </form>
+      <div class="calc-res" id="rMat" aria-live="polite"></div>
+
+      <h2 id="prateleira">2. A prateleira aguenta o produto?</h2>
+      <form class="pesq" id="fPrat" novalidate>
+        <fieldset><legend>Carga de um nível</legend>
+          <div class="calc-grid">
+            <label>Peso de uma unidade (g)<input name="un" inputmode="decimal" value="350"></label>
+            <label>Frentes por nível<input name="fr" inputmode="numeric" value="6"></label>
+            <label>Unidades na profundidade<input name="pr" inputmode="numeric" value="4"></label>
+            <label>Níveis do display<input name="nv" inputmode="numeric" value="4"></label>
+          </div>
+        </fieldset>
+        <fieldset><legend>A prateleira</legend>
+          <div class="calc-grid">
+            <label>Material
+              <select name="mat">
+                <option value="mdf">MDF</option><option value="mdp">MDP</option><option value="comp">Compensado</option>
+                <option value="acr">Acrílico</option><option value="ps">PS alto impacto ou PETG</option><option value="pvc">PVC expandido</option>
+                <option value="al">Alumínio</option><option value="aco">Aço</option>
+              </select></label>
+            <label>Espessura (mm)<input name="t" inputmode="decimal" value="18"></label>
+            <label>Vão entre apoios (mm)<input name="L" inputmode="numeric" value="600"></label>
+            <label>Profundidade da prateleira (mm)<input name="b" inputmode="numeric" value="400"></label>
+          </div>
+          <div class="ops"><label><input type="radio" name="vista" value="300" checked>Prateleira à vista (L/300)</label><label><input type="radio" name="vista" value="200">Escondida (L/200)</label></div>
+        </fieldset>
+      </form>
+      <div class="calc-res" id="rPrat" aria-live="polite"></div>
+
+      <h2 id="clip-strip">3. Carga do clip strip</h2>
+      <form class="pesq" id="fClip" novalidate>
+        <fieldset><legend>A tira</legend>
+          <div class="calc-grid">
+            <label>Peso de uma unidade (g)<input name="un" inputmode="decimal" value="60"></label>
+            <label>Unidades por gancho<input name="ug" inputmode="numeric" value="1"></label>
+            <label>Número de ganchos<input name="ng" inputmode="numeric" value="12"></label>
+            <label>Peso da tira vazia (g)<input name="tira" inputmode="decimal" value="40"></label>
+          </div>
+        </fieldset>
+      </form>
+      <div class="calc-res" id="rClip" aria-live="polite"></div>
+
+      <h2>De onde vêm as regras</h2>
+      <ul>
+        <li><strong>Folga de 20%</strong> sobre a carga real, para cobrir o repositor que empilha a mais e a embalagem promocional mais pesada.</li>
+        <li><strong>Flecha</strong> por f = 5 q L⁴ / (384 E I), prateleira apoiada nas duas pontas com carga distribuída, I = b t³ / 12.</li>
+        <li><strong>Módulo E de referência</strong>: MDF 2,5 GPa, MDP 2 GPa, compensado 6 GPa, acrílico 3 GPa, PS e PETG 2 GPa, PVC expandido 0,8 GPa, alumínio 70 GPa, aço 200 GPa. Confirme na ficha do fornecedor.</li>
+        <li><strong>Fluência</strong>: MDF e MDP continuam cedendo sob carga contínua; a flecha final fica perto de 3,25 vezes a inicial (kdef de cerca de 2,25, Eurocode 5, ambiente seco). Plásticos também fluem: para eles, peça o dado ao fornecedor.</li>
+      </ul>
+      <p class="calc-nota">O passo a passo completo está nos guias <a href="guia-display-que-nao-tomba.html">display que não tomba</a>, <a href="guia-material-display-pdv.html">material do display</a> e <a href="guia-clip-strip.html">clip strip</a>. A calculadora não substitui o executivo nem o teste com o produto real.</p>
+    </div>
+    <aside class="art-aside">
+      <div class="cta-card"><span class="k">Próximo passo</span><h3>Veja o display na gôndola antes de produzir</h3><p>Mandamos o seu display em realidade aumentada, em tamanho real, em até 48 horas úteis e sem custo.</p>
+        <a class="btn btn--onink" href="realidade-aumentada-pdv.html">Quero ver em AR <span class="arr">→</span></a></div>
+      <div class="rel"><span class="k">Veja também</span><a href="guias.html">Guias práticos de PDV</a><a href="display-de-pdv.html">Display de PDV</a><a href="raio-x-pdv.html">Pesquisa Raio-X do PDV</a></div>
+    </aside>
+  </div>
+</section>
+<script>
+(function(){
+  var num = function(f, n){ var v = String(f.elements[n].value || '').replace(/\./g, '').replace(',', '.'); var x = parseFloat(v); return isFinite(x) && x > 0 ? x : 0; };
+  var dec = function(f, n){ var v = String(f.elements[n].value || '').replace(',', '.'); var x = parseFloat(v); return isFinite(x) && x > 0 ? x : 0; };
+  var br = function(x, c){ return x.toLocaleString('pt-BR', {minimumFractionDigits: c, maximumFractionDigits: c}); };
+  var val = function(f, n){ var r = f.querySelector('input[name="' + n + '"]:checked'); return r ? r.value : ''; };
+  var usou = {};
+  var marca = function(k){ if (!usou[k] && window.gtag) { usou[k] = 1; gtag('event', 'calculadora_uso', {ferramenta: k}); } };
+
+  var fMat = document.getElementById('fMat'), rMat = document.getElementById('rMat');
+  function material(){
+    var t = val(fMat, 'tempo'), p = val(fMat, 'peso'), l = val(fMat, 'lojas'), c = val(fMat, 'canal');
+    var nome, porque, atencao;
+    if (t === 'temp') {
+      if (p === 'pesado') { nome = 'Arame de aço ou papelão reforçado'; porque = 'Ação curta com produto pesado: o arame carrega muito com pouco material e viaja compacto; o papelão só entra com reforço interno e se a conta de carga fechar.'; atencao = 'Papelão perde resistência com umidade e com o piso molhado da limpeza.'; }
+      else { nome = 'Papelão ondulado'; porque = 'Ação de semanas com produto leve ou médio: vai plano, monta por dobra e encaixe, sem ferramenta, e tem o menor custo por loja em tiragem grande.'; atencao = 'Confira a onda e o reforço interno pela carga do nível, e o piso molhado da limpeza.'; }
+    } else {
+      if (p === 'pesado') { nome = 'Chapa de aço dobrada, tubo ou arame'; porque = 'Peça permanente com carga alta: estrutura metálica aguenta e pode ser reaproveitada em novas campanhas.'; atencao = 'Pintura epóxi-pó soma espessura e interfere no encaixe; peça soldada ocupa volume no transporte.'; }
+      else if (c === 'farma') { nome = 'Acrílico, PETG ou PS'; porque = 'Farma e cosméticos com produto leve: acabamento de vitrine, porta-preço e testeira, com peça permanente se protegida de impacto.'; atencao = 'Acrílico extrudado trinca em furo perto da borda; plástico fino não segura rosca.'; }
+      else { nome = 'MDF ou MDP'; porque = 'Peça permanente com carga média: ilha, ponta de gôndola e balcão, com troca de comunicação ao longo dos meses.'; atencao = 'MDF e MDP fluem sob carga contínua: faça a conta da prateleira abaixo com a fluência.'; }
+    }
+    var tir = l === 'centenas' ? 'Com centenas de lojas, o custo por loja e a montagem sem ferramenta pesam mais que o preço da peça.' : (l === 'poucas' ? 'Em piloto, vale testar a montagem em uma loja antes de rodar o lote.' : 'Divida o custo total pelas lojas que realmente vão expor, não pelas que vão receber.');
+    rMat.innerHTML = '<span class="k">Ponto de partida</span><strong class="big">' + nome + '</strong><p>' + porque + '</p><ul><li>' + atencao + '</li><li>' + tir + '</li></ul>';
+  }
+  fMat.addEventListener('change', function(){ material(); marca('material'); });
+  material();
+
+  var E = {mdf: 2500, mdp: 2000, comp: 6000, acr: 3000, ps: 2000, pvc: 800, al: 70000, aco: 200000};
+  var flui = {mdf: 3.25, mdp: 3.25};
+  var fPrat = document.getElementById('fPrat'), rPrat = document.getElementById('rPrat');
+  function prateleira(){
+    var un = dec(fPrat, 'un'), fr = num(fPrat, 'fr'), pr = num(fPrat, 'pr'), nv = num(fPrat, 'nv');
+    var mat = fPrat.elements.mat.value, t = dec(fPrat, 't'), L = num(fPrat, 'L'), b = num(fPrat, 'b'), lim = parseInt(val(fPrat, 'vista'), 10);
+    if (!un || !fr || !pr || !t || !L || !b) { rPrat.innerHTML = '<span class="k">Faltam dados</span><p>Preencha peso, frentes, profundidade, espessura, vão e profundidade da prateleira.</p>'; return; }
+    var kg = un * fr * pr / 1000, kgF = kg * 1.2, total = kgF * (nv || 1);
+    var q = kgF * 9.81 / L, I = b * Math.pow(t, 3) / 12;
+    var f0 = 5 * q * Math.pow(L, 4) / (384 * E[mat] * I), ff = f0 * (flui[mat] || 1), fmax = L / lim;
+    var passa = ff <= fmax;
+    var tmin = t; if (!passa) { while (tmin < 80) { tmin += 1; var Ii = b * Math.pow(tmin, 3) / 12; if (5 * q * Math.pow(L, 4) / (384 * E[mat] * Ii) * (flui[mat] || 1) <= fmax) break; } }
+    var Lmax = Math.pow(fmax * 384 * E[mat] * I / (5 * (kgF * 9.81) * (flui[mat] || 1)), 1 / 3);
+    var h = '<span class="k">Carga por nível com 20% de folga</span><strong class="big">' + br(kgF, 1) + ' kg por nível</strong>';
+    h += '<p>Produto: ' + br(kg, 1) + ' kg por nível. Display cheio: ' + br(total, 1) + ' kg em ' + (nv || 1) + ' níveis.</p><ul>';
+    h += '<li>Flecha inicial: ' + br(f0, 1) + ' mm.</li>';
+    if (flui[mat]) h += '<li>Flecha com a fluência do material: ' + br(ff, 1) + ' mm.</li>';
+    h += '<li>Limite L/' + lim + ': ' + br(fmax, 1) + ' mm. <span class="' + (passa ? 'ok' : 'nao') + '">' + (passa ? 'Passa.' : 'Não passa.') + '</span></li>';
+    if (!passa) h += '<li>Para passar: espessura de cerca de ' + br(tmin, 0) + ' mm, ou vão de até ' + br(Math.floor(Lmax / 10) * 10, 0) + ' mm com a espessura atual, ou um apoio no meio, ou reforço metálico embaixo.</li>';
+    if (!flui[mat] && (mat === 'acr' || mat === 'ps' || mat === 'pvc')) h += '<li>Plásticos também cedem com o tempo sob carga: peça o dado de fluência ao fornecedor.</li>';
+    h += '</ul>';
+    rPrat.innerHTML = h;
+  }
+  fPrat.addEventListener('input', function(){ prateleira(); marca('prateleira'); });
+  fPrat.addEventListener('change', prateleira);
+  prateleira();
+
+  var fClip = document.getElementById('fClip'), rClip = document.getElementById('rClip');
+  function clip(){
+    var un = dec(fClip, 'un'), ug = num(fClip, 'ug'), ng = num(fClip, 'ng'), tira = dec(fClip, 'tira');
+    if (!un || !ug || !ng) { rClip.innerHTML = '<span class="k">Faltam dados</span><p>Preencha peso da unidade, unidades por gancho e número de ganchos.</p>'; return; }
+    var gancho = un * ug * 1.2, total = (un * ug * ng + tira) * 1.2;
+    rClip.innerHTML = '<span class="k">Carga de projeto com 20% de folga</span><strong class="big">' + br(total / 1000, 2) + ' kg no ponto de fixação</strong><ul><li>Cada gancho: ' + br(gancho, 0) + ' g.</li><li>O topo da tira e o gancho da régua de preço da rede precisam aguentar esse peso de forma contínua, sem escorregar.</li><li>Antes do lote, pendure a tira cheia com o produto real por alguns dias.</li></ul>';
+  }
+  fClip.addEventListener('input', function(){ clip(); marca('clip_strip'); });
+  clip();
+})();
+</script>
