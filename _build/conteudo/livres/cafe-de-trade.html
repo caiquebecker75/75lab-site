@@ -1,0 +1,69 @@
+<!--{"slug":"cafe-de-trade","titulo":"Café de Trade: encontro de quem toca trade marketing · 75 LAB","descricao":"Café da manhã para 12 profissionais de trade marketing da indústria no CENU, em São Paulo. Primeira edição em abril de 2027 com os dados do Raio-X do PDV.","prioridade":"0.6","migalhas":[["Café de Trade","/cafe-de-trade.html"]]}-->
+<section class="phero"><span class="glow g1"></span><span class="glow g2"></span>
+  <div class="wrap inner">
+    <div class="crumbs fx"><a href="index.html">Início</a> / Café de Trade</div>
+    <span class="eyebrow fx" data-n="">Encontro</span>
+    <h1 class="fx" data-fx="left">Café de <em>Trade</em>.</h1>
+    <p class="fx">Um café da manhã para 12 pessoas que tocam trade marketing na indústria. Sem palco, sem venda: conversa franca sobre o que funciona e o que não funciona no PDV.</p>
+  </div>
+</section>
+<section class="section--paper artigo">
+  <div class="wrap art-grid">
+    <div class="art-main">
+      <p class="resumo">O Café de Trade é um encontro pequeno, organizado pela 75 LAB no CENU, em São Paulo. A primeira edição está prevista para abril de 2027 e vai abrir os resultados da pesquisa Raio-X do PDV 2027 em primeira mão. A participação é gratuita e por convite; a pré-inscrição abaixo garante prioridade.</p>
+
+      <h2>Como funciona</h2>
+      <ul>
+        <li><strong>12 lugares por edição</strong>, para a conversa caber numa mesa.</li>
+        <li><strong>Público:</strong> analistas, coordenadores e gerentes de trade marketing da indústria de bens de consumo.</li>
+        <li><strong>Formato:</strong> café da manhã de cerca de 1h30, com um tema por edição e troca entre os participantes.</li>
+        <li><strong>Local:</strong> CENU, Torre Norte, Av. das Nações Unidas, 12.901, Brooklin, São Paulo.</li>
+        <li><strong>Primeira edição:</strong> abril de 2027, data a confirmar com os pré-inscritos. Tema: o que o Raio-X do PDV 2027 mostrou sobre material de PDV que chega (ou não) montado na loja.</li>
+      </ul>
+
+      <h2>Pré-inscrição</h2>
+      <form id="cafe" class="pesq" novalidate>
+        <fieldset><legend>Seus dados</legend>
+          <label>Nome<input name="nome" maxlength="80" required></label>
+          <label>Cargo<input name="cargo" maxlength="80" required placeholder="Ex.: gerente de trade marketing"></label>
+          <label>Empresa<input name="empresa" maxlength="80" required></label>
+          <label>E-mail corporativo<input name="email" type="email" maxlength="120" required></label>
+          <label>Celular (opcional)<input name="celular" maxlength="30"></label>
+          <label>Um tema que você quer ver na mesa (opcional)<input name="tema" maxlength="300" placeholder="Ex.: como provar para a diretoria que o PDV vendeu"></label>
+          <label class="check"><input type="checkbox" name="consentimento">Autorizo a 75 LAB a usar estes dados para me convidar para o Café de Trade e mandar conteúdos de trade marketing. Posso sair quando quiser.</label>
+        </fieldset>
+        <button class="btn" type="submit" id="enviarCafe">Quero participar <span class="arr">→</span></button>
+        <p class="pesq-msg" id="cafeMsg" role="status"></p>
+      </form>
+    </div>
+    <aside class="art-aside">
+      <div class="cta-card"><span class="k">Enquanto isso</span><h3>Responda o Raio-X do PDV</h3><p>São 12 perguntas, uns 4 minutos. Os resultados abrem a primeira edição do Café de Trade.</p>
+        <a class="btn btn--onink" href="raio-x-pdv.html">Responder <span class="arr">→</span></a></div>
+      <div class="rel"><span class="k">Veja também</span><a href="guias.html">Guias práticos de PDV</a><a href="cases.html">Cases</a><a href="sobre.html">Sobre a 75 LAB</a></div>
+    </aside>
+  </div>
+</section>
+<script type="module">
+  const SDK = 'https://www.gstatic.com/firebasejs/10.12.2';
+  const cfg = {apiKey:'AIzaSyCb4C2BUehqzHnhEZT8FRF845czRvHupOk',authDomain:'instalacoes-75lab.firebaseapp.com',projectId:'instalacoes-75lab',appId:'1:313026663665:web:ddece8ae48112ea66c0550'};
+  const f = document.getElementById('cafe'), msg = document.getElementById('cafeMsg'), bt = document.getElementById('enviarCafe');
+  const origem = (new URLSearchParams(location.search).get('utm_source') || 'site').slice(0, 60);
+  f.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const d = new FormData(f), v = k => String(d.get(k) || '').trim();
+    const dados = {nome: v('nome').slice(0, 80), cargo: v('cargo').slice(0, 80), empresa: v('empresa').slice(0, 80), email: v('email').slice(0, 120), celular: v('celular').slice(0, 30), tema: v('tema').slice(0, 300)};
+    if (dados.nome.length < 2 || dados.cargo.length < 2 || dados.empresa.length < 2 || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(dados.email)) { msg.textContent = 'Preencha nome, cargo, empresa e um e-mail válido.'; return; }
+    if (d.get('consentimento') !== 'on') { msg.textContent = 'Marque a autorização para recebermos sua pré-inscrição.'; return; }
+    bt.disabled = true; msg.textContent = 'Enviando…';
+    try {
+      const {initializeApp} = await import(SDK + '/firebase-app.js');
+      const {getFirestore, collection, addDoc, serverTimestamp} = await import(SDK + '/firebase-firestore.js');
+      const db = getFirestore(initializeApp(cfg, 'cafe'));
+      await addDoc(collection(db, 'cafe_trade'), {...dados, consentimento: true, origem, criadoEm: serverTimestamp()});
+      f.innerHTML = '<h2>Pré-inscrição feita!</h2><p>A gente avisa por e-mail quando a data da primeira edição estiver confirmada.</p><p><a href="raio-x-pdv.html">Responder o Raio-X do PDV enquanto isso →</a></p>';
+      if (window.gtag) gtag('event', 'cafe_trade_preinscricao');
+    } catch (err) {
+      bt.disabled = false; msg.textContent = 'Não foi possível enviar agora. Tente de novo ou escreva para contato@75lab.com.br.';
+    }
+  });
+</script>

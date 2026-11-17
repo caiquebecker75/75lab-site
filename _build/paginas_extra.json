@@ -1711,6 +1711,34 @@
   ],
   "ld": []
  },
+ "cafe-de-trade.html": {
+  "titulo": "Café de Trade: encontro de quem toca trade marketing · 75 LAB",
+  "descricao": "Café da manhã para 12 profissionais de trade marketing da indústria no CENU, em São Paulo. Primeira edição em abril de 2027 com os dados do Raio-X do PDV.",
+  "prioridade": "0.6",
+  "migalhas": [
+   [
+    "Café de Trade",
+    "/cafe-de-trade.html"
+   ]
+  ],
+  "ld": []
+ },
+ "imprensa.html": {
+  "titulo": "Kit de imprensa da 75 LAB: fatos, logos e contato",
+  "descricao": "Texto institucional, fatos oficiais, sócios, logos para download e contato de imprensa da 75 LAB, agência de PDV e trade marketing de São Paulo.",
+  "prioridade": "0.6",
+  "migalhas": [
+   [
+    "Mídia",
+    "/midia.html"
+   ],
+   [
+    "Kit de imprensa",
+    "/imprensa.html"
+   ]
+  ],
+  "ld": []
+ },
  "raio-x-pdv.html": {
   "titulo": "Raio-X do PDV 2027: pesquisa com quem toca trade · 75 LAB",
   "descricao": "Pesquisa da 75 LAB com profissionais de trade marketing sobre material de PDV: quanto chega montado na loja, como se confirma a instalação e o que mais gera retrabalho.",
