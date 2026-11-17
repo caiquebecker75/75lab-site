@@ -5,8 +5,8 @@ Por que importa: hoje não existe ranking confiável de "agências de trade mark
 ## Diretórios (cada um pede conta; o Caique entra com a senha e eu preencho)
 | Prioridade | Onde | Situação | O que falta |
 |---|---|---|---|
-| 1 | oHub (ohub.com.br) | cadastro feito com marketing@ | senha; depois eu completo perfil, categorias trade marketing / PDV / displays, fotos e cases |
-| 2 | Bing Webmaster Tools | não existe | login Microsoft ou Google; importa o Search Console em 2 cliques. Bing alimenta o Copilot e a busca do ChatGPT |
+| 1 | oHub (ohub.com.br) | feito 17/11: descrição, categorias e 4 categorias exibidas | logo e galeria só em plano pago; selo de documentos (CNPJ) opcional |
+| 2 | Bing Webmaster Tools | feito 17/11: site verificado e sitemap enviado | nada |
 | 3 | Bing Places | não existe | mesmo login; importa o Perfil da Empresa do Google |
 | 4 | Clutch (clutch.co, lista Brasil) | não existe | conta grátis; perfil + pedir 3 reviews aos clientes que já avaliaram no Google |
 | 5 | Apple Business Connect | não existe | Apple ID da empresa; aparece no Mapas e na Siri |
