@@ -12,3 +12,9 @@ Depois de mexer em conteúdo:
 - Página fixa (index, cases, sobre...): título e descrição ficam em `PAGINAS` dentro de `seo.py`.
 - Fatos oficiais (CNPJ, endereço, sócios, contato) ficam em `FATOS` dentro de `seo.py` e no `llms.txt`.
 - Regra de texto: nada de travessão; o gerador recusa.
+
+## IndexNow (Bing, Copilot, busca do ChatGPT)
+Depois de publicar página nova ou mudar página existente, rode `python3 _build/indexnow.py /pagina.html` (sem argumento manda o sitemap inteiro). A chave fica em `/<chave>.txt` na raiz; não apague. O `guia_site.py publicar` do conteudo-75lab já chama sozinho.
+
+## Google Analytics 4
+Tag G-JL0KM1HHNM (propriedade "75 LAB", conta Agência Becker Marketing) no `<head>` de todas as páginas, junto com a do Google Ads. O gerador copia o cabeçalho do sobre.html, então página nova já sai com a tag.
