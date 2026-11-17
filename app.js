@@ -39,6 +39,8 @@
   if(sendBtn)sendBtn.addEventListener('click',function(){if(window.gtag)gtag('event','ads_conversion_Contact_Us_1',{});var g=function(id){return (document.getElementById(id).value||'').trim();};var emp=g('empresa'),nome=g('nome');var s=encodeURIComponent('[Briefing 75 LAB] '+(emp||nome||'Novo contato'));var b=encodeURIComponent('Nome: '+nome+'\nEmpresa: '+emp+'\nE-mail: '+g('email')+'\n\nIntenção comercial:\n'+g('msg'));location.href='mailto:contato@75lab.com.br?subject='+s+'&body='+b;});
   // conversao Google Ads tambem no clique de qualquer link de e-mail (mailto)
   document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href^="mailto:"]'):null;if(a&&window.gtag)gtag('event','ads_conversion_Contact_Us_1',{});});
+  // conversão também no clique para o WhatsApp (botões das páginas de serviço, cases e guias)
+  document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="wa.me/"]'):null;if(a&&window.gtag){gtag('event','ads_conversion_Contact_Us_1',{});gtag('event','whatsapp_click',{pagina:location.pathname});}});
 
   // ===== FX engine: entrada + saída de tela =====
   function fallbackShow(){document.querySelectorAll('.fx').forEach(function(el){el.classList.add('shown');});document.querySelectorAll('.fxstag').forEach(function(el){el.classList.add('shown');});}
