@@ -1,0 +1,193 @@
+{
+  "slug": "guia-clip-strip",
+  "titulo": "Clip strip: quando usar e como especificar",
+  "titulo_seo": "Clip strip no PDV: quando usar e como especificar · 75 LAB",
+  "descricao": "Quando usar clip strip no PDV, onde pendurar, como calcular a carga por gancho, escolher material e comprimento da tira e evitar que rasgue ou caia na loja.",
+  "resumo": "Clip strip é uma tira vertical com ganchos onde se penduram produtos leves, usada para criar um ponto extra de venda fora da gôndola da categoria, quase sempre em cross merchandising. Vale a pena quando o produto é leve, tem embalagem com furo e faz sentido junto de outra categoria. Para não rasgar nem cair, a especificação precisa partir do peso real por gancho com folga, do ponto de fixação da rede e de um material que aguente a carga contínua.",
+  "secoes": [
+    {
+      "h2": "O que é clip strip e para que serve",
+      "blocos": [
+        {
+          "p": "Clip strip, também chamado de tira de ganchos ou fita expositora, é uma tira plástica ou metálica com ganchos ao longo do comprimento. Ela é presa no alto, em geral na frente da prateleira, na régua de preço ou em uma barra, e o produto fica pendurado na vertical."
+        },
+        {
+          "p": "A grande vantagem é ocupar quase nada de espaço. Por isso o clip strip entra onde um display não entraria: na lateral de uma gôndola, no meio de outra categoria, perto do caixa. É uma das formas mais baratas de ganhar um ponto extra de exposição, desde que seja bem especificado."
+        }
+      ]
+    },
+    {
+      "h2": "Quando usar: cross merchandising e compra por impulso",
+      "blocos": [
+        {
+          "p": "O clip strip funciona melhor quando leva o produto até onde o shopper já está pensando na necessidade dele. Esse é o cross merchandising: expor um produto complementar junto da categoria âncora."
+        },
+        {
+          "lista": [
+            "Produto complementar: tempero perto da carne, pilha perto de brinquedo, escova perto do creme dental, acessório perto do aparelho.",
+            "Compra por impulso: snack, bala ou item pequeno perto do caixa ou de categoria de alto fluxo.",
+            "Lançamento de item pequeno: dar visibilidade sem disputar espaço na gôndola principal.",
+            "Teste de exposição: verificar se um ponto fora da categoria vende antes de investir em display."
+          ]
+        },
+        {
+          "p": "Ele não serve para produto pesado, frágil ou de embalagem sem furo. Para esses casos, um [display de PDV](display-de-pdv.html) ou cesto costuma ser a resposta."
+        }
+      ]
+    },
+    {
+      "h2": "Onde pendurar e como prender",
+      "blocos": [
+        {
+          "p": "O ponto de fixação decide se o clip strip fica ou cai. Antes de desenhar, descubra em que a peça vai ser presa em cada rede."
+        },
+        {
+          "lista": [
+            "Frente da prateleira ou régua de preço: o gancho de topo precisa ser desenhado para o perfil da régua da rede. Um perfil diferente faz o gancho escorregar.",
+            "Barra ou gancheira: o topo da tira tem furo ou gancho compatível com a barra.",
+            "Lateral de gôndola ou ponta: exige um suporte próprio, porque a lateral nem sempre tem onde prender.",
+            "Refrigerador e balcão: verificar se a rede permite fixar algo na porta ou na estrutura."
+          ]
+        },
+        {
+          "p": "Confira três coisas no ponto escolhido: se a tira não cobre preço nem produto de outro fornecedor, se o shopper alcança o gancho mais alto e o mais baixo sem se abaixar demais, e se a tira não bate na prateleira de baixo ou no chão quando está cheia."
+        }
+      ]
+    },
+    {
+      "h2": "Carga por gancho: a conta que evita a queda",
+      "blocos": [
+        {
+          "p": "Clip strip cai ou rasga quase sempre por carga subestimada. A conta é simples e precisa estar escrita:"
+        },
+        {
+          "lista": [
+            "Peso real de uma unidade, tirado da ficha do produto, e não estimado pela embalagem.",
+            "Quantas unidades cabem em cada gancho, pela profundidade do gancho e pela espessura da embalagem.",
+            "Carga por gancho = peso da unidade x unidades por gancho.",
+            "Carga total = carga por gancho x número de ganchos, mais o peso da própria tira.",
+            "Some 20% de folga, regra usual de projeto para o repositor que pendura a mais."
+          ]
+        },
+        {
+          "p": "A carga total é a que o ponto de fixação no topo precisa aguentar. Ela puxa a frente da prateleira ou da régua para baixo e para fora, então vale conferir se o perfil da rede suporta esse peso pendurado sem entortar. Quando a conta mostra carga alta, divida em duas tiras mais curtas em vez de uma longa."
+        }
+      ]
+    },
+    {
+      "h2": "Material, comprimento e ganchos",
+      "blocos": [
+        {
+          "p": "A especificação técnica de um clip strip cabe em poucos itens, mas cada um precisa estar definido:"
+        },
+        {
+          "tabela": {
+            "cab": [
+              "Item",
+              "O que definir",
+              "Cuidado"
+            ],
+            "linhas": [
+              [
+                "Material da tira",
+                "Plástico flexível, como PP ou PET, ou metal para carga maior",
+                "A tira fica carregada a campanha toda; o material precisa aguentar carga contínua sem alongar"
+              ],
+              [
+                "Espessura",
+                "Definida pela carga total e confirmada em teste com o produto real",
+                "Tira fina demais estica e deixa o gancho de baixo virado"
+              ],
+              [
+                "Comprimento",
+                "Altura livre entre o ponto de fixação e a prateleira de baixo ou o chão",
+                "Medir com a tira cheia, porque a embalagem pendurada ocupa espaço para baixo"
+              ],
+              [
+                "Número e espaçamento de ganchos",
+                "Altura da embalagem mais uma folga para o shopper tirar o produto",
+                "Espaçamento curto faz uma embalagem esconder a de baixo"
+              ],
+              [
+                "Gancho de produto",
+                "Compatível com o furo da embalagem, redondo ou do tipo euro",
+                "Ponta levemente voltada para cima segura melhor o produto"
+              ],
+              [
+                "Gancho de topo",
+                "Desenhado para o perfil de fixação da rede",
+                "Testar na régua ou na barra real antes de produzir a tiragem"
+              ],
+              [
+                "Comunicação",
+                "Header no topo com marca e oferta",
+                "Header não pode cobrir o preço da prateleira"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "h2": "Como evitar que rasgue ou caia",
+      "blocos": [
+        {
+          "lista": [
+            "Furos e encaixes afastados da borda, com recorte de canto arredondado. Canto vivo concentra tensão e é onde o rasgo começa.",
+            "Reforço no topo, onde a carga total se concentra: dobra dupla, chapa de reforço ou gancho de topo metálico.",
+            "Plástico fino não segura rosca. Se o gancho for preso na tira, use rebite com arruela ou encaixe, nunca parafuso direto.",
+            "Teste com o produto real cheio por alguns dias, porque plástico sob carga contínua cede com o tempo.",
+            "Limite escrito no header ou no guia de implantação: quantas unidades por gancho."
+          ]
+        },
+        {
+          "p": "As mesmas regras de carga e ligação valem para qualquer peça que recebe produto. O guia [display que não tomba](guia-display-que-nao-tomba.html) explica a folga de carga e as ligações em plástico com mais detalhe."
+        }
+      ]
+    },
+    {
+      "h2": "Negociação com o varejo",
+      "blocos": [
+        {
+          "p": "Por ser pequeno, o clip strip parece fácil de colocar, mas continua sendo ponto extra fora do espaço da marca. Ele precisa de autorização da rede e, muitas vezes, do responsável pela seção onde vai ficar. Leve para a conversa onde a tira vai, quanto espaço ocupa, por quanto tempo e quem repõe."
+        },
+        {
+          "p": "Reposição é o ponto que mais derruba o clip strip: tira vazia na loja comunica produto em falta. Combine quem abastece e com que frequência, e registre a instalação para saber em quais lojas a tira está de fato pendurada. Na 75 LAB, cada peça sai com QR e página de montagem, e o registro de loja, foto e localização mostra onde ela foi instalada. Veja [rastreamento de material de PDV](rastreamento-material-pdv.html)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é clip strip?",
+      "a": "É uma tira vertical com ganchos, presa no alto da prateleira, da régua de preço ou de uma barra, onde se penduram produtos leves com embalagem furada. É usada para criar ponto extra de venda em pouco espaço, principalmente fora da gôndola da categoria."
+    },
+    {
+      "q": "Quando usar clip strip no PDV?",
+      "a": "Quando o produto é leve, tem embalagem com furo e vende mais perto de outra categoria ou do caixa. É uma ferramenta típica de cross merchandising e compra por impulso. Para produto pesado, frágil ou sem furo, display ou cesto funcionam melhor."
+    },
+    {
+      "q": "Quanto peso aguenta um clip strip?",
+      "a": "Depende do material, da espessura e do ponto de fixação, então o número sai de conta e teste, não de tabela genérica. Calcule o peso real por gancho vezes o número de ganchos, some o peso da tira e 20% de folga, e teste a tira cheia com o produto real por alguns dias."
+    },
+    {
+      "q": "Por que o clip strip rasga ou cai?",
+      "a": "Os motivos mais comuns são carga subestimada, furo perto da borda ou com canto vivo, tira fina que estica sob carga contínua e gancho de topo que não combina com o perfil da prateleira da rede. Conta de carga, reforço no topo e teste na régua real resolvem a maior parte dos casos."
+    },
+    {
+      "q": "Precisa de autorização do varejo para colocar clip strip?",
+      "a": "Sim. Mesmo pequeno, o clip strip é ponto extra fora do espaço da marca e depende de autorização da rede e da seção onde vai ficar. Na negociação, defina local, período e quem faz a reposição."
+    }
+  ],
+  "palavras_chave": [
+    "clip strip",
+    "o que é clip strip",
+    "clip strip PDV",
+    "tira de ganchos para produto",
+    "cross merchandising",
+    "ponto extra de venda",
+    "material de PDV",
+    "trade marketing",
+    "compra por impulso"
+  ]
+}

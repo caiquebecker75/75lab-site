@@ -194,6 +194,8 @@ def main():
     serv = carregar('servicos')
     for p in serv.PAGINAS:
         extra[p['slug'] + '.html'] = pagina(p, 'servico')
+    for p in carregar('segmentos').PAGINAS:
+        extra[p['slug'] + '.html'] = pagina(p, 'servico')
     cases = carregar('cases')
     for p in cases.PAGINAS:
         extra[p['slug'] + '.html'] = pagina(p, 'case')

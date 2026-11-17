@@ -19,6 +19,14 @@ Fatos:
 - [Rastreamento de material de PDV com QR e painel](https://75lab.com.br/rastreamento-material-pdv.html): Saiba onde cada display e peça de PDV foi montado: QR na peça, registro com foto e localização, painel com mapa e link ao vivo para o cliente.
 - [Conteúdo rico para página de produto no e-commerce](https://75lab.com.br/conteudo-rico-ecommerce.html): ClickLab: conteúdo rico em HTML para a descrição do produto no marketplace e na loja virtual, com 3D, realidade aumentada, vídeo e simulação da loja.
 
+## Por segmento
+- [Display e material de PDV para alimentos](https://75lab.com.br/pdv-para-alimentos.html): Displays, pontas de gôndola, clip strips e enxovais de PDV para indústrias de alimentos, do seco ao refrigerado, com aprovação em AR e rastreio por QR.
+- [Display e material de PDV para o mercado pet](https://75lab.com.br/pdv-para-pet.html): Displays, pontos de experiência, enxovais e conteúdo rico para indústrias pet, do pet shop ao supermercado, com aprovação em AR e rastreio por QR.
+- [Display e material de PDV para farmácia](https://75lab.com.br/pdv-para-farma.html): Displays de balcão, gôndola e ilhas modulares para indústrias que vendem em farmácia, com ferragem por produto, aprovação em AR e rastreio por QR.
+- [Display e material de PDV para beleza e moda](https://75lab.com.br/pdv-para-beleza-e-moda.html): Displays modulares, enxovais de loja e ativações para marcas de beleza e moda, com acabamento premium, aprovação em AR e rastreio por QR.
+- [Display e material de PDV para bebidas](https://75lab.com.br/pdv-para-bebidas.html): Displays, pontos extras e materiais de PDV para indústrias de bebidas, de vinho a café, com estabilidade calculada, aprovação em AR e rastreio por QR.
+- [Display e enxoval de PDV para eletro e linha branca](https://75lab.com.br/pdv-para-eletro.html): Ilhas, pórticos, toppers e enxovais de PDV para eletro e linha branca, com o produto real em exposição, aprovação em AR e conteúdo rico para o e-commerce.
+
 ## Cases
 - [Case Savencia: displays Frescatino e Polenguinho em AR](https://75lab.com.br/case-savencia-frescatino.html): Clip strip, display PP, gravitacional e glorifier da Savencia em realidade aumentada, com página de montagem e QR de rastreio em cada peça.
 - [Case NGV: um display para quatro marcas, em AR](https://75lab.com.br/case-ngv-display-universal.html): Display Universal adaptado para Vitalitabs, De Llares, Bella Fio e Savedent, ilha de quatro faces e estande Conexão Farma, tudo em realidade aumentada.
@@ -28,8 +36,17 @@ Fatos:
 
 ## Guias
 - [Checklist do executivo de PDV para produção](https://75lab.com.br/guia-checklist-executivo-pdv.html): O que um executivo técnico de PDV precisa ter antes de ir para a fábrica: vistas, cotas, materiais, faca, planificado, lista de materiais, montagem e embalagem.
+- [Clip strip no PDV: quando usar e como especificar](https://75lab.com.br/guia-clip-strip.html): Quando usar clip strip no PDV, onde pendurar, como calcular a carga por gancho, escolher material e comprimento da tira e evitar que rasgue ou caia na loja.
+- [Como rastrear material de PDV e a montagem](https://75lab.com.br/guia-como-rastrear-material-de-pdv.html): Como rastrear material de PDV e saber se foi montado: foto do promotor, auditoria, QR com página de montagem e RFID, o que medir e como usar o dado na campanha.
 - [Display que não tomba e prateleira firme](https://75lab.com.br/guia-display-que-nao-tomba.html): Como conferir no projeto se o display de PDV fica de pé e a prateleira aguenta o produto: carga real, flecha, fluência do MDF, tombamento, fixações e testes.
 - [Material do display de PDV: como escolher](https://75lab.com.br/guia-material-display-pdv.html): Papelão, MDF, metal, acrílico ou arame: como escolher o material do display de PDV por tempo de exposição, peso do produto, canal, custo por loja e montagem.
+- [Enxoval de PDV: o que é e quais peças entram](https://75lab.com.br/guia-o-que-e-enxoval-de-pdv.html): O que é enxoval de PDV, quais peças entram em cada lugar da loja, como montar o kit de lançamento ou de campanha e como definir quantidades por perfil de loja.
+- [Ponta de gôndola: planejar, negociar e montar](https://75lab.com.br/guia-ponta-de-gondola.html): O que é ponta de gôndola, diferença para ilha, componentes, como dimensionar pela gôndola da rede, guia de implantação, conferência da montagem e erros comuns.
+- [Realidade aumentada no PDV: como funciona](https://75lab.com.br/guia-realidade-aumentada-no-pdv.html): Como funciona a realidade aumentada no PDV pelo navegador, sem app: peça em tamanho real para aprovar, vender ao varejo, conferir medida e treinar montagem.
+- [Guias práticos de PDV e trade marketing](https://75lab.com.br/guias.html): Guias da 75 LAB sobre display de PDV, materiais, estabilidade, executivo técnico, realidade aumentada e rastreamento de material de PDV.
+
+## Pesquisa
+- [Raio-X do PDV 2027: pesquisa com quem toca trade](https://75lab.com.br/raio-x-pdv.html): Pesquisa da 75 LAB com profissionais de trade marketing sobre material de PDV: quanto chega montado na loja, como se confirma a instalação e o que mais gera retrabalho.
 
 ## Institucional
 - [Sobre](https://75lab.com.br/sobre.html)

@@ -1,0 +1,191 @@
+{
+  "slug": "guia-ponta-de-gondola",
+  "titulo": "Ponta de gôndola: como planejar, negociar e montar",
+  "titulo_seo": "Ponta de gôndola: planejar, negociar e montar · 75 LAB",
+  "descricao": "O que é ponta de gôndola, diferença para ilha, componentes, como dimensionar pela gôndola da rede, guia de implantação, conferência da montagem e erros comuns.",
+  "resumo": "Ponta de gôndola é a cabeceira da gôndola, voltada para o corredor principal, usada como ponto extra de exposição e uma das áreas mais disputadas da loja. Uma boa ponta é planejada a partir da medida real do módulo da rede, negociada com período e objetivo claros, montada com guia de implantação e conferida loja a loja depois de instalada.",
+  "secoes": [
+    {
+      "h2": "O que é ponta de gôndola",
+      "blocos": [
+        {
+          "p": "A ponta de gôndola é a face da gôndola que fica na extremidade do corredor, de frente para o fluxo principal da loja. Como o shopper passa por ela mesmo sem entrar no corredor, a ponta tem visibilidade alta e costuma ser usada para lançamento, promoção, sazonalidade e produto de giro."
+        },
+        {
+          "p": "Por ser um espaço limitado, a ponta é negociada com a rede, em geral por período. O projeto da peça precisa respeitar a estrutura que já existe na loja e a regra de exposição daquela rede."
+        }
+      ]
+    },
+    {
+      "h2": "Diferença entre ponta de gôndola e ilha",
+      "blocos": [
+        {
+          "tabela": {
+            "cab": [
+              "Critério",
+              "Ponta de gôndola",
+              "Ilha"
+            ],
+            "linhas": [
+              [
+                "Onde fica",
+                "Na cabeceira da gôndola, presa ou encostada nela",
+                "Solta no salão ou no corredor, longe da gôndola"
+              ],
+              [
+                "Acesso do shopper",
+                "Por uma face, às vezes pelas laterais",
+                "Por todos os lados"
+              ],
+              [
+                "Estrutura",
+                "Usa ou complementa a estrutura da gôndola da rede",
+                "Estrutura própria, autoportante"
+              ],
+              [
+                "Ponto de atenção no projeto",
+                "Compatibilidade com o módulo e a cremalheira da rede",
+                "Estabilidade, circulação e base"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "As duas são tratadas na página de [ilha e ponta de gôndola](ilha-e-ponta-de-gondola.html). A escolha depende do espaço que a rede libera e de quanto produto precisa ficar exposto."
+        }
+      ]
+    },
+    {
+      "h2": "Componentes de uma ponta",
+      "blocos": [
+        {
+          "lista": [
+            "Testeira ou header: comunicação no alto, vista de longe pelo corredor.",
+            "Laterais: painéis que fecham a ponta e levam comunicação para quem vem pelo corredor.",
+            "Prateleiras: da própria gôndola da rede ou da marca, com testeira de prateleira ou faixa de preço.",
+            "Base ou rodapé: acabamento embaixo, às vezes com cesto ou área para produto em volume.",
+            "Acessórios: divisória, stopper, régua de preço, gancheira, porta-folheto.",
+            "Comunicação de chão: adesivo de piso na frente da ponta, quando a rede permite."
+          ]
+        },
+        {
+          "p": "Nem toda ponta usa todos os componentes. Uma ponta só de comunicação pode ser testeira, laterais e faixas de prateleira sobre a estrutura da rede; uma ponta completa troca também prateleiras e base."
+        }
+      ]
+    },
+    {
+      "h2": "Como dimensionar pela gôndola da rede",
+      "blocos": [
+        {
+          "p": "Cada rede tem a sua gôndola, e às vezes a mesma rede tem modelos diferentes em lojas diferentes. Desenhar a ponta com uma medida genérica é o caminho mais curto para peça que não encaixa. Antes do projeto, levante em loja:"
+        },
+        {
+          "lista": [
+            "Largura do módulo de ponta e altura total da gôndola.",
+            "Profundidade da base e das prateleiras.",
+            "Tipo de cremalheira, passo dos furos e modelo do suporte de prateleira.",
+            "Altura e tipo do rodapé.",
+            "Onde é possível prender testeira e laterais sem furar a gôndola.",
+            "Distância livre até o corredor, para a ponta não invadir a circulação.",
+            "Regras da rede: altura máxima, uso de adesivo de piso, iluminação, material permitido."
+          ]
+        },
+        {
+          "p": "Se a pesquisa mostrar mais de um modelo de gôndola, projete encaixes ajustáveis ou versões por modelo, e deixe isso escrito no guia de implantação."
+        }
+      ]
+    },
+    {
+      "h2": "Carga, prateleira e estabilidade",
+      "blocos": [
+        {
+          "p": "Ponta costuma receber muito produto, então a prateleira precisa de conta. A carga sai do peso real do produto, vezes as frentes, vezes a profundidade, mais 20% de folga, regra usual de projeto. Como a prateleira da ponta fica à vista, usamos o limite de flecha L/300, e em MDF a conta inclui a fluência do material, que continua cedendo ao longo da campanha."
+        },
+        {
+          "p": "Peças que ficam na frente da ponta, como cesto ou display de apoio, precisam de verificação de tombamento, e laterais altas devem estar presas na gôndola. O passo a passo dessas contas está no guia [display que não tomba](guia-display-que-nao-tomba.html), e a escolha de material no [guia de materiais](guia-material-display-pdv.html)."
+        }
+      ]
+    },
+    {
+      "h2": "Como negociar a ponta com a rede",
+      "blocos": [
+        {
+          "p": "A ponta é espaço disputado, e a rede quer saber o que ganha em troca. Chegue à negociação com respostas claras:"
+        },
+        {
+          "lista": [
+            "Objetivo da ação: lançamento, promoção, sazonalidade ou combate à concorrência.",
+            "Período de exposição e data de retirada.",
+            "Mix e quantidade de produto que vai ocupar a ponta.",
+            "Imagem da ponta montada, de preferência na medida real da gôndola da rede.",
+            "Quem monta, quem repõe e quem retira.",
+            "Como a montagem vai ser comprovada, loja por loja."
+          ]
+        },
+        {
+          "p": "Mostrar a peça em tamanho real ajuda o comprador a decidir. Com [realidade aumentada](realidade-aumentada-pdv.html), a ponta aparece no celular, na escala certa, dentro da própria loja, antes de qualquer peça ser produzida."
+        }
+      ]
+    },
+    {
+      "h2": "Guia de implantação e conferência da montagem",
+      "blocos": [
+        {
+          "p": "O guia de implantação diz ao promotor o que vai em cada posição: foto ou desenho da ponta montada, sequência de montagem, ferramentas, posição de cada produto e altura de cada prateleira. Sem ele, cada loja monta a ponta de um jeito."
+        },
+        {
+          "p": "Depois da montagem, confira se a ponta está na loja combinada, completa, com o produto certo e dentro do período. O mínimo é uma foto por loja com data e localização. Na 75 LAB, cada peça sai com QR e página de montagem: o promotor registra loja, foto e GPS, e o cliente acompanha a implantação em um painel com mapa. Veja [rastreamento de material de PDV](rastreamento-material-pdv.html)."
+        }
+      ]
+    },
+    {
+      "h2": "Erros comuns",
+      "blocos": [
+        {
+          "lista": [
+            "Projeto com medida de catálogo, sem levantar a gôndola real da rede.",
+            "Testeira que não encontra onde prender, presa com fita improvisada.",
+            "Prateleira de MDF calculada sem fluência, que enverga no meio da campanha.",
+            "Comunicação lateral esquecida, sem nada para quem vem pelo corredor.",
+            "Ponta que invade a circulação e é retirada pela loja.",
+            "Falta de produto: ponta montada e vazia comunica ruptura.",
+            "Nenhum registro de quais lojas montaram e quando."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é ponta de gôndola?",
+      "a": "É a cabeceira da gôndola, a face voltada para o corredor principal da loja. Tem visibilidade alta porque o shopper passa por ela sem entrar no corredor, e por isso é usada para lançamento, promoção e produtos de giro."
+    },
+    {
+      "q": "Qual a diferença entre ponta de gôndola e ilha?",
+      "a": "A ponta fica na extremidade da gôndola e usa ou complementa a estrutura da rede, com acesso principalmente pela frente. A ilha fica solta no salão, tem estrutura própria e é acessada por todos os lados, o que exige mais cuidado com estabilidade e circulação."
+    },
+    {
+      "q": "Como dimensionar uma ponta de gôndola?",
+      "a": "Pela gôndola real da rede, levantada em loja: largura do módulo, altura, profundidade da base e das prateleiras, tipo de cremalheira e passo dos furos, rodapé e pontos de fixação. Se a rede tiver mais de um modelo de gôndola, projete encaixes ajustáveis ou uma versão por modelo."
+    },
+    {
+      "q": "Como negociar ponta de gôndola com o varejo?",
+      "a": "Leve objetivo, período, mix de produto, imagem da ponta montada na medida da rede e a definição de quem monta, repõe e retira. Mostrar como a montagem será comprovada loja a loja também dá segurança ao comprador."
+    },
+    {
+      "q": "Como conferir se a ponta de gôndola foi montada?",
+      "a": "Peça um registro por loja com foto, data e localização, e compare com o guia de implantação. Um sistema com QR na peça e página de montagem permite acompanhar em um painel quais lojas já montaram e quais ainda faltam."
+    }
+  ],
+  "palavras_chave": [
+    "ponta de gôndola",
+    "o que é ponta de gôndola",
+    "ponta de gôndola x ilha",
+    "como negociar ponta de gôndola",
+    "projeto de ponta de gôndola",
+    "guia de implantação",
+    "ponto extra no supermercado",
+    "trade marketing",
+    "material de PDV"
+  ]
+}

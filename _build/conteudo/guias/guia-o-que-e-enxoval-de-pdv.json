@@ -1,0 +1,188 @@
+{
+  "slug": "guia-o-que-e-enxoval-de-pdv",
+  "titulo": "O que é enxoval de PDV e quais peças entram nele",
+  "titulo_seo": "Enxoval de PDV: o que é e quais peças entram · 75 LAB",
+  "descricao": "O que é enxoval de PDV, quais peças entram em cada lugar da loja, como montar o kit de lançamento ou de campanha e como definir quantidades por perfil de loja.",
+  "resumo": "Enxoval de PDV é o conjunto de peças de comunicação e exposição que uma marca envia para cada loja em uma ação, pensado como kit: gôndola, chão, parede ou área alta e o próprio produto. Ele funciona quando cada peça tem lugar definido, a quantidade varia pelo perfil da loja e o kit chega com guia de implantação, para que a loja monte igual em toda a rede.",
+  "secoes": [
+    {
+      "h2": "Enxoval é kit, não lista de peças soltas",
+      "blocos": [
+        {
+          "p": "No trade marketing, enxoval é o pacote de materiais de ponto de venda que vai para a loja de uma vez, com a mesma linguagem visual e uma função para cada peça. A diferença para comprar peças avulsas é o planejamento: o enxoval nasce de uma pergunta sobre a loja (onde o shopper decide, por onde ele passa, onde o produto está exposto) e não de um catálogo de formatos."
+        },
+        {
+          "p": "Um enxoval bem pensado tem três camadas. A primeira chama a atenção de longe, a segunda guia até a categoria e a terceira ajuda a decisão na frente da prateleira. Se falta uma camada, o shopper vê a marca mas não acha o produto, ou acha o produto sem saber da oferta."
+        }
+      ]
+    },
+    {
+      "h2": "Peças por lugar da loja",
+      "blocos": [
+        {
+          "p": "A forma mais útil de organizar o enxoval é pelo lugar onde cada peça vai ficar. Isso ajuda a criação, a produção e, principalmente, quem monta na loja."
+        },
+        {
+          "tabela": {
+            "cab": [
+              "Lugar",
+              "Peças comuns",
+              "Função principal"
+            ],
+            "linhas": [
+              [
+                "Gôndola",
+                "Faixa de gôndola, wobbler, testeira, régua de preço, separador e divisória de prateleira, stopper",
+                "Destacar o produto na prateleira e organizar as frentes"
+              ],
+              [
+                "Chão",
+                "Display de chão, ilha, ponta de gôndola, cesto, totem, adesivo de piso",
+                "Criar ponto extra de exposição e parar o fluxo do corredor"
+              ],
+              [
+                "Parede e área alta",
+                "Móbile, faixa aérea, bandeirola, banner, cartaz, painel de fundo",
+                "Ser visto de longe e indicar onde está a categoria"
+              ],
+              [
+                "Produto",
+                "Colar de garrafa, tag, splash, adesivo de oferta, bloco de cupom",
+                "Comunicar oferta ou benefício na mão do shopper"
+              ],
+              [
+                "Caixa e balcão",
+                "Display de balcão, porta-folheto, adesivo de checkout",
+                "Gerar compra por impulso no fim da jornada"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Nem toda ação precisa de todos os lugares. Uma campanha de preço pode viver só em gôndola e produto; um lançamento quase sempre precisa de chão e de área alta para ser notado. Para as peças de chão, veja [display de PDV](display-de-pdv.html) e [ilha e ponta de gôndola](ilha-e-ponta-de-gondola.html)."
+        }
+      ]
+    },
+    {
+      "h2": "Enxoval de lançamento x enxoval de campanha",
+      "blocos": [
+        {
+          "p": "Os dois usam peças parecidas, mas o objetivo muda o peso de cada uma."
+        },
+        {
+          "lista": [
+            "Lançamento: o shopper ainda não conhece o produto. O enxoval precisa de ponto extra (display, ilha ou ponta), comunicação de área alta e peças que expliquem o que é o produto. As peças de chão costumam ser mais duráveis, porque o lançamento dura mais que uma promoção.",
+            "Campanha: o shopper já conhece a marca e precisa de um motivo para comprar agora. O peso vai para a gôndola e para o produto: preço, oferta, brinde, sorteio. As peças são mais leves, de vida curta e com troca de arte prevista.",
+            "Campanha recorrente: quando a mesma estrutura volta várias vezes no ano, vale separar estrutura e comunicação. A estrutura fica ou volta para o depósito, e só a comunicação é trocada a cada ação."
+          ]
+        },
+        {
+          "p": "A escolha de material segue a mesma lógica de tempo de exposição e carga. O [guia de materiais](guia-material-display-pdv.html) compara papelão, MDF, metal, acrílico e arame por esses critérios."
+        }
+      ]
+    },
+    {
+      "h2": "Quantidades por perfil de loja",
+      "blocos": [
+        {
+          "p": "O erro mais caro no enxoval é mandar o mesmo kit para todas as lojas. Loja pequena recebe peça que não cabe e descarta; loja grande recebe pouco e fica sem destaque. O certo é agrupar as lojas por perfil e definir um kit para cada grupo."
+        },
+        {
+          "p": "Os critérios que mais ajudam a separar perfis:"
+        },
+        {
+          "lista": [
+            "Tamanho da área de vendas e número de módulos de gôndola da categoria.",
+            "Espaço livre para ponto extra: se cabe ilha, só ponta ou nenhum ponto de chão.",
+            "Pé-direito e estrutura para pendurar móbile ou faixa aérea.",
+            "Número de checkouts, quando há peça de caixa.",
+            "Canal: autosserviço, atacarejo, farma e conveniência têm regras e espaços diferentes.",
+            "Regras da rede: algumas proíbem certos formatos, adesivo de piso ou peças penduradas.",
+            "Histórico de venda da categoria na loja, para concentrar o investimento onde há giro."
+          ]
+        },
+        {
+          "p": "Com os perfis definidos, a quantidade de cada peça vira uma conta por grupo: quantos módulos, quantas frentes, quantos checkouts. Some uma pequena reserva por região para reposição de peça danificada no transporte, em vez de inflar o kit de todas as lojas."
+        }
+      ]
+    },
+    {
+      "h2": "Guia de implantação: o que vai junto com o kit",
+      "blocos": [
+        {
+          "p": "Enxoval sem guia de implantação é montado de um jeito diferente em cada loja. O guia é um documento curto, com imagem, que mostra ao promotor onde vai cada peça e em que ordem montar."
+        },
+        {
+          "lista": [
+            "Lista do conteúdo do kit por perfil de loja, com código de cada peça.",
+            "Planta ou foto de referência da loja com a posição de cada peça.",
+            "Instrução de montagem com sequência, ferramentas e ferragens.",
+            "Altura de instalação de peças de área alta e de gôndola.",
+            "O que fazer se a peça não couber ou a loja não autorizar.",
+            "Período da ação e data de retirada.",
+            "Como registrar que a montagem foi feita."
+          ]
+        },
+        {
+          "p": "Cada volume precisa de etiqueta com código, conteúdo e quantidade, para a loja conferir o kit sem abrir todas as caixas. Esse e outros itens de produção estão no [checklist do executivo](guia-checklist-executivo-pdv.html)."
+        }
+      ]
+    },
+    {
+      "h2": "Como saber se o enxoval foi montado",
+      "blocos": [
+        {
+          "p": "O enxoval só gera resultado se estiver na loja, montado e no lugar certo. Por isso o registro de montagem deveria fazer parte do kit, e não ser uma etapa à parte. Na 75 LAB, as peças de enxoval saem com QR e página de montagem: o promotor abre pelo celular, vê a instrução da peça e registra loja, foto e localização, e o cliente acompanha a implantação em um painel com mapa. Veja como funciona em [rastreamento de material de PDV](rastreamento-material-pdv.html) e em [enxoval de PDV](enxoval-de-pdv.html)."
+        }
+      ]
+    },
+    {
+      "h2": "Erros comuns no enxoval",
+      "blocos": [
+        {
+          "lista": [
+            "Kit único para lojas de tamanhos diferentes.",
+            "Peça desenhada sem medir a gôndola ou o espaço real da rede.",
+            "Muitas peças pequenas que competem entre si na mesma prateleira.",
+            "Peça de chão leve e alta sem conta de tombamento. Veja [display que não tomba](guia-display-que-nao-tomba.html).",
+            "Kit sem guia de implantação e sem etiqueta por volume.",
+            "Nenhuma forma de saber quais lojas montaram."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é enxoval de PDV?",
+      "a": "É o conjunto de materiais de ponto de venda que uma marca envia para cada loja em uma ação, planejado como kit. Inclui peças de gôndola, de chão, de parede ou área alta e de produto, todas com a mesma linguagem visual e uma função definida."
+    },
+    {
+      "q": "Quais peças fazem parte de um enxoval de PDV?",
+      "a": "Depende do objetivo, mas as mais comuns são faixa de gôndola, wobbler, testeira, régua de preço, display de chão, ponta de gôndola, adesivo de piso, móbile, faixa aérea, cartaz, colar de produto e display de balcão. O ideal é organizar as peças pelo lugar da loja onde cada uma vai ficar."
+    },
+    {
+      "q": "Qual a diferença entre enxoval de lançamento e de campanha?",
+      "a": "O enxoval de lançamento apresenta um produto que o shopper ainda não conhece, então precisa de ponto extra e de comunicação vista de longe. O de campanha dá um motivo para comprar agora, com peso maior em gôndola e produto, peças mais leves e troca de arte prevista."
+    },
+    {
+      "q": "Como definir a quantidade de peças do enxoval por loja?",
+      "a": "Agrupe as lojas por perfil, usando tamanho, número de módulos da categoria, espaço para ponto extra, pé-direito, checkouts, canal e regras da rede. Defina um kit para cada perfil e calcule as quantidades pelo número de módulos, frentes e checkouts de cada grupo."
+    },
+    {
+      "q": "O que é guia de implantação de PDV?",
+      "a": "É o documento que acompanha o kit e mostra ao promotor onde vai cada peça, em que ordem montar, com quais ferramentas e em que altura. Ele também diz o que fazer se a peça não couber e como registrar a montagem, para que a ação fique igual em toda a rede."
+    }
+  ],
+  "palavras_chave": [
+    "enxoval de PDV",
+    "o que é enxoval de PDV",
+    "kit de PDV",
+    "materiais de ponto de venda",
+    "peças de PDV",
+    "guia de implantação de PDV",
+    "enxoval de lançamento",
+    "trade marketing",
+    "merchandising no ponto de venda"
+  ]
+}

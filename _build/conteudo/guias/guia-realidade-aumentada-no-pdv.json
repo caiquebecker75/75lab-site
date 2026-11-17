@@ -1,0 +1,161 @@
+{
+  "slug": "guia-realidade-aumentada-no-pdv",
+  "titulo": "Realidade aumentada no PDV: como funciona e quando vale a pena",
+  "titulo_seo": "Realidade aumentada no PDV: como funciona · 75 LAB",
+  "descricao": "Como funciona a realidade aumentada no PDV pelo navegador, sem app: peça em tamanho real para aprovar, vender ao varejo, conferir medida e treinar montagem.",
+  "resumo": "Realidade aumentada no PDV coloca o display, a ilha ou a ponta de gôndola em tamanho real no ambiente, pela câmera do celular, antes de a peça existir. Pelo navegador e sem aplicativo, o iPhone abre a peça no AR Quick Look, o Android no visualizador do Google e o computador mostra o modelo 3D com um QR para abrir no celular. Vale a pena quando a decisão depende de escala e espaço: aprovar internamente, vender ao comprador do varejo, conferir medidas e treinar montagem.",
+  "secoes": [
+    {
+      "h2": "Como funciona a realidade aumentada pelo navegador",
+      "blocos": [
+        {
+          "p": "A realidade aumentada usada em PDV hoje é, na maior parte, WebAR: a peça abre a partir de um link ou de um QR, direto no navegador do celular, sem baixar aplicativo. Isso importa porque quem aprova a peça, gerente de trade, comprador do varejo, gerente de loja, não vai instalar um app para ver um display."
+        },
+        {
+          "p": "Cada sistema usa o visualizador nativo do aparelho:"
+        },
+        {
+          "tabela": {
+            "cab": [
+              "Aparelho",
+              "Como abre",
+              "Formato do modelo"
+            ],
+            "linhas": [
+              [
+                "iPhone e iPad",
+                "AR Quick Look, o visualizador de realidade aumentada do próprio iOS",
+                "USDZ"
+              ],
+              [
+                "Android",
+                "Visualizador de realidade aumentada do Google",
+                "GLB"
+              ],
+              [
+                "Computador",
+                "Modelo 3D para girar e aproximar na própria página, com um QR para abrir no celular",
+                "GLB"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "No celular, a câmera reconhece o chão ou a parede, e a peça aparece apoiada na superfície, em tamanho real. Dá para andar em volta, olhar de perto, ver de longe como o shopper veria no corredor e tirar foto da peça no ambiente."
+        }
+      ]
+    },
+    {
+      "h2": "Peça em tamanho real no chão ou na parede",
+      "blocos": [
+        {
+          "p": "O valor da realidade aumentada está na escala. Um render mostra a peça bonita, mas não mostra se ela cabe. Em tamanho real, a pergunta muda de gostei ou não gostei para cabe ou não cabe, atrapalha ou não atrapalha."
+        },
+        {
+          "lista": [
+            "Peças de chão, como display, ilha, totem e ponta de gôndola, aparecem apoiadas no piso da loja.",
+            "Peças de parede, como painel, brandwall e comunicação de fundo, aparecem presas na superfície vertical.",
+            "Peças pequenas, como display de balcão, podem ser colocadas sobre a bancada ou o checkout."
+          ]
+        },
+        {
+          "p": "Para a escala ficar certa, o modelo precisa ser exportado na unidade correta. O formato GLB trabalha em metros, e um erro de unidade faz o display aparecer do tamanho de uma caixa de fósforo ou de um prédio."
+        }
+      ]
+    },
+    {
+      "h2": "Quando vale a pena",
+      "blocos": [
+        {
+          "lista": [
+            "**Aprovação interna:** marketing, vendas e diretoria veem a peça em tamanho real no escritório ou numa loja, e a aprovação sai com menos rodadas de render.",
+            "**Venda ao comprador do varejo:** o comprador vê a ilha ou a ponta dentro da própria loja antes de liberar o espaço. É mais fácil aprovar o que se enxerga no lugar.",
+            "**Conferir medida:** altura de pega, distância do corredor, se a peça passa pela porta, se cabe na ponta da rede, se a testeira encosta no teto. É a hora mais barata de descobrir um problema.",
+            "**Treinar montagem:** o promotor vê como a peça montada deve ficar, de todos os lados, antes de abrir a caixa."
+          ]
+        },
+        {
+          "p": "Ela não substitui a conta estrutural nem o protótipo carregado. A realidade aumentada mostra forma, escala e espaço; carga, flecha e tombamento continuam sendo verificados no projeto, como explica o guia [display que não tomba](guia-display-que-nao-tomba.html)."
+        }
+      ]
+    },
+    {
+      "h2": "O que é preciso para ter a peça em realidade aumentada",
+      "blocos": [
+        {
+          "p": "O insumo principal é um modelo 3D da peça. Quando o projeto já é feito em 3D para gerar o executivo, o mesmo modelo é a base da realidade aumentada. Depois vêm as etapas:"
+        },
+        {
+          "lista": [
+            "Aplicar as artes como textura nas superfícies certas.",
+            "Otimizar o modelo: tirar parafusos, furos internos e detalhes que não aparecem, para o arquivo ficar leve.",
+            "Exportar em GLB e USDZ, na escala correta.",
+            "Publicar em uma página com link e QR, que abre o visualizador certo em cada aparelho."
+          ]
+        },
+        {
+          "p": "Custo e prazo dependem principalmente de o modelo 3D já existir, de quantas versões da peça serão mostradas e de quantas artes diferentes ela recebe. Uma peça que já sai do projeto em 3D precisa de bem menos trabalho do que uma peça que precisa ser modelada do zero só para a realidade aumentada."
+        }
+      ]
+    },
+    {
+      "h2": "Limites que é preciso conhecer",
+      "blocos": [
+        {
+          "lista": [
+            "**Oclusão em iPhones com LiDAR:** esses aparelhos medem a profundidade do ambiente e escondem a parte da peça que fica atrás de objetos reais, como uma pessoa, uma gôndola ou um móvel. Isso dá realismo, mas pode parecer que a peça está cortada. Posicione a peça em área livre, com nada entre a câmera e ela.",
+            "**Arquivo pesado demais:** modelo com detalhe em excesso demora a baixar pela internet móvel da loja e pode travar o celular. O modelo de realidade aumentada é uma versão leve do modelo de projeto.",
+            "**Textura grande ocupa memória:** a imagem é aberta descomprimida na memória do aparelho. Pela conta direta de 4 bytes por pixel, uma textura de 4096 x 4096 pixels ocupa cerca de 64 MB, e uma de 2048 x 2048, cerca de 16 MB. Várias texturas grandes somadas pesam mais que o próprio modelo.",
+            "**Superfície e luz:** piso muito brilhante, liso demais ou mal iluminado dificulta o reconhecimento do chão.",
+            "**Cor:** a tela do celular não reproduz a cor de impressão. Para aprovar cor, use prova impressa."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Realidade aumentada no fluxo do projeto",
+      "blocos": [
+        {
+          "p": "A realidade aumentada rende mais quando entra entre o conceito e o executivo: a forma já está definida, mas nada foi produzido. Na 75 LAB, as peças são aprovadas em realidade aumentada antes de produzir, com o mesmo modelo que depois gera o executivo e os arquivos de fábrica. Veja como funciona em [realidade aumentada no PDV](realidade-aumentada-pdv.html), e para peças de chão, em [display de PDV](display-de-pdv.html) e [ilha e ponta de gôndola](ilha-e-ponta-de-gondola.html)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Precisa de aplicativo para ver realidade aumentada no PDV?",
+      "a": "Não. Com WebAR, a peça abre por link ou QR direto no navegador. O iPhone usa o AR Quick Look do próprio sistema, o Android usa o visualizador de realidade aumentada do Google e o computador mostra o modelo 3D com um QR para abrir no celular."
+    },
+    {
+      "q": "A peça aparece em tamanho real na realidade aumentada?",
+      "a": "Sim, desde que o modelo seja exportado na escala correta. A câmera reconhece o chão ou a parede e posiciona a peça em tamanho real, e dá para andar em volta e conferir altura, largura e distância do corredor."
+    },
+    {
+      "q": "Para que serve realidade aumentada no trade marketing?",
+      "a": "Para aprovar peças internamente com menos rodadas de render, mostrar ao comprador do varejo a peça dentro da loja antes de produzir, conferir medidas no espaço real e treinar o promotor na montagem. Ela não substitui a conta estrutural nem o protótipo carregado."
+    },
+    {
+      "q": "O que é preciso para colocar um display em realidade aumentada?",
+      "a": "Um modelo 3D da peça com as artes aplicadas, otimizado para ficar leve e exportado em GLB e USDZ na escala certa. Quando o display já é projetado em 3D para o executivo, esse modelo é reaproveitado."
+    },
+    {
+      "q": "Por que a peça em realidade aumentada aparece cortada no iPhone?",
+      "a": "iPhones com LiDAR medem a profundidade do ambiente e escondem a parte da peça que está atrás de objetos reais, como pessoas, gôndolas ou móveis. Posicione a peça em uma área livre, sem nada entre a câmera e ela."
+    },
+    {
+      "q": "Por que a realidade aumentada trava no celular?",
+      "a": "Normalmente por arquivo pesado ou texturas grandes demais. A textura é aberta descomprimida na memória, e uma imagem de 4096 x 4096 pixels ocupa cerca de 64 MB. O modelo de realidade aumentada deve ser uma versão leve, com detalhes ocultos removidos e texturas no tamanho necessário."
+    }
+  ],
+  "palavras_chave": [
+    "realidade aumentada no PDV",
+    "realidade aumentada trade marketing",
+    "WebAR",
+    "display em realidade aumentada",
+    "AR Quick Look",
+    "aprovação de PDV",
+    "visualização 3D de display",
+    "projeto de PDV",
+    "ponto de venda"
+  ]
+}

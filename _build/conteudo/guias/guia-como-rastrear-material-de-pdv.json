@@ -1,0 +1,162 @@
+{
+  "slug": "guia-como-rastrear-material-de-pdv",
+  "titulo": "Como rastrear material de PDV e saber se foi montado",
+  "titulo_seo": "Como rastrear material de PDV e a montagem · 75 LAB",
+  "descricao": "Como rastrear material de PDV e saber se foi montado: foto do promotor, auditoria, QR com página de montagem e RFID, o que medir e como usar o dado na campanha.",
+  "resumo": "Para saber se o material de PDV foi montado, é preciso que cada peça gere um registro na loja: quem montou, onde, quando e com que resultado. Os métodos vão da foto enviada pelo promotor à auditoria de campo, ao QR com página de montagem e ao RFID; o que muda é o custo, a cobertura e a confiança no dado. O mais importante é medir lojas positivadas, ritmo de implantação e qualidade das fotos, e usar isso para cobrar pendências durante a campanha, não só no relatório final.",
+  "secoes": [
+    {
+      "h2": "Por que o material some entre a fábrica e a loja",
+      "blocos": [
+        {
+          "p": "A indústria paga pela produção, pelo frete e pela montagem, mas raramente sabe com precisão quantas peças foram montadas, em quais lojas e em que estado. Entre a fábrica e a gôndola há transportadora, centro de distribuição, depósito da loja, promotor e gerente, e a peça pode parar em qualquer um deles."
+        },
+        {
+          "p": "Esse ponto cego aparece também na pesquisa de maturidade da Abratrade divulgada em novembro de 2026: só 15,1% dos profissionais disseram medir o retorno do trade de forma padronizada ([Giro News](https://gironews.com/negocios/pesquisa-abratrade-aponta-baixa-maturidade-na-mensuracao-de-resultados-do-trade-marketing/)). Sem saber se a peça foi montada, não há como medir o retorno dela."
+        }
+      ]
+    },
+    {
+      "h2": "Os métodos de rastreamento",
+      "blocos": [
+        {
+          "tabela": {
+            "cab": [
+              "Método",
+              "Como funciona",
+              "Vantagem",
+              "Limite"
+            ],
+            "linhas": [
+              [
+                "Foto do promotor",
+                "O promotor fotografa a peça montada e envia por aplicativo de merchandising ou mensagem",
+                "Usa a equipe que já está na loja",
+                "Foto sem loja, data e local confirmados; difícil consolidar e conferir em volume"
+              ],
+              [
+                "Auditoria de campo",
+                "Equipe independente visita uma amostra de lojas e confere a montagem",
+                "Dado mais confiável e com avaliação de qualidade",
+                "Cobre só parte das lojas e chega depois que a ação já começou"
+              ],
+              [
+                "QR com página de montagem",
+                "Cada peça leva um QR; quem monta abre no celular, vê a instrução e registra loja, foto e localização",
+                "Registro por peça, com instrução junto e dado em tempo real",
+                "Depende de alguém escanear; precisa de regra clara de quem registra"
+              ],
+              [
+                "RFID e IoT",
+                "Etiqueta ou sensor na peça é lido por antena ou envia sinal sozinho",
+                "Leitura automática, sem depender do promotor",
+                "Custo por peça e infraestrutura de leitura; não mostra se a peça está bem montada"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Os métodos se combinam. Um desenho comum é QR em todas as peças para cobertura total, mais auditoria em uma amostra para conferir a qualidade do que foi registrado."
+        }
+      ]
+    },
+    {
+      "h2": "O que medir",
+      "blocos": [
+        {
+          "p": "Dado de rastreamento só é útil se virar poucos indicadores, acompanhados desde o primeiro dia da ação."
+        },
+        {
+          "lista": [
+            "**Lojas positivadas:** quantas lojas têm a peça montada, sobre quantas receberam ou deveriam receber. É o indicador principal.",
+            "**Ritmo de implantação:** quantas montagens por dia e quanto tempo passa entre a entrega e a montagem. Mostra cedo se a ação vai atrasar.",
+            "**Qualidade das fotos:** se a peça está completa, no lugar previsto no guia de implantação e com produto.",
+            "**Lojas sem registro:** a lista de pendências, por região, rede ou equipe responsável.",
+            "**Ocorrências:** peça danificada, recusada pela loja, sem espaço ou faltando componente.",
+            "**Permanência:** quando a peça foi retirada ou deixou de estar montada, em ações longas."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Como montar o fluxo de rastreamento",
+      "blocos": [
+        {
+          "p": "O rastreamento começa no projeto, não no dia da montagem. O fluxo que funciona tem estas etapas:"
+        },
+        {
+          "lista": [
+            "Cadastrar as lojas da ação e o kit previsto para cada perfil de loja.",
+            "Dar a cada peça ou volume um código único, impresso na peça e na etiqueta.",
+            "Ligar o código a uma página de montagem com instrução, foto de referência e lista de componentes.",
+            "Definir quem registra: promotor da indústria, agência de merchandising, equipe da loja ou montador.",
+            "No registro, pedir só o essencial: confirmação da loja, foto da peça montada e localização. Quanto mais campos, menos registros.",
+            "Consolidar tudo em um painel com mapa, filtro por rede e região e lista de pendências.",
+            "Combinar quem cobra as lojas pendentes e em que prazo."
+          ]
+        },
+        {
+          "p": "A localização do celular confirma que a foto foi tirada na loja certa, e a data mostra o ritmo. Isso substitui a pasta de fotos soltas por um dado que pode ser conferido."
+        }
+      ]
+    },
+    {
+      "h2": "O que fazer com o dado",
+      "blocos": [
+        {
+          "lista": [
+            "Cobrar pendências durante a ação: a lista de lojas sem registro vira roteiro para a equipe de campo.",
+            "Remanejar peças: material parado no depósito de uma loja pode ir para outra que não recebeu.",
+            "Comparar venda entre lojas com e sem a peça montada, de preferência lojas de perfil parecido, para ter uma leitura mais justa do efeito do PDV.",
+            "Prestar contas à diretoria e ao varejo com mapa e fotos, e não com estimativa.",
+            "Ajustar o próximo enxoval: peças com muita recusa ou dano indicam problema de medida, material ou montagem."
+          ]
+        },
+        {
+          "p": "Peça que volta com muita ocorrência de dano ou de montagem errada costuma ter causa no projeto. O [checklist do executivo](guia-checklist-executivo-pdv.html) lista os itens que evitam boa parte desses problemas."
+        }
+      ]
+    },
+    {
+      "h2": "Rastreamento no próprio material",
+      "blocos": [
+        {
+          "p": "Quando o código já sai impresso na peça, o rastreamento deixa de ser um sistema à parte. Na 75 LAB, toda peça sai com QR e página de montagem; o registro traz loja, foto e GPS, e o cliente acompanha em um painel com mapa e um link ao vivo que pode ser compartilhado com a equipe e com o varejo. Veja como funciona em [rastreamento de material de PDV](rastreamento-material-pdv.html) e como isso se aplica a um kit completo em [enxoval de PDV](enxoval-de-pdv.html)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como saber se o material de PDV foi montado na loja?",
+      "a": "É preciso um registro por peça com loja, data, foto e, de preferência, localização confirmada pelo celular. Isso pode vir de foto do promotor, auditoria de campo, QR com página de montagem ou leitura de RFID. O dado precisa ser consolidado em um painel para mostrar quais lojas montaram e quais faltam."
+    },
+    {
+      "q": "O que são lojas positivadas no trade marketing?",
+      "a": "No rastreamento de PDV, são as lojas onde a peça ou a ação foi de fato implantada. O indicador é calculado como lojas com registro de montagem sobre lojas que deveriam receber o material."
+    },
+    {
+      "q": "QR code ou RFID para rastrear material de PDV?",
+      "a": "O QR é barato, vai impresso na própria peça e permite registrar foto e instrução de montagem, mas depende de alguém escanear. O RFID lê a peça sozinho, porém custa mais por peça, exige infraestrutura de leitura e não mostra se a peça está bem montada. Muitas operações combinam QR em todas as peças com auditoria em uma amostra."
+    },
+    {
+      "q": "Foto do promotor no WhatsApp serve como comprovação de montagem?",
+      "a": "Serve como indício, mas é frágil: a foto pode não ter loja, data e local confirmados, e fica difícil consolidar e conferir em volume. Um registro estruturado, com loja confirmada, foto e localização em um mesmo sistema, dá um dado que pode ser auditado."
+    },
+    {
+      "q": "Como medir o retorno do material de PDV?",
+      "a": "O primeiro passo é saber em quais lojas a peça foi montada e quando. Com isso, dá para comparar a venda de lojas com e sem a peça, de perfil parecido e no mesmo período. Sem o dado de montagem, qualquer cálculo de retorno parte de uma suposição."
+    }
+  ],
+  "palavras_chave": [
+    "rastrear material de PDV",
+    "comprovação de montagem PDV",
+    "lojas positivadas",
+    "QR code material de PDV",
+    "RFID no ponto de venda",
+    "auditoria de PDV",
+    "mensuração de trade marketing",
+    "retorno do trade marketing",
+    "execução no ponto de venda"
+  ]
+}

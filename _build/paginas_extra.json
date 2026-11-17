@@ -495,6 +495,390 @@
    ]
   ]
  },
+ "pdv-para-alimentos.html": {
+  "titulo": "Display e material de PDV para alimentos · 75 LAB",
+  "descricao": "Displays, pontas de gôndola, clip strips e enxovais de PDV para indústrias de alimentos, do seco ao refrigerado, com aprovação em AR e rastreio por QR.",
+  "prioridade": "0.8",
+  "imagem": null,
+  "tipo": "website",
+  "ld": [
+   {
+    "@type": "Service",
+    "@id": "https://75lab.com.br/pdv-para-alimentos.html#servico",
+    "name": "Material de PDV para indústria de alimentos",
+    "serviceType": "Material de PDV para indústria de alimentos",
+    "description": "Displays, pontas de gôndola, clip strips e enxovais de PDV para indústrias de alimentos, do seco ao refrigerado, com aprovação em AR e rastreio por QR.",
+    "provider": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "areaServed": {
+     "@type": "Country",
+     "name": "Brasil"
+    },
+    "url": "https://75lab.com.br/pdv-para-alimentos.html"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/pdv-para-alimentos.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual material de display é melhor para alimentos?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Depende do tempo de exposição e do peso. Para campanha curta, papelão bem dimensionado costuma bastar; para ponto permanente ou produto pesado, metal, arame ou MDF com prateleira calculada. O guia de materiais compara as opções."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "A 75 LAB faz peças para a área refrigerada?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim. Réguas, glorifiers e peças de porta de geladeira, como o glorifier Frescatino da Savencia, pensadas para umidade, frio e fixação na parede ou no equipamento."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Dá para ver a ponta de gôndola no corredor antes de produzir?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim. A peça abre em realidade aumentada no celular, em tamanho real, para conferir altura, leitura e espaço."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "PDV para alimentos",
+    "/pdv-para-alimentos.html"
+   ]
+  ]
+ },
+ "pdv-para-pet.html": {
+  "titulo": "Display e material de PDV para o mercado pet · 75 LAB",
+  "descricao": "Displays, pontos de experiência, enxovais e conteúdo rico para indústrias pet, do pet shop ao supermercado, com aprovação em AR e rastreio por QR.",
+  "prioridade": "0.8",
+  "imagem": null,
+  "tipo": "website",
+  "ld": [
+   {
+    "@type": "Service",
+    "@id": "https://75lab.com.br/pdv-para-pet.html#servico",
+    "name": "Material de PDV para indústria pet",
+    "serviceType": "Material de PDV para indústria pet",
+    "description": "Displays, pontos de experiência, enxovais e conteúdo rico para indústrias pet, do pet shop ao supermercado, com aprovação em AR e rastreio por QR.",
+    "provider": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "areaServed": {
+     "@type": "Country",
+     "name": "Brasil"
+    },
+    "url": "https://75lab.com.br/pdv-para-pet.html"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/pdv-para-pet.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Como fazer display para ração pesada?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Com a carga real de cada nível no projeto: peso da embalagem vezes frentes e profundidade, com folga. A prateleira é conferida contra a flecha e o conjunto contra o tombamento, como explica o guia display que não tomba."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O que é um ponto de experiência em pet shop?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É um espaço fora do corredor, temático, onde o tutor conhece e experimenta a marca. Pede cenografia, comunicação da campanha e montagem simples para a equipe da loja."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "A 75 LAB faz conteúdo para e-commerce pet?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim. O ClickLab é o conteúdo rico da página de produto, com 3D, vídeo e simulação da loja do varejista."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "PDV para pet",
+    "/pdv-para-pet.html"
+   ]
+  ]
+ },
+ "pdv-para-farma.html": {
+  "titulo": "Display e material de PDV para farmácia · 75 LAB",
+  "descricao": "Displays de balcão, gôndola e ilhas modulares para indústrias que vendem em farmácia, com ferragem por produto, aprovação em AR e rastreio por QR.",
+  "prioridade": "0.8",
+  "imagem": null,
+  "tipo": "website",
+  "ld": [
+   {
+    "@type": "Service",
+    "@id": "https://75lab.com.br/pdv-para-farma.html#servico",
+    "name": "Material de PDV para farmácia e dermocosméticos",
+    "serviceType": "Material de PDV para farmácia e dermocosméticos",
+    "description": "Displays de balcão, gôndola e ilhas modulares para indústrias que vendem em farmácia, com ferragem por produto, aprovação em AR e rastreio por QR.",
+    "provider": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "areaServed": {
+     "@type": "Country",
+     "name": "Brasil"
+    },
+    "url": "https://75lab.com.br/pdv-para-farma.html"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/pdv-para-farma.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual o melhor display para balcão de farmácia?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Um display compacto, estável e fácil de repor, com a ferragem certa para o produto. A medida é definida pelo balcão da rede, por isso vale aprovar a peça em AR no próprio balcão."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Dá para usar o mesmo display para várias marcas?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim, quando ele nasce modular. A estrutura é a mesma e mudam a arte e a ferragem, como no Display Universal da NGV."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como saber em quais farmácias o display foi instalado?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Com QR na peça e página de montagem: quem instala registra loja, foto e localização, e a marca acompanha no painel."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "PDV para farmácia",
+    "/pdv-para-farma.html"
+   ]
+  ]
+ },
+ "pdv-para-beleza-e-moda.html": {
+  "titulo": "Display e material de PDV para beleza e moda · 75 LAB",
+  "descricao": "Displays modulares, enxovais de loja e ativações para marcas de beleza e moda, com acabamento premium, aprovação em AR e rastreio por QR.",
+  "prioridade": "0.8",
+  "imagem": null,
+  "tipo": "website",
+  "ld": [
+   {
+    "@type": "Service",
+    "@id": "https://75lab.com.br/pdv-para-beleza-e-moda.html#servico",
+    "name": "Material de PDV para beleza e moda",
+    "serviceType": "Material de PDV para beleza e moda",
+    "description": "Displays modulares, enxovais de loja e ativações para marcas de beleza e moda, com acabamento premium, aprovação em AR e rastreio por QR.",
+    "provider": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "areaServed": {
+     "@type": "Country",
+     "name": "Brasil"
+    },
+    "url": "https://75lab.com.br/pdv-para-beleza-e-moda.html"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/pdv-para-beleza-e-moda.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Como manter o mesmo padrão de PDV em franquias diferentes?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Com display modular e guia de implantação: a peça se adapta ao espaço de cada loja sem mudar a identidade, e a página de montagem mostra como deve ficar."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Dá para ver o display na loja antes de produzir?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim. A peça abre em realidade aumentada, em tamanho real, para conferir medida, acabamento e leitura."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "A 75 LAB faz embalagem e enxoval sazonal?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim, como a embalagem de Natal e o enxoval de loja da Loungerie."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "PDV para beleza e moda",
+    "/pdv-para-beleza-e-moda.html"
+   ]
+  ]
+ },
+ "pdv-para-bebidas.html": {
+  "titulo": "Display e material de PDV para bebidas · 75 LAB",
+  "descricao": "Displays, pontos extras e materiais de PDV para indústrias de bebidas, de vinho a café, com estabilidade calculada, aprovação em AR e rastreio por QR.",
+  "prioridade": "0.8",
+  "imagem": null,
+  "tipo": "website",
+  "ld": [
+   {
+    "@type": "Service",
+    "@id": "https://75lab.com.br/pdv-para-bebidas.html#servico",
+    "name": "Material de PDV para bebidas",
+    "serviceType": "Material de PDV para bebidas",
+    "description": "Displays, pontos extras e materiais de PDV para indústrias de bebidas, de vinho a café, com estabilidade calculada, aprovação em AR e rastreio por QR.",
+    "provider": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "areaServed": {
+     "@type": "Country",
+     "name": "Brasil"
+    },
+    "url": "https://75lab.com.br/pdv-para-bebidas.html"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/pdv-para-bebidas.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Como evitar que um display de garrafas tombe?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Calculando o centro de gravidade com o display cheio e no pior caso (nível de cima cheio, de baixo vazio), com base larga, lastro ou fixação quando preciso. O guia display que não tomba mostra a conta."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "A 75 LAB atende foodservice?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim. Materiais para bar, restaurante e cafeteria, como o projeto de foodservice da 3 Corações."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Dá para rastrear o ponto extra nas lojas?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim, com QR na peça: o promotor registra loja, foto e localização ao montar."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "PDV para bebidas",
+    "/pdv-para-bebidas.html"
+   ]
+  ]
+ },
+ "pdv-para-eletro.html": {
+  "titulo": "Display e enxoval de PDV para eletro e linha branca · 75 LAB",
+  "descricao": "Ilhas, pórticos, toppers e enxovais de PDV para eletro e linha branca, com o produto real em exposição, aprovação em AR e conteúdo rico para o e-commerce.",
+  "prioridade": "0.8",
+  "imagem": null,
+  "tipo": "website",
+  "ld": [
+   {
+    "@type": "Service",
+    "@id": "https://75lab.com.br/pdv-para-eletro.html#servico",
+    "name": "Material de PDV para eletro e linha branca",
+    "serviceType": "Material de PDV para eletro e linha branca",
+    "description": "Ilhas, pórticos, toppers e enxovais de PDV para eletro e linha branca, com o produto real em exposição, aprovação em AR e conteúdo rico para o e-commerce.",
+    "provider": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "areaServed": {
+     "@type": "Country",
+     "name": "Brasil"
+    },
+    "url": "https://75lab.com.br/pdv-para-eletro.html"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/pdv-para-eletro.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Quais peças formam o enxoval de PDV de um eletrodoméstico?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Em geral pórtico ou backdrop, ilha ou berço para o produto, topper, orelha e placa de especificação aplicados no aparelho, régua, tapete e comunicação aérea. O enxoval do Split HW da SEMP tem 15 peças."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Dá para ver o enxoval inteiro em realidade aumentada?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim. No case SEMP, as 15 peças ficam numa página de AR, uma a uma, todas juntas ou em tamanho real."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "A 75 LAB faz o conteúdo da página do produto no e-commerce?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim, com o ClickLab, como fizemos para Whirlpool e SEMP."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "PDV para eletro",
+    "/pdv-para-eletro.html"
+   ]
+  ]
+ },
  "case-savencia-frescatino.html": {
   "titulo": "Case Savencia: displays Frescatino e Polenguinho em AR · 75 LAB",
   "descricao": "Clip strip, display PP, gravitacional e glorifier da Savencia em realidade aumentada, com página de montagem e QR de rastreio em cada peça.",
@@ -653,8 +1037,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-16",
-    "dateModified": "2026-11-16",
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-checklist-executivo-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -718,6 +1102,172 @@
    ]
   ]
  },
+ "guia-clip-strip.html": {
+  "titulo": "Clip strip no PDV: quando usar e como especificar · 75 LAB",
+  "descricao": "Quando usar clip strip no PDV, onde pendurar, como calcular a carga por gancho, escolher material e comprimento da tira e evitar que rasgue ou caia na loja.",
+  "prioridade": "0.7",
+  "imagem": null,
+  "tipo": "article",
+  "ld": [
+   {
+    "@type": "Article",
+    "@id": "https://75lab.com.br/guia-clip-strip.html#artigo",
+    "headline": "Clip strip: quando usar e como especificar",
+    "description": "Quando usar clip strip no PDV, onde pendurar, como calcular a carga por gancho, escolher material e comprimento da tira e evitar que rasgue ou caia na loja.",
+    "author": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "mainEntityOfPage": "https://75lab.com.br/guia-clip-strip.html",
+    "image": "https://75lab.com.br/img/og-75lab.jpg",
+    "keywords": "clip strip, o que é clip strip, clip strip PDV, tira de ganchos para produto, cross merchandising, ponto extra de venda, material de PDV, trade marketing, compra por impulso"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/guia-clip-strip.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "O que é clip strip?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É uma tira vertical com ganchos, presa no alto da prateleira, da régua de preço ou de uma barra, onde se penduram produtos leves com embalagem furada. É usada para criar ponto extra de venda em pouco espaço, principalmente fora da gôndola da categoria."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quando usar clip strip no PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Quando o produto é leve, tem embalagem com furo e vende mais perto de outra categoria ou do caixa. É uma ferramenta típica de cross merchandising e compra por impulso. Para produto pesado, frágil ou sem furo, display ou cesto funcionam melhor."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quanto peso aguenta um clip strip?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Depende do material, da espessura e do ponto de fixação, então o número sai de conta e teste, não de tabela genérica. Calcule o peso real por gancho vezes o número de ganchos, some o peso da tira e 20% de folga, e teste a tira cheia com o produto real por alguns dias."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Por que o clip strip rasga ou cai?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Os motivos mais comuns são carga subestimada, furo perto da borda ou com canto vivo, tira fina que estica sob carga contínua e gancho de topo que não combina com o perfil da prateleira da rede. Conta de carga, reforço no topo e teste na régua real resolvem a maior parte dos casos."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Precisa de autorização do varejo para colocar clip strip?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim. Mesmo pequeno, o clip strip é ponto extra fora do espaço da marca e depende de autorização da rede e da seção onde vai ficar. Na negociação, defina local, período e quem faz a reposição."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Clip strip",
+    "/guia-clip-strip.html"
+   ]
+  ]
+ },
+ "guia-como-rastrear-material-de-pdv.html": {
+  "titulo": "Como rastrear material de PDV e a montagem · 75 LAB",
+  "descricao": "Como rastrear material de PDV e saber se foi montado: foto do promotor, auditoria, QR com página de montagem e RFID, o que medir e como usar o dado na campanha.",
+  "prioridade": "0.7",
+  "imagem": null,
+  "tipo": "article",
+  "ld": [
+   {
+    "@type": "Article",
+    "@id": "https://75lab.com.br/guia-como-rastrear-material-de-pdv.html#artigo",
+    "headline": "Como rastrear material de PDV e saber se foi montado",
+    "description": "Como rastrear material de PDV e saber se foi montado: foto do promotor, auditoria, QR com página de montagem e RFID, o que medir e como usar o dado na campanha.",
+    "author": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "mainEntityOfPage": "https://75lab.com.br/guia-como-rastrear-material-de-pdv.html",
+    "image": "https://75lab.com.br/img/og-75lab.jpg",
+    "keywords": "rastrear material de PDV, comprovação de montagem PDV, lojas positivadas, QR code material de PDV, RFID no ponto de venda, auditoria de PDV, mensuração de trade marketing, retorno do trade marketing, execução no ponto de venda"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/guia-como-rastrear-material-de-pdv.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Como saber se o material de PDV foi montado na loja?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É preciso um registro por peça com loja, data, foto e, de preferência, localização confirmada pelo celular. Isso pode vir de foto do promotor, auditoria de campo, QR com página de montagem ou leitura de RFID. O dado precisa ser consolidado em um painel para mostrar quais lojas montaram e quais faltam."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O que são lojas positivadas no trade marketing?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No rastreamento de PDV, são as lojas onde a peça ou a ação foi de fato implantada. O indicador é calculado como lojas com registro de montagem sobre lojas que deveriam receber o material."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "QR code ou RFID para rastrear material de PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "O QR é barato, vai impresso na própria peça e permite registrar foto e instrução de montagem, mas depende de alguém escanear. O RFID lê a peça sozinho, porém custa mais por peça, exige infraestrutura de leitura e não mostra se a peça está bem montada. Muitas operações combinam QR em todas as peças com auditoria em uma amostra."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Foto do promotor no WhatsApp serve como comprovação de montagem?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Serve como indício, mas é frágil: a foto pode não ter loja, data e local confirmados, e fica difícil consolidar e conferir em volume. Um registro estruturado, com loja confirmada, foto e localização em um mesmo sistema, dá um dado que pode ser auditado."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como medir o retorno do material de PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "O primeiro passo é saber em quais lojas a peça foi montada e quando. Com isso, dá para comparar a venda de lojas com e sem a peça, de perfil parecido e no mesmo período. Sem o dado de montagem, qualquer cálculo de retorno parte de uma suposição."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Como rastrear material de PDV e saber se foi montado",
+    "/guia-como-rastrear-material-de-pdv.html"
+   ]
+  ]
+ },
  "guia-display-que-nao-tomba.html": {
   "titulo": "Display que não tomba e prateleira firme · 75 LAB",
   "descricao": "Como conferir no projeto se o display de PDV fica de pé e a prateleira aguenta o produto: carga real, flecha, fluência do MDF, tombamento, fixações e testes.",
@@ -736,8 +1286,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-16",
-    "dateModified": "2026-11-16",
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-display-que-nao-tomba.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -827,8 +1377,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-16",
-    "dateModified": "2026-11-16",
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-material-display-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -889,6 +1439,263 @@
    [
     "Papelão, MDF, metal, acrílico ou arame",
     "/guia-material-display-pdv.html"
+   ]
+  ]
+ },
+ "guia-o-que-e-enxoval-de-pdv.html": {
+  "titulo": "Enxoval de PDV: o que é e quais peças entram · 75 LAB",
+  "descricao": "O que é enxoval de PDV, quais peças entram em cada lugar da loja, como montar o kit de lançamento ou de campanha e como definir quantidades por perfil de loja.",
+  "prioridade": "0.7",
+  "imagem": null,
+  "tipo": "article",
+  "ld": [
+   {
+    "@type": "Article",
+    "@id": "https://75lab.com.br/guia-o-que-e-enxoval-de-pdv.html#artigo",
+    "headline": "O que é enxoval de PDV e quais peças entram nele",
+    "description": "O que é enxoval de PDV, quais peças entram em cada lugar da loja, como montar o kit de lançamento ou de campanha e como definir quantidades por perfil de loja.",
+    "author": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "mainEntityOfPage": "https://75lab.com.br/guia-o-que-e-enxoval-de-pdv.html",
+    "image": "https://75lab.com.br/img/og-75lab.jpg",
+    "keywords": "enxoval de PDV, o que é enxoval de PDV, kit de PDV, materiais de ponto de venda, peças de PDV, guia de implantação de PDV, enxoval de lançamento, trade marketing, merchandising no ponto de venda"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/guia-o-que-e-enxoval-de-pdv.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "O que é enxoval de PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É o conjunto de materiais de ponto de venda que uma marca envia para cada loja em uma ação, planejado como kit. Inclui peças de gôndola, de chão, de parede ou área alta e de produto, todas com a mesma linguagem visual e uma função definida."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quais peças fazem parte de um enxoval de PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Depende do objetivo, mas as mais comuns são faixa de gôndola, wobbler, testeira, régua de preço, display de chão, ponta de gôndola, adesivo de piso, móbile, faixa aérea, cartaz, colar de produto e display de balcão. O ideal é organizar as peças pelo lugar da loja onde cada uma vai ficar."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Qual a diferença entre enxoval de lançamento e de campanha?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "O enxoval de lançamento apresenta um produto que o shopper ainda não conhece, então precisa de ponto extra e de comunicação vista de longe. O de campanha dá um motivo para comprar agora, com peso maior em gôndola e produto, peças mais leves e troca de arte prevista."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como definir a quantidade de peças do enxoval por loja?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Agrupe as lojas por perfil, usando tamanho, número de módulos da categoria, espaço para ponto extra, pé-direito, checkouts, canal e regras da rede. Defina um kit para cada perfil e calcule as quantidades pelo número de módulos, frentes e checkouts de cada grupo."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O que é guia de implantação de PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É o documento que acompanha o kit e mostra ao promotor onde vai cada peça, em que ordem montar, com quais ferramentas e em que altura. Ele também diz o que fazer se a peça não couber e como registrar a montagem, para que a ação fique igual em toda a rede."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "O que é enxoval de PDV e quais peças entram nele",
+    "/guia-o-que-e-enxoval-de-pdv.html"
+   ]
+  ]
+ },
+ "guia-ponta-de-gondola.html": {
+  "titulo": "Ponta de gôndola: planejar, negociar e montar · 75 LAB",
+  "descricao": "O que é ponta de gôndola, diferença para ilha, componentes, como dimensionar pela gôndola da rede, guia de implantação, conferência da montagem e erros comuns.",
+  "prioridade": "0.7",
+  "imagem": null,
+  "tipo": "article",
+  "ld": [
+   {
+    "@type": "Article",
+    "@id": "https://75lab.com.br/guia-ponta-de-gondola.html#artigo",
+    "headline": "Ponta de gôndola: como planejar, negociar e montar",
+    "description": "O que é ponta de gôndola, diferença para ilha, componentes, como dimensionar pela gôndola da rede, guia de implantação, conferência da montagem e erros comuns.",
+    "author": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "mainEntityOfPage": "https://75lab.com.br/guia-ponta-de-gondola.html",
+    "image": "https://75lab.com.br/img/og-75lab.jpg",
+    "keywords": "ponta de gôndola, o que é ponta de gôndola, ponta de gôndola x ilha, como negociar ponta de gôndola, projeto de ponta de gôndola, guia de implantação, ponto extra no supermercado, trade marketing, material de PDV"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/guia-ponta-de-gondola.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "O que é ponta de gôndola?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É a cabeceira da gôndola, a face voltada para o corredor principal da loja. Tem visibilidade alta porque o shopper passa por ela sem entrar no corredor, e por isso é usada para lançamento, promoção e produtos de giro."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Qual a diferença entre ponta de gôndola e ilha?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A ponta fica na extremidade da gôndola e usa ou complementa a estrutura da rede, com acesso principalmente pela frente. A ilha fica solta no salão, tem estrutura própria e é acessada por todos os lados, o que exige mais cuidado com estabilidade e circulação."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como dimensionar uma ponta de gôndola?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Pela gôndola real da rede, levantada em loja: largura do módulo, altura, profundidade da base e das prateleiras, tipo de cremalheira e passo dos furos, rodapé e pontos de fixação. Se a rede tiver mais de um modelo de gôndola, projete encaixes ajustáveis ou uma versão por modelo."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como negociar ponta de gôndola com o varejo?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Leve objetivo, período, mix de produto, imagem da ponta montada na medida da rede e a definição de quem monta, repõe e retira. Mostrar como a montagem será comprovada loja a loja também dá segurança ao comprador."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como conferir se a ponta de gôndola foi montada?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Peça um registro por loja com foto, data e localização, e compare com o guia de implantação. Um sistema com QR na peça e página de montagem permite acompanhar em um painel quais lojas já montaram e quais ainda faltam."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Ponta de gôndola",
+    "/guia-ponta-de-gondola.html"
+   ]
+  ]
+ },
+ "guia-realidade-aumentada-no-pdv.html": {
+  "titulo": "Realidade aumentada no PDV: como funciona · 75 LAB",
+  "descricao": "Como funciona a realidade aumentada no PDV pelo navegador, sem app: peça em tamanho real para aprovar, vender ao varejo, conferir medida e treinar montagem.",
+  "prioridade": "0.7",
+  "imagem": null,
+  "tipo": "article",
+  "ld": [
+   {
+    "@type": "Article",
+    "@id": "https://75lab.com.br/guia-realidade-aumentada-no-pdv.html#artigo",
+    "headline": "Realidade aumentada no PDV: como funciona e quando vale a pena",
+    "description": "Como funciona a realidade aumentada no PDV pelo navegador, sem app: peça em tamanho real para aprovar, vender ao varejo, conferir medida e treinar montagem.",
+    "author": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "mainEntityOfPage": "https://75lab.com.br/guia-realidade-aumentada-no-pdv.html",
+    "image": "https://75lab.com.br/img/og-75lab.jpg",
+    "keywords": "realidade aumentada no PDV, realidade aumentada trade marketing, WebAR, display em realidade aumentada, AR Quick Look, aprovação de PDV, visualização 3D de display, projeto de PDV, ponto de venda"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/guia-realidade-aumentada-no-pdv.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Precisa de aplicativo para ver realidade aumentada no PDV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Não. Com WebAR, a peça abre por link ou QR direto no navegador. O iPhone usa o AR Quick Look do próprio sistema, o Android usa o visualizador de realidade aumentada do Google e o computador mostra o modelo 3D com um QR para abrir no celular."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "A peça aparece em tamanho real na realidade aumentada?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sim, desde que o modelo seja exportado na escala correta. A câmera reconhece o chão ou a parede e posiciona a peça em tamanho real, e dá para andar em volta e conferir altura, largura e distância do corredor."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Para que serve realidade aumentada no trade marketing?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Para aprovar peças internamente com menos rodadas de render, mostrar ao comprador do varejo a peça dentro da loja antes de produzir, conferir medidas no espaço real e treinar o promotor na montagem. Ela não substitui a conta estrutural nem o protótipo carregado."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O que é preciso para colocar um display em realidade aumentada?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Um modelo 3D da peça com as artes aplicadas, otimizado para ficar leve e exportado em GLB e USDZ na escala certa. Quando o display já é projetado em 3D para o executivo, esse modelo é reaproveitado."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Por que a peça em realidade aumentada aparece cortada no iPhone?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "iPhones com LiDAR medem a profundidade do ambiente e escondem a parte da peça que está atrás de objetos reais, como pessoas, gôndolas ou móveis. Posicione a peça em uma área livre, sem nada entre a câmera e ela."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Por que a realidade aumentada trava no celular?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Normalmente por arquivo pesado ou texturas grandes demais. A textura é aberta descomprimida na memória, e uma imagem de 4096 x 4096 pixels ocupa cerca de 64 MB. O modelo de realidade aumentada deve ser uma versão leve, com detalhes ocultos removidos e texturas no tamanho necessário."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Realidade aumentada no PDV",
+    "/guia-realidade-aumentada-no-pdv.html"
    ]
   ]
  },
