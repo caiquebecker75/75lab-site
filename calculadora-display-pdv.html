@@ -209,7 +209,7 @@
     var tmin = t; if (!passa) { while (tmin < 80) { tmin += 1; var Ii = b * Math.pow(tmin, 3) / 12; if (5 * q * Math.pow(L, 4) / (384 * E[mat] * Ii) * (flui[mat] || 1) <= fmax) break; } }
     var Lmax = Math.pow(fmax * 384 * E[mat] * I / (5 * (kgF * 9.81) * (flui[mat] || 1)), 1 / 3);
     var h = '<span class="k">Carga por nível com 20% de folga</span><strong class="big">' + br(kgF, 1) + ' kg por nível</strong>';
-    h += '<p>Produto: ' + br(kg, 1) + ' kg por nível. Display cheio: ' + br(total, 1) + ' kg em ' + (nv || 1) + ' níveis.</p><ul>';
+    h += '<p>Produto: ' + br(kg, 1) + ' kg por nível. Display cheio: ' + br(total, 1) + ' kg em ' + (nv || 1) + ((nv || 1) > 1 ? ' níveis.' : ' nível.') + '</p><ul>';
     h += '<li>Flecha inicial: ' + br(f0, 1) + ' mm.</li>';
     if (flui[mat]) h += '<li>Flecha com a fluência do material: ' + br(ff, 1) + ' mm.</li>';
     h += '<li>Limite L/' + lim + ': ' + br(fmax, 1) + ' mm. <span class="' + (passa ? 'ok' : 'nao') + '">' + (passa ? 'Passa.' : 'Não passa.') + '</span></li>';
