@@ -1,0 +1,32 @@
+[
+ {
+  "pt": "/",
+  "en": "/en/",
+  "es": "/es/"
+ },
+ {
+  "pt": "/display-de-pdv.html",
+  "en": "/en/pop-display.html",
+  "es": "/es/exhibidor-pdv.html"
+ },
+ {
+  "pt": "/realidade-aumentada-pdv.html",
+  "en": "/en/augmented-reality-pos.html",
+  "es": "/es/realidad-aumentada-pdv.html"
+ },
+ {
+  "pt": "/rastreamento-material-pdv.html",
+  "en": "/en/pos-material-tracking.html",
+  "es": "/es/rastreo-material-pdv.html"
+ },
+ {
+  "pt": "/case-ngv-display-universal.html",
+  "en": "/en/case-ngv-universal-display.html",
+  "es": "/es/caso-ngv-exhibidor-universal.html"
+ },
+ {
+  "pt": "/case-semp-split-hw.html",
+  "en": "/en/case-semp-split-hw.html",
+  "es": "/es/caso-semp-split-hw.html"
+ }
+]

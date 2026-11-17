@@ -62,6 +62,28 @@ def bloco(b):
     raise ValueError(b)
 
 
+UI = {
+    'pt': {'inicio': 'Início', 'home': 'index.html', 'faq': 'Perguntas frequentes', 'rel': 'Veja também', 'whats': 'Chamar no WhatsApp',
+           'cta': {'k': 'Fale com a 75 LAB', 'h': 'Tem um PDV para tirar do papel?', 'p': 'Conte o produto, o canal e o prazo. A gente responde com o caminho e o cronograma.'},
+           'band_k': 'Tem uma intenção comercial?', 'band_h': 'vamos fazer <em>acontecer</em>', 'band_btn': 'Pedir orçamento', 'html': 'pt-BR', 'og': 'pt_BR'},
+    'en': {'inicio': 'Home', 'home': 'en/', 'faq': 'Frequently asked questions', 'rel': 'See also', 'whats': 'Message us on WhatsApp',
+           'cta': {'k': 'Talk to 75 LAB', 'h': 'Have a POS project to get off the ground?', 'p': 'Tell us the product, the channel and the deadline. We reply with the path and the timeline.'},
+           'band_k': 'Have a commercial goal?', 'band_h': "let's make it <em>happen</em>", 'band_btn': 'Request a quote', 'html': 'en', 'og': 'en_US'},
+    'es': {'inicio': 'Inicio', 'home': 'es/', 'faq': 'Preguntas frecuentes', 'rel': 'Ver también', 'whats': 'Escríbenos por WhatsApp',
+           'cta': {'k': 'Habla con 75 LAB', 'h': '¿Tienes un PDV para hacer realidad?', 'p': 'Cuéntanos el producto, el canal y el plazo. Te respondemos con el camino y el cronograma.'},
+           'band_k': '¿Tienes una intención comercial?', 'band_h': 'hagámoslo <em>realidad</em>', 'band_btn': 'Pedir presupuesto', 'html': 'es', 'og': 'es_ES'},
+}
+# páginas equivalentes entre idiomas (hreflang)
+PARES = [
+    {'pt': '/', 'en': '/en/', 'es': '/es/'},
+    {'pt': '/display-de-pdv.html', 'en': '/en/pop-display.html', 'es': '/es/exhibidor-pdv.html'},
+    {'pt': '/realidade-aumentada-pdv.html', 'en': '/en/augmented-reality-pos.html', 'es': '/es/realidad-aumentada-pdv.html'},
+    {'pt': '/rastreamento-material-pdv.html', 'en': '/en/pos-material-tracking.html', 'es': '/es/rastreo-material-pdv.html'},
+    {'pt': '/case-ngv-display-universal.html', 'en': '/en/case-ngv-universal-display.html', 'es': '/es/caso-ngv-exhibidor-universal.html'},
+    {'pt': '/case-semp-split-hw.html', 'en': '/en/case-semp-split-hw.html', 'es': '/es/caso-semp-split-hw.html'},
+]
+
+
 def molde():
     h = open(os.path.join(RAIZ, 'sobre.html'), encoding='utf-8').read()
     topo = h[:h.index('</header>') + len('</header>')]
@@ -69,24 +91,27 @@ def molde():
     return topo, rodape
 
 
-def pagina(p, tipo):
+def pagina(p, tipo, lang='pt'):
     topo, rodape = molde()
+    u = UI[lang]
+    if lang != 'pt':
+        topo = topo.replace('<html lang="pt-BR"', f'<html lang="{u["html"]}"', 1)
+        topo = topo.replace('<head>', f'<head>\n<base href="/">\n<script>try{{localStorage.setItem("lang75","{lang}")}}catch(e){{}}</script>', 1)
     migalhas = p['migalhas']  # [(nome, caminho)]
-    crumbs = '<a href="index.html">Início</a> / ' + ' / '.join(
+    crumbs = f'<a href="{u["home"]}">{u["inicio"]}</a>' + (' / ' if migalhas else '') + ' / '.join(
         (f'<a href="{c.lstrip("/")}">{html.escape(n)}</a>' if c else html.escape(n)) for n, c in migalhas)
     secoes = []
     for s in p['secoes']:
         secoes.append(f'<h2>{inline(s["h2"])}</h2>' + ''.join(bloco(b) for b in s['blocos']))
     faq = ''
     if p.get('faq'):
-        faq = '<h2>Perguntas frequentes</h2><div class="faq">' + ''.join(
+        faq = f'<h2>{u["faq"]}</h2><div class="faq">' + ''.join(
             f'<details><summary>{inline(f["q"])}</summary><p>{inline(f["a"])}</p></details>' for f in p['faq']) + '</div>'
     rel = ''
     if p.get('relacionados'):
-        rel = '<div class="rel"><span class="k">Veja também</span>' + ''.join(
+        rel = f'<div class="rel"><span class="k">{u["rel"]}</span>' + ''.join(
             f'<a href="{u}">{html.escape(t)}</a>' for t, u in p['relacionados']) + '</div>'
-    cta = p.get('cta') or {'k': 'Fale com a 75 LAB', 'h': 'Tem um PDV para tirar do papel?',
-                           'p': 'Conte o produto, o canal e o prazo. A gente responde com o caminho e o cronograma.'}
+    cta = p.get('cta') or u['cta']
     meio = f'''
 <section class="phero"><span class="glow g1"></span><span class="glow g2"></span>
   <div class="wrap inner">
@@ -105,21 +130,23 @@ def pagina(p, tipo):
     </article>
     <aside class="art-aside">
       <div class="cta-card"><span class="k">{html.escape(cta['k'])}</span><h3>{html.escape(cta['h'])}</h3><p>{html.escape(cta['p'])}</p>
-        <a class="btn btn--onink" href="{WHATS}" target="_blank" rel="noopener">Chamar no WhatsApp <span class="arr">→</span></a></div>
+        <a class="btn btn--onink" href="{WHATS}" target="_blank" rel="noopener">{u['whats']} <span class="arr">→</span></a></div>
       {rel}
     </aside>
   </div>
 </section>
 <section class="cta-band">
   <div class="wrap">
-    <span class="eyebrow plain fx">Tem uma intenção comercial?</span>
-    <h2 class="fx" data-fx="scale">vamos fazer <em>acontecer</em></h2>
-    <a class="btn btn--lg fx" href="contato.html" data-magnetic>Pedir orçamento <span class="arr">→</span></a>
+    <span class="eyebrow plain fx">{u['band_k']}</span>
+    <h2 class="fx" data-fx="scale">{u['band_h']}</h2>
+    <a class="btn btn--lg fx" href="{WHATS if lang != 'pt' else 'contato.html'}" data-magnetic>{u['band_btn']} <span class="arr">→</span></a>
   </div>
 </section>
 
 '''
-    open(os.path.join(RAIZ, p['slug'] + '.html'), 'w', encoding='utf-8').write(topo + meio + rodape)
+    destino = os.path.join(RAIZ, p['slug'] + '.html')
+    os.makedirs(os.path.dirname(destino), exist_ok=True)
+    open(destino, 'w', encoding='utf-8').write(topo + meio + rodape)
 
     url = f'{SITE}/{p["slug"]}.html'
     ld = []
@@ -131,11 +158,11 @@ def pagina(p, tipo):
         ld.append({'@type': 'CreativeWork', '@id': url + '#case', 'name': p['h1'].replace('**', ''),
                    'description': p['descricao'], 'creator': {'@id': SITE + '/#org'},
                    'about': {'@type': 'Organization', 'name': p['cliente']}, 'image': SITE + p['imagem'],
-                   'url': url, 'inLanguage': 'pt-BR'})
+                   'url': url, 'inLanguage': u['html']})
     elif tipo == 'guia':
         ld.append({'@type': 'Article', '@id': url + '#artigo', 'headline': p['h1'], 'description': p['descricao'],
                    'author': {'@id': SITE + '/#org'}, 'publisher': {'@id': SITE + '/#org'},
-                   'datePublished': p.get('data', HOJE), 'dateModified': HOJE, 'inLanguage': 'pt-BR',
+                   'datePublished': p.get('data', HOJE), 'dateModified': HOJE, 'inLanguage': u['html'],
                    'mainEntityOfPage': url, 'image': SITE + p.get('imagem', '/img/og-75lab.jpg'),
                    'keywords': ', '.join(p.get('palavras_chave', []))})
     if p.get('faq'):
@@ -143,9 +170,24 @@ def pagina(p, tipo):
             {'@type': 'Question', 'name': re.sub(r'\*\*|\[|\]\([^)]*\)', '', f['q']),
              'acceptedAnswer': {'@type': 'Answer', 'text': re.sub(r'\*\*|\]\([^)]*\)|\[', '', f['a'])}}
             for f in p['faq']]})
-    return {'titulo': p['titulo_seo'], 'descricao': p['descricao'], 'prioridade': p.get('prioridade', '0.8'),
+    return {'titulo': p['titulo_seo'], 'descricao': p['descricao'], 'prioridade': p.get('prioridade', '0.8'), 'lang': lang,
             'imagem': p.get('imagem_og'), 'tipo': 'article' if tipo in ('case', 'guia') else 'website',
             'ld': ld, 'migalhas': [(n, c or '/' + p['slug'] + '.html') for n, c in migalhas]}
+
+
+def paginas_traduzidas(extra):
+    for lang in ('en', 'es'):
+        arq = os.path.join(B, 'conteudo', 'i18n', f'paginas_{lang}.py')
+        if not os.path.exists(arq):
+            continue
+        spec = importlib.util.spec_from_file_location('t' + lang, arq)
+        m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+        home = dict(m.HOME, slug=f'{lang}/index', migalhas=[], faq=[], relacionados=[])
+        extra[f'{lang}/index.html'] = pagina(home, 'home', lang)
+        for p in m.PAGINAS:
+            tipo = 'case' if 'cliente' in p else 'servico'
+            extra[p['slug'] + '.html'] = pagina(p, tipo, lang)
+    json.dump(PARES, open(os.path.join(B, 'hreflang.json'), 'w', encoding='utf-8'), indent=1)
 
 
 def guia_de_json(g):
@@ -203,6 +245,7 @@ def main():
     for g in guias:
         extra[g['slug'] + '.html'] = pagina(guia_de_json(g), 'guia')
     extra['guias.html'] = indice_guias(guias)
+    paginas_traduzidas(extra)
     # páginas livres: _build/conteudo/livres/*.html, 1ª linha = <!--{json com slug, titulo, descricao, prioridade, migalhas}-->
     topo, rodape = molde()
     for arq in sorted(glob.glob(os.path.join(B, 'conteudo', 'livres', '*.html'))):

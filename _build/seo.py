@@ -98,11 +98,26 @@ def carregar_extra():
     return json.load(open(EXTRA, encoding='utf-8'))
 
 
-def bloco(arquivo, caminho, titulo, desc, imagem=OG_PADRAO, tipo='website', ld_extra=None, migalhas=None):
+LOCAIS = {'pt': ('pt-BR', 'pt_BR'), 'en': ('en', 'en_US'), 'es': ('es', 'es_ES')}
+HREFLANG = os.path.join(RAIZ, '_build', 'hreflang.json')
+
+
+def alternativos(caminho):
+    if not os.path.exists(HREFLANG):
+        return []
+    for grupo in json.load(open(HREFLANG, encoding='utf-8')):
+        if caminho in grupo.values():
+            linhas = [f'<link rel="alternate" hreflang="{LOCAIS[l][0]}" href="{SITE}{c}">' for l, c in grupo.items()]
+            linhas.append(f'<link rel="alternate" hreflang="x-default" href="{SITE}{grupo["pt"]}">')
+            return linhas
+    return []
+
+
+def bloco(arquivo, caminho, titulo, desc, imagem=OG_PADRAO, tipo='website', ld_extra=None, migalhas=None, lang='pt'):
     url = SITE + caminho
     e = lambda s: html.escape(s, quote=True)
     pagina = {'@type': 'WebPage', '@id': url + '#pagina', 'url': url, 'name': titulo,
-              'description': desc, 'inLanguage': 'pt-BR', 'isPartOf': {'@id': SITE + '/#site'},
+              'description': desc, 'inLanguage': LOCAIS[lang][0], 'isPartOf': {'@id': SITE + '/#site'},
               'about': {'@id': SITE + '/#org'}, 'primaryImageOfPage': imagem}
     grafo = [ORG, SITE_LD, pagina]
     if migalhas:
@@ -119,7 +134,8 @@ def bloco(arquivo, caminho, titulo, desc, imagem=OG_PADRAO, tipo='website', ld_e
         f'<meta name="description" content="{e(desc)}">',
         f'<link rel="canonical" href="{url}">',
         '<meta name="robots" content="index, follow, max-image-preview:large">',
-        '<meta property="og:locale" content="pt_BR">',
+        f'<meta property="og:locale" content="{LOCAIS[lang][1]}">',
+        *alternativos(caminho),
         f'<meta property="og:type" content="{tipo}">',
         '<meta property="og:site_name" content="75 LAB">',
         f'<meta property="og:title" content="{e(titulo)}">',
@@ -153,10 +169,10 @@ def main():
         aplicar(arq, bloco(arq, cam, tit, desc, migalhas=None if cam == '/' else [(tit.split(' · ')[0], cam)]))
         todas.append((cam, prio))
     for arq, c in carregar_extra().items():
-        cam = '/' + arq
+        cam = '/' + (arq[:-len('index.html')] if arq.endswith('index.html') else arq)
         img = SITE + c['imagem'] if c.get('imagem') else OG_PADRAO
         aplicar(arq, bloco(arq, cam, c['titulo'], c['descricao'], img, c.get('tipo', 'website'),
-                           c.get('ld'), c.get('migalhas')))
+                           c.get('ld'), c.get('migalhas'), c.get('lang', 'pt')))
         todas.append((cam, c.get('prioridade', '0.7')))
     # 404 não entra no índice
     p404 = os.path.join(RAIZ, '404.html')
