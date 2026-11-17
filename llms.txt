@@ -35,6 +35,8 @@ Fatos:
 - [Portfólio com 84 cases](https://75lab.com.br/cases.html)
 
 ## Ferramentas
+- [Display de PDV por categoria de produto](https://75lab.com.br/displays-por-categoria.html): chocolate, biscoitos, cerveja, vinhos, refrigerante e água, pet, cosméticos, higiene, MIP e suplementos, pilhas e eletrônicos.
+- [Glossário de trade marketing e PDV](https://75lab.com.br/glossario-trade-marketing.html): 65 termos de trade marketing e ponto de venda definidos em linguagem direta.
 - [Calculadora de display de PDV](https://75lab.com.br/calculadora-display-pdv.html): ferramenta grátis para escolher o material do display, conferir carga e flecha da prateleira (com fluência do MDF) e a carga do clip strip por gancho.
 
 ## Guias

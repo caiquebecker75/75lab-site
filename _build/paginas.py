@@ -210,7 +210,11 @@ def guia_de_json(g):
 def indice_guias(guias):
     topo, rodape = molde()
     cards = ('<a class="lcard" href="calculadora-display-pdv.html"><span class="k">Ferramenta grátis</span><h3>Calculadora de display de PDV</h3>'
-             '<p>Qual material usar, se a prateleira aguenta o produto com a fluência do MDF e a carga do clip strip por gancho.</p><span class="go">Usar a calculadora →</span></a>') + ''.join(
+             '<p>Qual material usar, se a prateleira aguenta o produto com a fluência do MDF e a carga do clip strip por gancho.</p><span class="go">Usar a calculadora →</span></a>'
+             '<a class="lcard" href="glossario-trade-marketing.html"><span class="k">Glossário</span><h3>Glossário de trade marketing e PDV</h3>'
+             '<p>Ponta de gôndola, planograma, enxoval, ruptura, sell-out e mais 60 termos explicados em duas frases.</p><span class="go">Abrir o glossário →</span></a>'
+             '<a class="lcard" href="displays-por-categoria.html"><span class="k">Por categoria</span><h3>Display de PDV por categoria de produto</h3>'
+             '<p>Chocolate, cerveja, ração, cosméticos, MIP, pilhas e mais: que peça usar, material e cuidado de carga em cada categoria.</p><span class="go">Ver categorias →</span></a>') + ''.join(
         f'<a class="lcard" href="{g["slug"]}.html"><span class="k">Guia</span><h3>{html.escape(g["titulo"])}</h3>'
         f'<p>{html.escape(g["resumo"][:180].rsplit(" ", 1)[0])}...</p><span class="go">Ler guia →</span></a>' for g in guias)
     meio = f'''

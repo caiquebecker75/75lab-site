@@ -2476,6 +2476,1190 @@
    }
   ]
  },
+ "display-para-biscoitos-e-snacks.html": {
+  "titulo": "Display para biscoitos e snacks no PDV · 75 LAB",
+  "descricao": "Como expor biscoito e salgadinho no PDV: display de chão, gancheira, clip strip em cross merchandising, ponta de gôndola, material, volume da embalagem e checklist.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para biscoitos e snacks",
+    "/display-para-biscoitos-e-snacks.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-biscoitos-e-snacks.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual display usar para salgadinho?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Para ação curta, display de chão de papelão no corredor de bebidas ou na entrada da loja. Para pacote com furo, gancheira na ponta de gôndola. Para impulso no caixa, display de balcão com porção individual."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Por que o display de snack se projeta pelo volume e não pelo peso?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Porque o pacote é leve e cheio de ar: a peça lota antes de chegar perto do limite de carga. Altura livre entre níveis, profundidade e quantos pacotes cabem sem amassar decidem mais que a conta de flecha."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Onde colocar biscoito e snack fora do corredor?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Perto da bebida é o cross merchandising mais comum, com clip strip ou display de chão. No caixa, entra a embalagem individual de impulso. Em todo caso, o ponto precisa ser negociado com a rede."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-cerveja.html": {
+  "titulo": "Display de PDV para cerveja: peças e carga · 75 LAB",
+  "descricao": "Como expor cerveja no PDV: ilha de fardos, ponta de gôndola, comunicação de geladeira, display de chão, carga de lata e garrafa, umidade e checklist de projeto.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para cerveja",
+    "/display-para-cerveja.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-cerveja.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual o melhor material para display de cerveja?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Metal e arame soldado, porque carregam muito peso com pouca estrutura e aguentam umidade e reposição. Papelão funciona em ação curta, com prateleira reforçada e base protegida contra o piso molhado."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quanto peso aguenta um display de cerveja?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Depende do material, do vão e da espessura de cada prateleira. A conta parte do peso real da lata ou garrafa vezes frentes vezes profundidade, mais 20% de folga, e confere flecha, fluência e tombamento."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Display de cerveja precisa de aviso de venda proibida para menores?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A comunicação de bebida alcoólica segue a autorregulamentação publicitária e regras de rede e de estado, que podem pedir frases de advertência e aviso de venda proibida para menores de 18 anos. Confira com o jurídico da marca e com a rede antes de produzir."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-chocolate-e-confeitos.html": {
+  "titulo": "Display para chocolate e confeitos no PDV · 75 LAB",
+  "descricao": "Como expor chocolate, bala e confeito no PDV: display de checkout, clip strip, parreiral de Páscoa, material indicado, cuidado com calor e checklist de projeto.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para chocolate e confeitos",
+    "/display-para-chocolate-e-confeitos.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-chocolate-e-confeitos.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual o melhor display para chocolate no checkout?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Um display de balcão compacto, que não atrapalhe o caixa, com frentes estreitas para muitos itens e preço fácil de ler. Para peça que fica meses, acrílico, PETG ou metal com comunicação trocável duram mais que papelão."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Display de papelão serve para chocolate?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Serve bem para ação sazonal de algumas semanas, porque a carga de chocolate por nível é baixa. Os cuidados são a umidade do piso e a posição longe de calor."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como evitar que o chocolate derreta no display?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Escolha a posição antes de desenhar a peça: longe de sol direto, vitrine envidraçada, luminária quente, forno e saída de ar de equipamentos. Se o display tiver luz própria, use LED de baixo aquecimento afastado do produto."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quando começar o projeto do PDV de Páscoa?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Conte de trás para frente a partir da data de entrada combinada com a rede: montagem, frete, produção, aprovação e projeto. A aprovação em realidade aumentada encurta a etapa de aprovação, mas produção e logística para muitas lojas pedem folga no cronograma."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-cosmeticos-e-maquiagem.html": {
+  "titulo": "Display para cosméticos e maquiagem · 75 LAB",
+  "descricao": "Como expor cosméticos e maquiagem no PDV: display com testador, expositor de parede, display de checkout, material, acabamento, antifurto, iluminação e checklist.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para cosméticos e maquiagem",
+    "/display-para-cosmeticos-e-maquiagem.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-cosmeticos-e-maquiagem.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual material usar em display de maquiagem?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Acrílico, PETG e PS para vitrine, testeira e nicho de testador; MDF laqueado ou revestido para corpo e cor de marca; metal para estrutura de parede e ilha. A carga é baixa, então acabamento e limpeza decidem."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como organizar o testador no display de cosméticos?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Em nicho próprio, separado do estoque lacrado, com espelho na altura do rosto, luz de cor fiel e lugar para lenço e descarte. A superfície precisa aceitar limpeza frequente sem manchar."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como reduzir furto em display de cosméticos?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Com compartimento com tampa ou trava, empurrador que libera uma unidade por vez, produto cenográfico com estoque no atendimento, ou o sistema antifurto da rede. A escolha muda o desenho e precisa estar no briefing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-higiene-e-cuidados-pessoais.html": {
+  "titulo": "Display para higiene e cuidados pessoais · 75 LAB",
+  "descricao": "Como expor higiene pessoal no PDV: ponta de gôndola, clip strip em cross merchandising, ilha de volume, gancheira com trava, material, carga de frascos e checklist.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para higiene e cuidados pessoais",
+    "/display-para-higiene-e-cuidados-pessoais.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-higiene-e-cuidados-pessoais.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual display usar para promoção de higiene pessoal?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Ponta de gôndola para promoção e kit, display de chão para lançamento e clip strip para o complemento, como escova perto do creme dental. A peça depende do espaço que a rede libera e do tempo da ação."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como expor lâmina de barbear sem furto?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Em gancheira com trava, com empurrador que libera uma unidade por vez, ou com o sistema antifurto que a rede já usa. Isso precisa entrar no briefing, porque muda a peça."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como expor papel higiênico e fralda em volume?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Em ilha ou pilha com moldura de comunicação, deixando o pacote empilhado fazer o volume. O projeto se decide pela medida real do pacote, pela altura de pilha e pela leitura de preço."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-mip-e-suplementos.html": {
+  "titulo": "Display para MIP e suplementos na farmácia · 75 LAB",
+  "descricao": "Como expor medicamentos isentos de prescrição e suplementos no PDV: display de balcão, gancheira para blister, ilha modular, regras de exposição, validade e checklist.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para MIP e suplementos",
+    "/display-para-mip-e-suplementos.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-mip-e-suplementos.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "MIP pode ficar em display de autosserviço na farmácia?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Em muitas farmácias o MIP fica em gôndola de autosserviço, mas o que pode ficar ao alcance do cliente, como organizar e o que a peça pode comunicar seguem regras sanitárias. Confira a regra da rede e da vigilância sanitária antes de desenhar o display."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Qual display usar para blister?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Gancheira na gôndola, com ganchos compatíveis com o furo da embalagem e carga por gancho calculada. Frasco e caixa vão melhor em prateleira com divisória."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O que o display de suplemento pode dizer?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Suplemento alimentar não é medicamento, e a comunicação não pode prometer tratamento ou cura. O texto da peça deve ser aprovado pelo regulatório da empresa antes da produção."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Vale a pena display modular em farmácia?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Costuma valer, porque o espaço é curto e as campanhas mudam rápido. A mesma estrutura atende marcas e ações diferentes trocando só a comunicação."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-pilhas-e-acessorios-eletronicos.html": {
+  "titulo": "Display para pilhas e acessórios eletrônicos · 75 LAB",
+  "descricao": "Como expor pilhas, cabos, fones e acessórios no PDV: clip strip, display de checkout, gancheira com trava, cross merchandising com brinquedo, carga por gancho e checklist.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para pilhas e acessórios eletrônicos",
+    "/display-para-pilhas-e-acessorios-eletronicos.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-pilhas-e-acessorios-eletronicos.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual o melhor display para pilhas?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Clip strip em cross merchandising, perto de brinquedo e eletro, e display de balcão no checkout. A pilha é pequena e densa, então a carga por gancho precisa de conta."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quanto peso aguenta um clip strip de pilhas?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Depende do material da tira e do ponto de fixação. A conta é o peso real da cartela vezes cartelas por gancho vezes ganchos, mais o peso da tira e 20% de folga. Se a carga ficar alta, divida em duas tiras mais curtas."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como expor fone e cabo sem furto?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Em gancheira com trava, com empurrador que libera uma unidade por vez, ou com embalagem cenográfica na exposição e estoque no caixa. A escolha precisa entrar no briefing, porque muda a peça."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-racao-e-petiscos-pet.html": {
+  "titulo": "Display para ração e petiscos pet no PDV · 75 LAB",
+  "descricao": "Como expor ração e petisco no PDV: display para saco de ração, ilha em pet shop, clip strip de petisco, material lavável, carga de embalagem grande e checklist.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para ração e petiscos pet",
+    "/display-para-racao-e-petiscos-pet.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-racao-e-petiscos-pet.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual o melhor display para saco de ração?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Base ou display de chão em metal ou arame, com o saco grande apoiado no chão e embalagens menores no alto. Prateleira de MDF só para embalagem pequena, com conta de flecha e fluência."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Onde colocar petisco no pet shop?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Perto do caixa, em display de balcão, e no corredor de ração, em clip strip. Petisco é compra por impulso e funciona onde o tutor já está decidindo a compra."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Display pet precisa ser diferente para pet shop e supermercado?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Muitas vezes sim. O pet shop tem atendimento e espaço para explicar o produto; o supermercado pede leitura rápida, preço visível e reposição fácil de saco grande. Um projeto modular atende os dois com a mesma base."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-refrigerante-e-agua.html": {
+  "titulo": "Display para refrigerante e água no PDV · 75 LAB",
+  "descricao": "Como expor refrigerante e água no PDV: ilha de fardos, display de chão para PET, ponta de gôndola, geladeira no checkout, carga de garrafa cheia e checklist de projeto.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para refrigerante e água",
+    "/display-para-refrigerante-e-agua.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-refrigerante-e-agua.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual display usar para garrafa PET de 2 litros?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Display de chão em metal ou arame, com a garrafa nos níveis baixos e vãos curtos, ou ilha de fardos com moldura de comunicação. Papelão só com reforço, porque a carga é alta e a condensação enfraquece o material."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Ilha de fardos de água precisa de estrutura?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "O fardo empilhado faz o volume, e a peça entra como base, moldura e testeira. O cuidado é respeitar a altura de empilhamento da embalagem e garantir que a moldura fique de pé sozinha."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Onde colocar refrigerante gelado na loja?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No checkout e perto da área de lanches, em geladeira ou cooler, onde a compra é de impulso e de consumo imediato. Equipamento próprio da marca depende de a rede aceitar."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "display-para-vinhos-e-destilados.html": {
+  "titulo": "Display para vinhos e destilados no PDV · 75 LAB",
+  "descricao": "Como expor vinho e destilado no PDV: expositor de garrafas, ilha de Natal, vitrine para destilado premium, carga de vidro, fluência do MDF, antifurto e checklist.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display para vinhos e destilados",
+    "/display-para-vinhos-e-destilados.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/display-para-vinhos-e-destilados.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Qual o melhor display para vinho no supermercado?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Um expositor com nichos ou prateleiras com batente, que mostre o rótulo e traga informação clara de uva, país e preço. Para o fim de ano, ilha e ponta de gôndola com caixas para presente e kits."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Prateleira de MDF aguenta garrafa de vinho?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Depende do vão, da espessura e da carga. Com garrafas, a carga por nível passa facilmente de 20 kg, e o MDF continua cedendo com o tempo. Muitas vezes a prateleira passa na conta inicial e reprova com a fluência; vão menor, borda dobrada ou chapa de aço resolvem."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como expor destilado premium sem perder para o furto?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Com vitrine ou display de balcão com trava, garrafa cenográfica na exposição e estoque no atendimento, ou com o sistema antifurto que a rede já usa. Defina isso no briefing, porque muda o desenho da peça."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "displays-por-categoria.html": {
+  "titulo": "Display de PDV por categoria de produto · 75 LAB",
+  "descricao": "Como expor cada categoria no PDV: chocolate, snacks, cerveja, vinhos, refrigerante e água, pet, cosméticos, higiene, MIP e suplementos, pilhas e acessórios.",
+  "prioridade": "0.7",
+  "migalhas": [
+   [
+    "Soluções",
+    "/solucoes.html"
+   ],
+   [
+    "Display por categoria",
+    "/displays-por-categoria.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "ItemList",
+    "@id": "https://75lab.com.br/displays-por-categoria.html#lista",
+    "name": "Display de PDV por categoria de produto",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Display para chocolate e confeitos",
+      "url": "https://75lab.com.br/display-para-chocolate-e-confeitos.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Display para biscoitos e snacks",
+      "url": "https://75lab.com.br/display-para-biscoitos-e-snacks.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Display para cerveja",
+      "url": "https://75lab.com.br/display-para-cerveja.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Display para vinhos e destilados",
+      "url": "https://75lab.com.br/display-para-vinhos-e-destilados.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Display para refrigerante e água",
+      "url": "https://75lab.com.br/display-para-refrigerante-e-agua.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Display para ração e petiscos pet",
+      "url": "https://75lab.com.br/display-para-racao-e-petiscos-pet.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Display para cosméticos e maquiagem",
+      "url": "https://75lab.com.br/display-para-cosmeticos-e-maquiagem.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "Display para higiene e cuidados pessoais",
+      "url": "https://75lab.com.br/display-para-higiene-e-cuidados-pessoais.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Display para MIP e suplementos",
+      "url": "https://75lab.com.br/display-para-mip-e-suplementos.html"
+     },
+     {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "Display para pilhas e acessórios eletrônicos",
+      "url": "https://75lab.com.br/display-para-pilhas-e-acessorios-eletronicos.html"
+     }
+    ]
+   }
+  ]
+ },
+ "glossario-trade-marketing.html": {
+  "titulo": "Glossário de trade marketing e PDV: 65 termos explicados · 75 LAB",
+  "descricao": "O que é ponta de gôndola, planograma, enxoval de PDV, clip strip, ruptura, sell-out, wobbler e mais 58 termos de trade marketing e ponto de venda, em linguagem direta.",
+  "prioridade": "0.8",
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Glossário",
+    "/glossario-trade-marketing.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "DefinedTermSet",
+    "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario",
+    "name": "Glossário de trade marketing e PDV",
+    "url": "https://75lab.com.br/glossario-trade-marketing.html",
+    "inLanguage": "pt-BR",
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "hasDefinedTerm": [
+     {
+      "@type": "DefinedTerm",
+      "name": "Abastecimento",
+      "description": "Reposição do produto na gôndola, no display ou na ilha. Display bom é o que o repositor consegue abastecer rápido, de preferência pela frente.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#abastecimento",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Altura dos olhos",
+      "description": "Faixa de altura em que o shopper enxerga primeiro, em geral entre o peito e a cabeça de um adulto. É a posição mais disputada da gôndola e onde ficam testeiras e produtos foco.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#altura-dos-olhos",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Atacarejo",
+      "description": "Formato de loja que mistura atacado e varejo, com venda por caixa e por unidade, corredores largos e produto em palete. Pede peças robustas, como capa de palete e ilha de carga alta.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#atacarejo",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Auditoria de PDV",
+      "description": "Visita ou verificação feita para conferir se a execução combinada aconteceu na loja: produto exposto, preço, material montado e espaço negociado.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#auditoria-de-pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Backlight",
+      "description": "Painel com iluminação por trás da arte, usado em balcões, estandes e testeiras para destacar a marca à distância.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#backlight",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Blocagem",
+      "description": "Agrupamento das frentes de uma marca ou de uma linha em um bloco contínuo na gôndola, para facilitar a leitura do shopper. Também chamada de bloco de marca.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#blocagem",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Briefing de display",
+      "description": "Documento que diz ao fornecedor o que a peça precisa resolver: produto e peso, lugar na loja, medida máxima da rede, quem monta e abastece, o que troca e quantas lojas recebem.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#briefing-de-display",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Canal",
+      "description": "Tipo de ponto de venda por onde o produto chega ao shopper, como supermercado, atacarejo, farma, conveniência, pet shop e e-commerce. Cada canal pede material de PDV diferente.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#canal",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Capa de palete",
+      "description": "Estrutura ou envoltório que transforma o palete de produto em ponto de exposição, comum em atacarejo e em ações de alto volume.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#capa-de-palete",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Carga por nível",
+      "description": "Peso que cada prateleira de um display carrega cheia: peso da unidade vezes frentes vezes profundidade. É a base da conta estrutural; na 75 LAB somamos 20% de folga.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#carga-por-nivel",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Categoria",
+      "description": "Grupo de produtos que o shopper entende como uma mesma necessidade, como biscoitos, ração ou protetor solar. A gestão por categoria organiza sortimento, espaço e preço por esse grupo.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#categoria",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Cesto aramado",
+      "description": "Expositor de arame em forma de cesto, usado para produto a granel, promoção ou ponto extra. Carrega muito com pouco material e viaja compacto.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#cesto-aramado",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Checkout",
+      "description": "Área dos caixas da loja. Por ter fila e tempo de espera, é ponto clássico de compra por impulso para itens pequenos, em displays de pouca profundidade.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#checkout",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Clip strip",
+      "description": "Tira vertical com ganchos onde se penduram produtos leves, presa na prateleira ou na régua de preço. Cria um ponto extra fora da categoria, quase sempre em cross merchandising.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#clip-strip",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Comodato",
+      "description": "Empréstimo de um equipamento ou móvel da indústria para a loja, como refrigerador ou expositor permanente, que continua sendo da marca.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#comodato",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Compra por impulso",
+      "description": "Compra que o shopper não tinha planejado e decide na loja, estimulada por exposição, preço ou localização. Checkout e ponto extra trabalham esse comportamento.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#compra-por-impulso",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Cross merchandising",
+      "description": "Exposição de um produto junto de outra categoria complementar, como tempero perto da carne ou pilha perto de brinquedo, para lembrar a necessidade na hora certa.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#cross-merchandising",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Degustação",
+      "description": "Ação em que o shopper prova o produto na loja, com promotora e balcão próprio. Costuma acompanhar lançamentos e precisa de espaço e autorização da rede.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#degustacao",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Display de balcão",
+      "description": "Expositor pequeno apoiado no balcão ou no checkout, para itens de baixo peso e compra por impulso.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#display-de-balcao",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Display de chão",
+      "description": "Expositor que fica apoiado no piso da loja, fora da gôndola, criando um ponto extra de venda. Pode ser temporário, em papelão, ou permanente, em MDF, metal ou arame.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#display-de-chao",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Display de PDV",
+      "description": "Peça que expõe e comunica o produto no ponto de venda, fora ou dentro da gôndola. Existe em papelão, MDF, metal, acrílico e arame, para ação temporária ou uso permanente.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#display-de-pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Display permanente",
+      "description": "Expositor feito para ficar meses na loja, com estrutura durável e comunicação trocável, em geral de MDF, metal, acrílico ou arame.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#display-permanente",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Display temporário",
+      "description": "Expositor de ação curta, de semanas, normalmente de papelão ondulado, que vai plano e monta sem ferramenta.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#display-temporario",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Enxoval de PDV",
+      "description": "Conjunto de peças de ponto de venda pensadas para uma campanha ou um lançamento e distribuídas por lugar da loja e por perfil de loja, com guia de implantação.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#enxoval-de-pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Espaço linear",
+      "description": "Comprimento de prateleira que uma marca ou categoria ocupa na gôndola, medido em metros. É a moeda da negociação de espaço com o varejo.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#espaco-linear",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Estande",
+      "description": "Espaço montado por uma marca em feira ou evento, com estrutura, comunicação e área de atendimento.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#estande",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Execução no PDV",
+      "description": "Tudo o que precisa acontecer de fato na loja para a estratégia funcionar: produto disponível, preço certo, exposição combinada e material montado.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#execucao-no-pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Executivo técnico",
+      "description": "Conjunto de desenhos e especificações que leva o display do projeto à fábrica: vistas cotadas, espessuras reais, faca, plano de corte, lista de materiais e verificação estrutural.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#executivo-tecnico",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Faca",
+      "description": "Desenho em escala 1:1 com as linhas de corte e de vinco de uma peça de papelão ou plástico, usado para fabricar a ferramenta de corte.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#faca",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Flecha",
+      "description": "O quanto o meio de uma prateleira desce sob carga. Na 75 LAB o limite é L/300 para prateleira à vista e L/200 para prateleira escondida, onde L é o vão.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#flecha",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Fluência",
+      "description": "Deformação que continua ao longo do tempo em material sob carga contínua, como MDF e MDP. Por isso a flecha final de uma prateleira de MDF fica perto de 3,25 vezes a inicial.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#fluencia",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Frentes",
+      "description": "Número de unidades de um produto visíveis lado a lado na primeira fila da prateleira. Também chamado de faceamento.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#frentes",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Gancheira",
+      "description": "Estrutura com ganchos para pendurar produto embalado com furo, presa na gôndola ou em display próprio.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#gancheira",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Giro",
+      "description": "Velocidade com que um produto vende e precisa ser reposto. Produto de giro alto pede mais capacidade por nível ou reposição fácil.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#giro",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Gôndola",
+      "description": "Móvel de prateleiras onde a loja expõe os produtos de uma categoria. Cada rede tem medidas, réguas e alturas próprias.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#gondola",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Ilha promocional",
+      "description": "Estrutura de exposição isolada no meio do corredor ou da área promocional, vista pelos quatro lados.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#ilha-promocional",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Key visual",
+      "description": "Imagem principal de uma campanha, aplicada em todas as peças para dar unidade. Abreviado como KV.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#key-visual",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Layout de loja",
+      "description": "Distribuição dos setores, corredores e equipamentos na loja, que define o caminho do shopper e os pontos de maior fluxo.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#layout-de-loja",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Material de PDV",
+      "description": "Qualquer peça de comunicação ou exposição usada no ponto de venda, de um wobbler a uma ilha. Também chamado de material POP.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#material-de-pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Merchandising",
+      "description": "Conjunto de ações no ponto de venda para tornar o produto visível, disponível e atraente: exposição, preço, material de PDV e organização da gôndola.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#merchandising",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Mix",
+      "description": "Conjunto de produtos que uma marca ou loja oferece. Mix na gôndola é quais itens estão expostos e em que proporção.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#mix",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Móbile",
+      "description": "Peça de comunicação suspensa no teto da loja, para sinalizar a área ou a ação à distância.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#mobile",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "PDV",
+      "description": "Ponto de venda: o lugar onde o shopper encontra o produto e decide a compra, como loja física, farmácia ou e-commerce.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "PDV comprovado",
+      "description": "Jeito de trabalhar da 75 LAB em que o display é aprovado em realidade aumentada antes de produzir e rastreado por QR depois de instalado, com loja, data, foto e localização.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#pdv-comprovado",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Planograma",
+      "description": "Desenho que define onde cada produto fica na gôndola, com quantas frentes e em que altura. Serve de regra para a montagem em todas as lojas.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#planograma",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Ponta de gôndola",
+      "description": "Extremidade da gôndola voltada para o corredor principal, de alta visibilidade. Costuma ser negociada com a rede e receber ação promocional.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#ponta-de-gondola",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Ponto extra",
+      "description": "Qualquer exposição do produto fora do seu lugar na categoria, como display de chão, ilha, clip strip ou checkout.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#ponto-extra",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Porta-preço",
+      "description": "Peça que segura a etiqueta de preço na prateleira. A régua de preço de cada rede define como clip strips e testeiras podem ser presos.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#porta-preco",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Promotor",
+      "description": "Profissional que trabalha na loja para a indústria, repondo, organizando a exposição e montando material de PDV.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#promotor",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Prova de execução",
+      "description": "Registro de que a ação aconteceu na loja, com foto, data e local. Sem prova, não dá para saber quanto do material de PDV foi montado.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#prova-de-execucao",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Rastreamento de material de PDV",
+      "description": "Forma de saber onde cada peça foi montada, por exemplo com QR que abre a página de montagem e registra loja, data, foto e localização.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#rastreamento-de-material-de-pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Realidade aumentada no PDV",
+      "description": "Uso do celular para ver o display em tamanho real no lugar onde ele vai ficar, antes de produzir, sem instalar aplicativo.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#realidade-aumentada-no-pdv",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Ruptura",
+      "description": "Falta do produto na gôndola quando o shopper procura. É venda perdida para a marca e para a loja.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#ruptura",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Sell-in",
+      "description": "Venda da indústria para o varejo ou o distribuidor.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#sell-in",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Sell-out",
+      "description": "Venda do varejo para o consumidor final, que mostra se o produto de fato girou na loja.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#sell-out",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Share de gôndola",
+      "description": "Participação de uma marca no espaço total da categoria na gôndola, em frentes ou em espaço linear.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#share-de-gondola",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Shopper",
+      "description": "Quem faz a compra na loja, que nem sempre é quem consome o produto.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#shopper",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Shopper marketing",
+      "description": "Marketing pensado para influenciar a decisão do shopper no momento e no lugar da compra.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#shopper-marketing",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Stopper",
+      "description": "Peça que sai perpendicular à prateleira para interromper o olhar de quem passa pelo corredor e chamar para o produto.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#stopper",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Testador",
+      "description": "Unidade aberta de um produto para o shopper experimentar, comum em cosméticos e perfumaria. Também chamado de tester.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#testador",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Testeira",
+      "description": "Peça de comunicação no topo de um display, de uma ilha ou de uma gôndola, que identifica a marca ou a ação.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#testeira",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Tombamento",
+      "description": "Risco de o display cair. A conferência se faz com a peça cheia, vazia e inclinada, verificando se o centro de gravidade continua dentro da base.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#tombamento",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Trade marketing",
+      "description": "Área que faz a ponte entre a indústria e o varejo para o produto vender no ponto de venda: canais, negociação de espaço, execução, material de PDV e ações promocionais.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#trade-marketing",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Visual merchandising",
+      "description": "Uso de composição, cor, luz e organização para tornar a exposição atraente e fácil de ler.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#visual-merchandising",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     },
+     {
+      "@type": "DefinedTerm",
+      "name": "Wobbler",
+      "description": "Pequena peça presa na prateleira por uma haste flexível, que balança e chama a atenção para um produto ou oferta.",
+      "url": "https://75lab.com.br/glossario-trade-marketing.html#wobbler",
+      "inDefinedTermSet": {
+       "@id": "https://75lab.com.br/glossario-trade-marketing.html#glossario"
+      }
+     }
+    ]
+   }
+  ]
+ },
  "imprensa.html": {
   "titulo": "Kit de imprensa da 75 LAB: fatos, logos e contato",
   "descricao": "Texto institucional, fatos oficiais, sócios, logos para download e contato de imprensa da 75 LAB, agência de PDV e trade marketing de São Paulo.",
@@ -2488,6 +3672,18 @@
    [
     "Kit de imprensa",
     "/imprensa.html"
+   ]
+  ],
+  "ld": []
+ },
+ "links.html": {
+  "titulo": "75 LAB · links: guias, calculadora e contato",
+  "descricao": "Guias práticos de PDV, calculadora de display, glossário de trade marketing, pesquisa Raio-X do PDV e contato da 75 LAB, agência de PDV comprovado.",
+  "prioridade": "0.3",
+  "migalhas": [
+   [
+    "Links",
+    "/links.html"
    ]
   ],
   "ld": []
