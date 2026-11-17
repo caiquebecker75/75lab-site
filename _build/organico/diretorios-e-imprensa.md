@@ -7,8 +7,8 @@ Por que importa: hoje não existe ranking confiável de "agências de trade mark
 |---|---|---|---|
 | 1 | oHub (ohub.com.br) | feito 17/11: descrição, categorias e 4 categorias exibidas | logo e galeria só em plano pago; selo de documentos (CNPJ) opcional |
 | 2 | Bing Webmaster Tools | feito 17/11: site verificado e sitemap enviado | nada |
-| 3 | Bing Places | não existe | mesmo login; importa o Perfil da Empresa do Google |
-| 4 | Clutch (clutch.co, lista Brasil) | não existe | conta grátis; perfil + pedir 3 reviews aos clientes que já avaliaram no Google |
+| 3 | Bing Places | criado 17/11 (75 LAB, CENU, categorias marketing/publicidade/design de produto) | PIN de verificação chega em 5 a 6 dias úteis (correio ou e-mail); depois liberar descrição, fotos e redes |
+| 4 | Clutch (clutch.co, lista Brasil) | perfil grátis criado 17/11 em inglês (login LinkedIn do Caique); Product Design 50%, Event Marketing 25%, Marketing Strategy 25% | Clutch valida o endereço em 7 a 10 dias úteis; depois pedir reviews aos clientes (não antes de 24/11, regra de 1 e-mail por semana) |
 | 5 | Apple Business Connect | não existe | Apple ID da empresa; aparece no Mapas e na Siri |
 | 6 | ABRATRADE (associação nacional de trade marketing, nova) | não somos membros | ver condições; ser fundador cedo em associação nova dá palco |
 
