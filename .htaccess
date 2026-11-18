@@ -46,3 +46,10 @@ ExpiresByType application/javascript "access plus 7 days"
 AddType text/plain .txt
 AddCharset utf-8 .txt .html .xml
 </IfModule>
+
+# PDFs de kits: baixáveis, mas fora do índice (a página do kit é que deve ranquear)
+<IfModule mod_headers.c>
+<FilesMatch "\.pdf$">
+Header set X-Robots-Tag "noindex"
+</FilesMatch>
+</IfModule>

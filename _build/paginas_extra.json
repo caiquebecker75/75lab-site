@@ -3676,6 +3676,101 @@
   ],
   "ld": []
  },
+ "kit-pascoa-2027.html": {
+  "titulo": "Kit Páscoa 2027 para trade marketing: cronograma, parreira e carga · 75 LAB",
+  "descricao": "Planejamento do PDV de Páscoa 2027: cronograma reverso até 28/03, briefing da parreira, calculadora de carga e checklist de montagem. PDF grátis para baixar.",
+  "prioridade": "0.9",
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Kit Páscoa 2027",
+    "/kit-pascoa-2027.html"
+   ]
+  ],
+  "ld": [
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/kit-pascoa-2027.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Quando começar o projeto de PDV de Páscoa 2027?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A Páscoa 2027 é em 28 de março e o Carnaval em 9 de fevereiro. Como a área de Páscoa costuma subir logo depois do Carnaval, o ideal é fechar o briefing até a primeira semana de dezembro de 2026, aprovar o projeto antes do recesso de fim de ano e ter o lote entregue antes do Carnaval."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quanto peso uma parreira de Páscoa carrega?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Depende do produto, mas costuma ser muito mais do que parece. Multiplique o peso do ovo embalado pelos ovos por gancho, pelos ganchos por barra e pelo número de barras, e some 20% de folga. Um exemplo com ovo de 350 g, 6 por gancho, 10 ganchos e 4 barras passa de 100 kg de carga de projeto."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Qual o erro mais comum na parreira de Páscoa?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Fazer a conta de carga com o peso líquido do chocolate em vez do peso do ovo embalado, com caixa e brinde. O segundo é usar a mesma parreira para lojas de tamanhos muito diferentes."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como saber se a parreira foi montada em todas as lojas?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Registrando cada montagem com loja, data e foto desde o primeiro dia, por exemplo com um QR na peça. Assim a lista de lojas sem montagem aparece em 48 horas, e não no fim da campanha."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O Kit Páscoa 2027 é pago?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Não. O PDF é gratuito: você preenche nome, empresa e e-mail e baixa na hora."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "HowTo",
+    "name": "Planejar o PDV de Páscoa 2027",
+    "inLanguage": "pt-BR",
+    "step": [
+     {
+      "@type": "HowToStep",
+      "name": "Fechar o briefing",
+      "text": "Até 04/12/2026: SKUs com peso embalado, lojas por perfil, medidas aceitas por rede e quem monta."
+     },
+     {
+      "@type": "HowToStep",
+      "name": "Aprovar o projeto",
+      "text": "Até 18/12/2026: projeto 3D aprovado, de preferência visto em tamanho real na loja por realidade aumentada."
+     },
+     {
+      "@type": "HowToStep",
+      "name": "Protótipo e teste de carga",
+      "text": "Até 15/01/2027: executivo, protótipo e teste com o produto real pendurado."
+     },
+     {
+      "@type": "HowToStep",
+      "name": "Produzir e entregar",
+      "text": "Lote pronto até 05/02/2027 e entregue no CD ou nas lojas até 12/02/2027, antes do Carnaval."
+     },
+     {
+      "@type": "HowToStep",
+      "name": "Implantar e conferir",
+      "text": "Implantação concluída até 06/03/2027, com registro de montagem por loja, e conferência semanal até a Páscoa em 28/03/2027."
+     }
+    ]
+   }
+  ]
+ },
  "links.html": {
   "titulo": "75 LAB · links: guias, calculadora e contato",
   "descricao": "Guias práticos de PDV, calculadora de display, glossário de trade marketing, pesquisa Raio-X do PDV e contato da 75 LAB, agência de PDV comprovado.",

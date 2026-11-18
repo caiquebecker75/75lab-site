@@ -202,14 +202,16 @@ def guia_de_json(g):
             'h1': g['titulo'], 'lead': g['descricao'], 'resumo': g['resumo'], 'secoes': secoes,
             'faq': g.get('faq', []), 'palavras_chave': g.get('palavras_chave', []),
             'migalhas': [('Guias', '/guias.html'), (g['titulo'].split(':')[0], None)],
-            'relacionados': [('Calculadora de display de PDV', 'calculadora-display-pdv.html'), ('Display de PDV', 'display-de-pdv.html'), ('Realidade aumentada para PDV', 'realidade-aumentada-pdv.html'),
+            'relacionados': [('Kit Páscoa 2027 (PDF grátis)', 'kit-pascoa-2027.html'), ('Calculadora de display de PDV', 'calculadora-display-pdv.html'), ('Display de PDV', 'display-de-pdv.html'), ('Realidade aumentada para PDV', 'realidade-aumentada-pdv.html'),
                              ('Todos os guias', 'guias.html')],
             'prioridade': '0.7', 'data': g.get('data', HOJE)}
 
 
 def indice_guias(guias):
     topo, rodape = molde()
-    cards = ('<a class="lcard" href="calculadora-display-pdv.html"><span class="k">Ferramenta grátis</span><h3>Calculadora de display de PDV</h3>'
+    cards = ('<a class="lcard" href="kit-pascoa-2027.html"><span class="k">Kit grátis · Páscoa 2027</span><h3>Kit Páscoa 2027 para trade marketing</h3>'
+             '<p>Cronograma reverso até 28/03, briefing da parreira, calculadora de carga e checklist de montagem. PDF para baixar.</p><span class="go">Baixar o kit →</span></a>'
+             '<a class="lcard" href="calculadora-display-pdv.html"><span class="k">Ferramenta grátis</span><h3>Calculadora de display de PDV</h3>'
              '<p>Qual material usar, se a prateleira aguenta o produto com a fluência do MDF e a carga do clip strip por gancho.</p><span class="go">Usar a calculadora →</span></a>'
              '<a class="lcard" href="glossario-trade-marketing.html"><span class="k">Glossário</span><h3>Glossário de trade marketing e PDV</h3>'
              '<p>Ponta de gôndola, planograma, enxoval, ruptura, sell-out e mais 60 termos explicados em duas frases.</p><span class="go">Abrir o glossário →</span></a>'
