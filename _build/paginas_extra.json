@@ -1056,7 +1056,7 @@
      "@id": "https://75lab.com.br/#org"
     },
     "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-briefing-display-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1131,8 +1131,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-checklist-executivo-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1215,8 +1215,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-clip-strip.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1299,8 +1299,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-como-rastrear-material-de-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1383,8 +1383,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-display-que-nao-tomba.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1475,8 +1475,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-material-display-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1559,8 +1559,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-o-que-e-enxoval-de-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1624,6 +1624,90 @@
    ]
   ]
  },
+ "guia-parreira-de-pascoa.html": {
+  "titulo": "Parreira de Páscoa organizada: guia · 75 LAB",
+  "descricao": "Como organizar a parreira de Páscoa em blocos por quem ganha, faixa de preço e tamanho, com o paradoxo da escolha aplicado ao PDV de chocolate.",
+  "prioridade": "0.7",
+  "lang": "pt",
+  "imagem": null,
+  "tipo": "article",
+  "ld": [
+   {
+    "@type": "Article",
+    "@id": "https://75lab.com.br/guia-parreira-de-pascoa.html#artigo",
+    "headline": "Parreira de Páscoa: como organizar para o shopper escolher rápido",
+    "description": "Como organizar a parreira de Páscoa em blocos por quem ganha, faixa de preço e tamanho, com o paradoxo da escolha aplicado ao PDV de chocolate.",
+    "author": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "publisher": {
+     "@id": "https://75lab.com.br/#org"
+    },
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
+    "inLanguage": "pt-BR",
+    "mainEntityOfPage": "https://75lab.com.br/guia-parreira-de-pascoa.html",
+    "image": "https://75lab.com.br/img/og-75lab.jpg",
+    "keywords": "parreira de Páscoa, como organizar parreira de Páscoa, PDV de Páscoa, ovos de Páscoa no PDV, paradoxo da escolha, trade marketing Páscoa, material de PDV de Páscoa, display de chocolate"
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://75lab.com.br/guia-parreira-de-pascoa.html#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "O que é parreira de Páscoa?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É a estrutura montada na loja durante a temporada de Páscoa para pendurar os ovos de chocolate em barras com ganchos, normalmente sobre o corredor ou numa área própria do salão."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Como organizar os ovos na parreira de Páscoa?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divida a parreira em blocos por um critério que o shopper já usa para decidir, como para quem é o ovo, faixa de preço ou tamanho. Cada bloco ganha uma placa curta, poucas referências e frente sempre cheia."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "O que é o paradoxo da escolha?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "É o efeito descrito por Iyengar e Lepper (2000): quando há muitas opções parecidas, o shopper tende a comprar menos e a ficar menos satisfeito. Na banca com 24 sabores, cerca de 3% compraram; na de 6, cerca de 30%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Mostrar menos ovos na parreira não reduz as vendas?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A ideia não é cortar variedade, e sim organizar. Parte das referências pode ir para a ilha ou para um display de chão com o mesmo critério de blocos, e a parreira fica mais fácil de ler."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quando fechar o briefing da parreira para a Páscoa 2027?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A Páscoa cai em 28 de março de 2027 e a área sobe depois do Carnaval, em 9 de fevereiro. O cronograma reverso do Kit Páscoa 2027 recomenda briefing fechado no começo de dezembro."
+      }
+     }
+    ]
+   }
+  ],
+  "migalhas": [
+   [
+    "Guias",
+    "/guias.html"
+   ],
+   [
+    "Parreira de Páscoa",
+    "/guia-parreira-de-pascoa.html"
+   ]
+  ]
+ },
  "guia-ponta-de-gondola.html": {
   "titulo": "Ponta de gôndola: planejar, negociar e montar · 75 LAB",
   "descricao": "O que é ponta de gôndola, diferença para ilha, componentes, como dimensionar pela gôndola da rede, guia de implantação, conferência da montagem e erros comuns.",
@@ -1643,8 +1727,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-ponta-de-gondola.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
@@ -1727,8 +1811,8 @@
     "publisher": {
      "@id": "https://75lab.com.br/#org"
     },
-    "datePublished": "2026-11-17",
-    "dateModified": "2026-11-17",
+    "datePublished": "2026-11-19",
+    "dateModified": "2026-11-19",
     "inLanguage": "pt-BR",
     "mainEntityOfPage": "https://75lab.com.br/guia-realidade-aumentada-no-pdv.html",
     "image": "https://75lab.com.br/img/og-75lab.jpg",
